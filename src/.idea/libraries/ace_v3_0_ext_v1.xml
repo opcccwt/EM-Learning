@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ace_v3.0_ext_v1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ace_v3.0_ext_v1/ace.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ace_v3.0_ext_v1/aceEval.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ace_v3.0_ext_v1/inflib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ace_v3.0_ext_v1/jdom.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

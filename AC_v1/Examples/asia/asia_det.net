@@ -1,0 +1,119 @@
+net
+{
+	node_size = (130.0 55.0);
+}
+
+node dysp
+{
+	states = ("yes" "no" );
+	position = (464 -769);
+	ismapvariable = "true";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node xray
+{
+	states = ("yes" "no" );
+	position = (992 -773);
+	ismapvariable = "true";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node bronc
+{
+	states = ("yes" "no" );
+	position = (463 -425);
+	ismapvariable = "true";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node asia
+{
+	states = ("yes" "no" );
+	position = (848 -140);
+	ismapvariable = "true";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node tub
+{
+	states = ("yes" "no" );
+	position = (995 -428);
+	ismapvariable = "true";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node either
+{
+	states = ("yes" "no" );
+	position = (714 -619);
+	ismapvariable = "true";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node lung
+{
+	states = ("yes" "no" );
+	position = (750 -439);
+	ismapvariable = "true";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+node smoke
+{
+	states = ("yes" "no" );
+	position = (633 -144);
+	ismapvariable = "true";
+	diagnosistype = "AUXILIARY";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+	excludepolicy = "include whole CPT";
+}
+potential ( dysp | bronc either )
+{
+	data = (((	1.0	0.0	)
+		(	1.0	0.0	))
+		((	0.0	1.0	)
+		(	1.0	0.0	)));
+}
+potential ( xray | either )
+{
+	data = ((	1.0	0.0	)
+		(	0.0	1.0	));
+}
+potential ( bronc | smoke )
+{
+	data = ((	0.6	0.4	)
+		(	0.3	0.7	));
+}
+potential ( asia | )
+{
+	data = (	0.01	0.99	);
+}
+potential ( tub | asia )
+{
+	data = ((	1.0	0.0	)
+		(	0.0	1.0	));
+}
+potential ( either | lung tub )
+{
+	data = (((	1.0	0.0	)
+		(	1.0	0.0	))
+		((	1.0	0.0	)
+		(	0.0	1.0	)));
+}
+potential ( lung | smoke )
+{
+	data = ((	0.1	0.9	)
+		(	0.01	0.99	));
+}
+potential ( smoke | )
+{
+	data = (	0.5	0.5	);
+}

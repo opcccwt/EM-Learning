@@ -1,0 +1,219 @@
+#include <iostream>
+#include <sstream>
+#include <time.h>
+#include "smile.h"
+#include "smilearn.h"
+
+#include "math.h"
+   
+using namespace std;
+
+void print_stats(DSL_em em) {
+  cout << "=======================" << endl;
+  cout << "equivalent sample size: " << em.GetEquivalentSampleSize() << endl;
+  cout << " randomized parameters: " << em.GetRandomizeParameters() << endl;
+  cout << "                  seed: " << em.GetSeed() << endl;
+  cout << "             relevance: " << em.GetRelevance() << endl;
+  cout << " uniformize parameters: " << em.GetUniformizeParameters() << endl;
+  cout << "         learning rate: " << em.GetLearningRate() << endl;
+  cout << "initial learning point: " << em.GetInitialLearningPoint() << endl;
+  cout << "=======================" << endl;
+}
+
+double compute_log_likelihood(DSL_dataset &data, DSL_network &net) {
+
+  double ll = 0.0;
+  double pe;
+
+  cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
+  int num_vars = data.GetNumberOfVariables();
+  int num_recs = data.GetNumberOfRecords();
+  for (int rec = 0; rec < num_recs; rec++) {
+    for (int i = 0; i < num_vars; i++) {
+      ostringstream os;
+      os << "x" << i;
+      int var = net.FindNode(os.str().c_str());
+      int val = data.GetInt(var,rec);
+      if ( val == -1 )
+        net.GetNode(var)->Value()->ClearEvidence();
+      else
+        net.GetNode(var)->Value()->SetEvidence(val);
+    }
+    net.UpdateBeliefs();
+    net.CalcProbEvidence(pe);
+    ll += log(pe);
+  }
+  cout << "LL: " << ll << endl;
+  cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << endl;
+  for (int var = 0; var < num_vars; var++)
+    net.GetNode(var)->Value()->ClearEvidence();
+  return ll;
+}
+
+
+void em(char* const data_set_filename,
+        char* const data_a_set_filename,
+        char* const data_b_set_filename,
+        char* const data_c_set_filename,
+        char* const seed_net_filename,
+        char* const seed_a_net_filename,
+        char* const seed_b_net_filename,
+        int n, int N) {
+  clock_t c1, c2;
+  float time;
+  string err;
+  int error;
+
+  // open the data sets
+  DSL_dataset data;
+  c1 = clock();
+  if ( data.ReadFile(data_set_filename) != DSL_OKAY )
+    { cout << "Cannot read data file... exiting." << endl; exit(1); }
+  c2 = clock();
+  time = (float)(c2-c1)/CLOCKS_PER_SEC;
+  cout << "read data time: " << time << "\n";
+
+  DSL_dataset data_a;
+  DSL_dataset data_b;
+  DSL_dataset data_c;
+
+  c1 = clock();
+  if ( data_a.ReadFile(data_a_set_filename) != DSL_OKAY )
+    { cout << "Cannot read data file... exiting." << endl; exit(1); }
+  if ( data_b.ReadFile(data_b_set_filename) != DSL_OKAY )
+    { cout << "Cannot read data file... exiting." << endl; exit(1); }
+  if ( data_c.ReadFile(data_c_set_filename) != DSL_OKAY )
+    { cout << "Cannot read data file... exiting." << endl; exit(1); }
+  c2 = clock();
+  time = (float)(c2-c1)/CLOCKS_PER_SEC;
+  cout << "read data (abc) time: " << time << "\n";
+
+  // open the network:
+  DSL_network net;
+  if ( net.ReadFile(seed_net_filename, DSL_HUGIN_FORMAT ) != DSL_OKAY )
+    { cout << "Cannot read network... exiting." << endl; exit(1); }
+
+  DSL_network net_a;
+  DSL_network net_b;
+  DSL_network net_c;
+  if ( net_a.ReadFile(seed_a_net_filename, DSL_HUGIN_FORMAT ) != DSL_OKAY )
+    { cout << "Cannot read network... exiting." << endl; exit(1); }
+  if ( net_b.ReadFile(seed_b_net_filename, DSL_HUGIN_FORMAT ) != DSL_OKAY )
+    { cout << "Cannot read network... exiting." << endl; exit(1); }
+  if ( net_c.ReadFile(seed_b_net_filename, DSL_HUGIN_FORMAT ) != DSL_OKAY )
+    { cout << "Cannot read network... exiting." << endl; exit(1); }
+
+  // match the data set and the network:
+  vector<DSL_datasetMatch> matches;
+  if ( data.MatchNetwork(net,matches,err) != DSL_OKAY )
+    { cout << "Cannot match network... exiting." << endl; exit(1); }
+
+  vector<DSL_datasetMatch> matches_a;
+  vector<DSL_datasetMatch> matches_b;
+  vector<DSL_datasetMatch> matches_c;
+  if ( data_a.MatchNetwork(net_a,matches_a,err) != DSL_OKAY )
+    { cout << "Cannot match network a... exiting." << endl; exit(1); }
+  if ( data_b.MatchNetwork(net_b,matches_b,err) != DSL_OKAY )
+    { cout << "Cannot match network b... exiting." << endl; exit(1); }
+  if ( data_c.MatchNetwork(net_c,matches_c,err) != DSL_OKAY )
+    { cout << "Cannot match network c... exiting." << endl; exit(1); }
+
+  // learn parameters:
+  DSL_em em;
+  //em.SetEquivalentSampleSize(0.0);
+  em.SetRandomizeParameters(false);
+  //em.SetSeed(0);
+  //em.SetRelevance(true);
+  print_stats(em);
+
+  double ll;
+  float learn_time;
+
+  compute_log_likelihood(data,net);
+
+  c1 = clock();
+  error = em.Learn(data,net,matches,&ll);
+  if (error != DSL_OKAY) {
+    cout << "Cannot learn parameters... exiting." << endl;
+    exit(1);
+  }
+  c2 = clock();
+  learn_time = (float)(c2-c1)/CLOCKS_PER_SEC;
+
+  compute_log_likelihood(data,net);
+
+  cout << "csv:";
+  cout << " n=" << n;
+  cout << " N=" << N;
+  cout << " ll=" << ll;
+  cout << " time=" << learn_time;
+  //cout << endl;
+
+  DSL_em em_a;
+  //em_a.SetEquivalentSampleSize(0.0);
+  //em_a.SetRandomizeParameters(true);
+  //em_a.SetRelevance(true);
+  DSL_em em_b;
+  //em_b.SetEquivalentSampleSize(0.0);
+  //em_b.SetRandomizeParameters(true);
+  //em_b.SetRelevance(true);
+  DSL_em em_c;
+  //em_c.SetEquivalentSampleSize(0.0);
+  //em_c.SetRandomizeParameters(true);
+  //em_c.SetRelevance(true);
+
+  double ll_a,ll_b,ll_c;
+  float learn_time_a,learn_time_b,learn_time_c,learn_time_simple;
+
+  c1 = clock();
+  error = em_a.Learn(data_a,net_a,matches_a,&ll_a);
+  if (error != DSL_OKAY) {
+    cout << "Cannot learn parameters... exiting." << endl;
+    exit(1);
+  }
+  c2 = clock();
+  learn_time_a = (float)(c2-c1)/CLOCKS_PER_SEC;
+
+  c1 = clock();
+  error = em_b.Learn(data_b,net_b,matches_b,&ll_b);
+  if (error != DSL_OKAY) {
+    cout << "Cannot learn parameters... exiting." << endl;
+    exit(1);
+  }
+  c2 = clock();
+  learn_time_b = (float)(c2-c1)/CLOCKS_PER_SEC;
+
+  c1 = clock();
+  error = em_c.Learn(data_c,net_c,matches_c,&ll_c);
+  if (error != DSL_OKAY) {
+    cout << "Cannot learn parameters... exiting." << endl;
+    exit(1);
+  }
+  c2 = clock();
+  learn_time_c = (float)(c2-c1)/CLOCKS_PER_SEC;
+  learn_time_simple = learn_time_a + learn_time_b + learn_time_c;
+
+  cout << " ll_a=" << ll_a;
+  cout << " ll_b=" << ll_b;
+  cout << " ll_c=" << ll_c;
+  cout << " time_a=" << learn_time_a;
+  cout << " time_b=" << learn_time_b;
+  cout << " time_c=" << learn_time_c;
+  cout << " time_simple=" << learn_time_simple;
+  cout << endl;
+
+  net.WriteFile("tmp.net", DSL_HUGIN_FORMAT);
+  net_a.WriteFile("tmp_a.net", DSL_HUGIN_FORMAT);
+  net_b.WriteFile("tmp_b.net", DSL_HUGIN_FORMAT);
+  net_c.WriteFile("tmp_c.net", DSL_HUGIN_FORMAT);
+}
+
+int main(int argc, char* const argv[]) {
+  if (argc != 10) {
+    cout << "usage: " << argv[0] << " DATA DATA_A DATA_B DATA_C NET NET_A NET_B n N\n";
+    exit(1);
+  }
+  int n = atoi(argv[8]);
+  int N = atoi(argv[9]);
+  em(argv[1],argv[2],argv[3],argv[4],argv[5],argv[6],argv[7],n,N);
+}

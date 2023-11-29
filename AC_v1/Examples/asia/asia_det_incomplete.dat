@@ -1,0 +1,11 @@
+asia,smoke,tub,bronc,lung,either,xray,dysp
+n1,n0,n1,*,n0,*,n0,n0
+n1,*,n1,n0,n1,n1,*,n0
+n1,n1,n1,n1,*,*,*,n0
+n1,n0,*,n1,n1,*,n1,n0
+*,n0,*,n0,*,n1,n1,n0
+n1,*,n1,*,n1,*,n1,n0
+n1,n0,*,n0,*,n1,*,n0
+n1,n0,n1,*,*,*,n1,n0
+n1,n1,*,*,n1,*,n1,n0
+n1,n0,n1,n0,n1,n1,*,*

@@ -1,0 +1,5548 @@
+net
+{
+}
+node DIFFN_DISTR
+{
+	states = ("DIST" "PROX" "RANDOM" );
+	position = (0 0);
+	label = "DIFFN_DISTR";
+}
+node DIFFN_DUMMY_1
+{
+	states = ("dummy" );
+	position = (10 -10);
+	label = "DIFFN_DUMMY_1";
+}
+node DIFFN_DUMMY_2
+{
+	states = ("dummy" );
+	position = (20 -20);
+	label = "DIFFN_DUMMY_2";
+}
+node DIFFN_DUMMY_3
+{
+	states = ("dummy" );
+	position = (30 -30);
+	label = "DIFFN_DUMMY_3";
+}
+node DIFFN_MOT_SEV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (40 -40);
+	label = "DIFFN_MOT_SEV";
+}
+node DIFFN_M_SEV_DIST
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (50 -50);
+	label = "DIFFN_M_SEV_DIST";
+}
+node DIFFN_M_SEV_PROX
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (60 -60);
+	label = "DIFFN_M_SEV_PROX";
+}
+node DIFFN_PATHO
+{
+	states = ("DEMY" "BLOCK" "AXONAL" "V.E.REIN" "E.REIN" );
+	position = (70 -70);
+	label = "DIFFN_PATHO";
+}
+node DIFFN_SENS_SEV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (80 -80);
+	label = "DIFFN_SENS_SEV";
+}
+node DIFFN_SEV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (90 -90);
+	label = "DIFFN_SEV";
+}
+node DIFFN_S_SEV_DIST
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (100 -100);
+	label = "DIFFN_S_SEV_DIST";
+}
+node DIFFN_TIME
+{
+	states = ("ACUTE" "SUBACUTE" "CHRONIC" "OLD" );
+	position = (110 -110);
+	label = "DIFFN_TIME";
+}
+node DIFFN_TYPE
+{
+	states = ("MOTOR" "MIXED" "SENS" );
+	position = (120 -120);
+	label = "DIFFN_TYPE";
+}
+node R_APB_ALLAMP_WA
+{
+	states = ("ZERO" "A0.01" "A0.10" "A0.30" "A0.70" "A1.00" "A2.00" "A4.00" "A8.00" );
+	position = (130 -130);
+	label = "R_APB_ALLAMP_WA";
+}
+node R_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (140 -140);
+	label = "R_APB_DENERV";
+}
+node R_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (150 -150);
+	label = "R_APB_DE_REGEN";
+}
+node R_APB_EFFMUS
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" "OTHER" );
+	position = (160 -160);
+	label = "R_APB_EFFMUS";
+}
+node R_APB_FORCE
+{
+	states = ("5" "4" "3" "2" "1" "0" );
+	position = (170 -170);
+	label = "R_APB_FORCE";
+}
+node R_APB_MALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" "OTHER" );
+	position = (180 -180);
+	label = "R_APB_MALOSS";
+}
+node R_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (190 -190);
+	label = "R_APB_MUDENS";
+}
+node R_APB_MULOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" "OTHER" );
+	position = (200 -200);
+	label = "R_APB_MULOSS";
+}
+node R_APB_MUPAMP
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" "OTHER" );
+	position = (210 -210);
+	label = "R_APB_MUPAMP";
+}
+node R_APB_MUPDUR
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" "OTHER" );
+	position = (220 -220);
+	label = "R_APB_MUPDUR";
+}
+node R_APB_MUPINSTAB
+{
+	states = ("NO" "YES" );
+	position = (230 -230);
+	label = "R_APB_MUPINSTAB";
+}
+node R_APB_MUPSATEL
+{
+	states = ("NO" "YES" );
+	position = (240 -240);
+	label = "R_APB_MUPSATEL";
+}
+node R_APB_MUSCLE_VOL
+{
+	states = ("ATROPHIC" "NORMAL" );
+	position = (250 -250);
+	label = "R_APB_MUSCLE_VOL";
+}
+node R_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" "OTHER" );
+	position = (260 -260);
+	label = "R_APB_MUSIZE";
+}
+node R_APB_MVA_AMP
+{
+	states = ("INCR" "NORMAL" "REDUCED" );
+	position = (270 -270);
+	label = "R_APB_MVA_AMP";
+}
+node R_APB_MVA_RECRUIT
+{
+	states = ("FULL" "REDUCED" "DISCRETE" "NO-UNITS" );
+	position = (280 -280);
+	label = "R_APB_MVA_RECRUIT";
+}
+node R_APB_NEUR_ACT
+{
+	states = ("NO" "FASCIC" "NEUROMYO" "MYOKYMIA" "TETANUS" "OTHER" );
+	position = (290 -290);
+	label = "R_APB_NEUR_ACT";
+}
+node R_APB_NMT
+{
+	states = ("NO" "MOD.PRE" "SEV.PRE" "MLD.POST" "MOD.POST" "SEV.POST" "MIXED" );
+	position = (300 -300);
+	label = "R_APB_NMT";
+}
+node R_APB_QUAL_MUPAMP
+{
+	states = ("V.RED" "REDUCED" "NORMAL" "INCR" "V.INCR" );
+	position = (310 -310);
+	label = "R_APB_QUAL_MUPAMP";
+}
+node R_APB_QUAL_MUPDUR
+{
+	states = ("SMALL" "NORMAL" "INCR" );
+	position = (320 -320);
+	label = "R_APB_QUAL_MUPDUR";
+}
+node R_APB_QUAL_MUPPOLY
+{
+	states = ("NORMAL" "INCR" );
+	position = (330 -330);
+	label = "R_APB_QUAL_MUPPOLY";
+}
+node R_APB_QUAN_MUPAMP
+{
+	states = ("UV34" "UV44" "UV58" "UV74" "UV94" "UV122" "UV156" "UV200" "UV260" "UV330" "UV420" "UV540" "UV700" "UV900" "UV1150" "UV1480" "UV1900" "UV2440" "UV3130" "UV4020" );
+	position = (340 -340);
+	label = "R_APB_QUAN_MUPAMP";
+}
+node R_APB_QUAN_MUPDUR
+{
+	states = ("MS3" "MS4" "MS5" "MS6" "MS7" "MS8" "MS9" "MS10" "MS11" "MS12" "MS13" "MS14" "MS15" "MS16" "MS17" "MS18" "MS19" "MS20" "MS>20" );
+	position = (350 -350);
+	label = "R_APB_QUAN_MUPDUR";
+}
+node R_APB_QUAN_MUPPOLY
+{
+	states = ("<12%" "12-24%" ">24%" );
+	position = (360 -360);
+	label = "R_APB_QUAN_MUPPOLY";
+}
+node R_APB_REPSTIM_CMAPAMP
+{
+	states = ("MV.000" "MV.032" "MV.044" "MV.063" "MV.088" "MV.13" "MV.18" "MV.25" "MV.35" "MV.5" "MV.71" "MV1" "MV1.4" "MV2" "MV2.8" "MV4" "MV5.6" "MV8" "MV11.3" "MV16" "MV22.6" );
+	position = (370 -370);
+	label = "R_APB_REPSTIM_CMAPAMP";
+}
+node R_APB_REPSTIM_DECR
+{
+	states = ("NO" "MILD" "MOD" "SEV" "INCON" );
+	position = (380 -380);
+	label = "R_APB_REPSTIM_DECR";
+}
+node R_APB_REPSTIM_FACILI
+{
+	states = ("NO" "MOD" "SEV" "REDUCED" );
+	position = (390 -390);
+	label = "R_APB_REPSTIM_FACILI";
+}
+node R_APB_REPSTIM_POST_DECR
+{
+	states = ("NO" "MILD" "MOD" "SEV" "INCON" );
+	position = (400 -400);
+	label = "R_APB_REPSTIM_POST_DECR";
+}
+node R_APB_SF_DENSITY
+{
+	states = ("<2SD" "2-4SD" ">4SD" );
+	position = (410 -410);
+	label = "R_APB_SF_DENSITY";
+}
+node R_APB_SF_JITTER
+{
+	states = ("NORMAL" "2-5" "5-10" ">10" );
+	position = (420 -420);
+	label = "R_APB_SF_JITTER";
+}
+node R_APB_SPONT_DENERV_ACT
+{
+	states = ("NO" "SOME" "MOD" "ABUNDANT" );
+	position = (430 -430);
+	label = "R_APB_SPONT_DENERV_ACT";
+}
+node R_APB_SPONT_HF_DISCH
+{
+	states = ("NO" "YES" );
+	position = (440 -440);
+	label = "R_APB_SPONT_HF_DISCH";
+}
+node R_APB_SPONT_INS_ACT
+{
+	states = ("NORMAL" "INCR" );
+	position = (450 -450);
+	label = "R_APB_SPONT_INS_ACT";
+}
+node R_APB_SPONT_NEUR_DISCH
+{
+	states = ("NO" "FASCIC" "NEUROMYO" "MYOKYMIA" "TETANUS" "OTHER" );
+	position = (460 -460);
+	label = "R_APB_SPONT_NEUR_DISCH";
+}
+node R_APB_TA_CONCL
+{
+	states = (">5ABOVE" "2-5ABOVE" "NORMAL" "2-5BELOW" ">5BELOW" "OTHER" );
+	position = (470 -470);
+	label = "R_APB_TA_CONCL";
+}
+node R_APB_VOL_ACT
+{
+	states = ("NORMAL" "REDUCED" "V.RED" "ABSENT" );
+	position = (480 -480);
+	label = "R_APB_VOL_ACT";
+}
+node R_DE_REGEN_APB_NMT
+{
+	states = ("NO" "MOD.PRE" "SEV.PRE" "MLD.POST" "MOD.POST" "SEV.POST" "MIXED" );
+	position = (490 -490);
+	label = "R_DE_REGEN_APB_NMT";
+}
+node R_DIFFN_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (500 -500);
+	label = "R_DIFFN_APB_DENERV";
+}
+node R_DIFFN_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (510 -510);
+	label = "R_DIFFN_APB_DE_REGEN";
+}
+node R_DIFFN_APB_MALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (520 -520);
+	label = "R_DIFFN_APB_MALOSS";
+}
+node R_DIFFN_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (530 -530);
+	label = "R_DIFFN_APB_MUDENS";
+}
+node R_DIFFN_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (540 -540);
+	label = "R_DIFFN_APB_MUSIZE";
+}
+node R_DIFFN_APB_NEUR_ACT
+{
+	states = ("NO" "FASCIC" "NEUROMYO" "MYOKYMIA" "TETANUS" "OTHER" );
+	position = (550 -550);
+	label = "R_DIFFN_APB_NEUR_ACT";
+}
+node R_DIFFN_LNLW_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (560 -560);
+	label = "R_DIFFN_LNLW_APB_DENERV";
+}
+node R_DIFFN_LNLW_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (570 -570);
+	label = "R_DIFFN_LNLW_APB_DE_REGEN";
+}
+node R_DIFFN_LNLW_APB_MALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (580 -580);
+	label = "R_DIFFN_LNLW_APB_MALOSS";
+}
+node R_DIFFN_LNLW_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (590 -590);
+	label = "R_DIFFN_LNLW_APB_MUDENS";
+}
+node R_DIFFN_LNLW_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (600 -600);
+	label = "R_DIFFN_LNLW_APB_MUSIZE";
+}
+node R_DIFFN_LNLW_APB_NEUR_ACT
+{
+	states = ("NO" "FASCIC" "NEUROMYO" "MYOKYMIA" "TETANUS" "OTHER" );
+	position = (610 -610);
+	label = "R_DIFFN_LNLW_APB_NEUR_ACT";
+}
+node R_DIFFN_LNLW_MEDD2_DISP_WD
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (620 -620);
+	label = "R_DIFFN_LNLW_MEDD2_DISP_WD";
+}
+node R_DIFFN_LNLW_MEDD2_SALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (630 -630);
+	label = "R_DIFFN_LNLW_MEDD2_SALOSS";
+}
+node R_DIFFN_MEDD2_BLOCK
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (640 -640);
+	label = "R_DIFFN_MEDD2_BLOCK";
+}
+node R_DIFFN_MEDD2_DIFSLOW
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (650 -650);
+	label = "R_DIFFN_MEDD2_DIFSLOW";
+}
+node R_DIFFN_MEDD2_DISP
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (660 -660);
+	label = "R_DIFFN_MEDD2_DISP";
+}
+node R_DIFFN_MEDD2_SALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (670 -670);
+	label = "R_DIFFN_MEDD2_SALOSS";
+}
+node R_DIFFN_MED_BLOCK
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (680 -680);
+	label = "R_DIFFN_MED_BLOCK";
+}
+node R_DIFFN_MED_DIFSLOW
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (690 -690);
+	label = "R_DIFFN_MED_DIFSLOW";
+}
+node R_LNLBE_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (700 -700);
+	label = "R_LNLBE_APB_DENERV";
+}
+node R_LNLBE_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (710 -710);
+	label = "R_LNLBE_APB_DE_REGEN";
+}
+node R_LNLBE_APB_MALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (720 -720);
+	label = "R_LNLBE_APB_MALOSS";
+}
+node R_LNLBE_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (730 -730);
+	label = "R_LNLBE_APB_MUDENS";
+}
+node R_LNLBE_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (740 -740);
+	label = "R_LNLBE_APB_MUSIZE";
+}
+node R_LNLBE_APB_NEUR_ACT
+{
+	states = ("NO" "FASCIC" "NEUROMYO" "MYOKYMIA" "TETANUS" "OTHER" );
+	position = (750 -750);
+	label = "R_LNLBE_APB_NEUR_ACT";
+}
+node R_LNLBE_MEDD2_BLOCK_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (760 -760);
+	label = "R_LNLBE_MEDD2_BLOCK_EW";
+}
+node R_LNLBE_MEDD2_DIFSLOW_WD
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (770 -770);
+	label = "R_LNLBE_MEDD2_DIFSLOW_WD";
+}
+node R_LNLBE_MEDD2_DISP_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (780 -780);
+	label = "R_LNLBE_MEDD2_DISP_EW";
+}
+node R_LNLBE_MEDD2_LD_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (790 -790);
+	label = "R_LNLBE_MEDD2_LD_EW";
+}
+node R_LNLBE_MEDD2_RD_EW
+{
+	states = ("NO" "MOD" "SEV" );
+	position = (800 -800);
+	label = "R_LNLBE_MEDD2_RD_EW";
+}
+node R_LNLBE_MEDD2_SALOSS_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (810 -810);
+	label = "R_LNLBE_MEDD2_SALOSS_EW";
+}
+node R_LNLBE_MED_BLOCK
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (820 -820);
+	label = "R_LNLBE_MED_BLOCK";
+}
+node R_LNLBE_MED_DIFSLOW
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (830 -830);
+	label = "R_LNLBE_MED_DIFSLOW";
+}
+node R_LNLBE_MED_PATHO
+{
+	states = ("DEMY" "BLOCK" "AXONAL" "V.E.REIN" "E.REIN" );
+	position = (840 -840);
+	label = "R_LNLBE_MED_PATHO";
+}
+node R_LNLBE_MED_SEV
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (850 -850);
+	label = "R_LNLBE_MED_SEV";
+}
+node R_LNLBE_MED_TIME
+{
+	states = ("ACUTE" "SUBACUTE" "CHRONIC" "OLD" );
+	position = (860 -860);
+	label = "R_LNLBE_MED_TIME";
+}
+node R_LNLLP_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (870 -870);
+	label = "R_LNLLP_APB_DENERV";
+}
+node R_LNLLP_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (880 -880);
+	label = "R_LNLLP_APB_DE_REGEN";
+}
+node R_LNLLP_APB_MALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (890 -890);
+	label = "R_LNLLP_APB_MALOSS";
+}
+node R_LNLLP_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (900 -900);
+	label = "R_LNLLP_APB_MUDENS";
+}
+node R_LNLLP_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (910 -910);
+	label = "R_LNLLP_APB_MUSIZE";
+}
+node R_LNLLP_APB_NEUR_ACT
+{
+	states = ("NO" "FASCIC" "NEUROMYO" "MYOKYMIA" "TETANUS" "OTHER" );
+	position = (920 -920);
+	label = "R_LNLLP_APB_NEUR_ACT";
+}
+node R_LNLT1_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (930 -930);
+	label = "R_LNLT1_APB_DENERV";
+}
+node R_LNLT1_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (940 -940);
+	label = "R_LNLT1_APB_DE_REGEN";
+}
+node R_LNLT1_APB_MALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (950 -950);
+	label = "R_LNLT1_APB_MALOSS";
+}
+node R_LNLT1_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (960 -960);
+	label = "R_LNLT1_APB_MUDENS";
+}
+node R_LNLT1_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (970 -970);
+	label = "R_LNLT1_APB_MUSIZE";
+}
+node R_LNLT1_APB_NEUR_ACT
+{
+	states = ("NO" "FASCIC" "NEUROMYO" "MYOKYMIA" "TETANUS" "OTHER" );
+	position = (980 -980);
+	label = "R_LNLT1_APB_NEUR_ACT";
+}
+node R_LNLT1_LP_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (990 -990);
+	label = "R_LNLT1_LP_APB_DENERV";
+}
+node R_LNLT1_LP_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (1000 -1000);
+	label = "R_LNLT1_LP_APB_DE_REGEN";
+}
+node R_LNLT1_LP_APB_MALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1010 -1010);
+	label = "R_LNLT1_LP_APB_MALOSS";
+}
+node R_LNLT1_LP_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (1020 -1020);
+	label = "R_LNLT1_LP_APB_MUDENS";
+}
+node R_LNLT1_LP_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (1030 -1030);
+	label = "R_LNLT1_LP_APB_MUSIZE";
+}
+node R_LNLT1_LP_APB_NEUR_ACT
+{
+	states = ("NO" "FASCIC" "NEUROMYO" "MYOKYMIA" "TETANUS" "OTHER" );
+	position = (1040 -1040);
+	label = "R_LNLT1_LP_APB_NEUR_ACT";
+}
+node R_LNLT1_LP_BE_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1050 -1050);
+	label = "R_LNLT1_LP_BE_APB_DENERV";
+}
+node R_LNLT1_LP_BE_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (1060 -1060);
+	label = "R_LNLT1_LP_BE_APB_DE_REGEN";
+}
+node R_LNLT1_LP_BE_APB_MALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1070 -1070);
+	label = "R_LNLT1_LP_BE_APB_MALOSS";
+}
+node R_LNLT1_LP_BE_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (1080 -1080);
+	label = "R_LNLT1_LP_BE_APB_MUDENS";
+}
+node R_LNLT1_LP_BE_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (1090 -1090);
+	label = "R_LNLT1_LP_BE_APB_MUSIZE";
+}
+node R_LNLT1_LP_BE_APB_NEUR_ACT
+{
+	states = ("NO" "FASCIC" "NEUROMYO" "MYOKYMIA" "TETANUS" "OTHER" );
+	position = (1100 -1100);
+	label = "R_LNLT1_LP_BE_APB_NEUR_ACT";
+}
+node R_LNLW_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1110 -1110);
+	label = "R_LNLW_APB_DENERV";
+}
+node R_LNLW_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (1120 -1120);
+	label = "R_LNLW_APB_DE_REGEN";
+}
+node R_LNLW_APB_MALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1130 -1130);
+	label = "R_LNLW_APB_MALOSS";
+}
+node R_LNLW_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (1140 -1140);
+	label = "R_LNLW_APB_MUDENS";
+}
+node R_LNLW_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (1150 -1150);
+	label = "R_LNLW_APB_MUSIZE";
+}
+node R_LNLW_APB_NEUR_ACT
+{
+	states = ("NO" "FASCIC" "NEUROMYO" "MYOKYMIA" "TETANUS" "OTHER" );
+	position = (1160 -1160);
+	label = "R_LNLW_APB_NEUR_ACT";
+}
+node R_LNLW_MEDD2_BLOCK_WD
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1170 -1170);
+	label = "R_LNLW_MEDD2_BLOCK_WD";
+}
+node R_LNLW_MEDD2_DISP_WD
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1180 -1180);
+	label = "R_LNLW_MEDD2_DISP_WD";
+}
+node R_LNLW_MEDD2_LD_WD
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1190 -1190);
+	label = "R_LNLW_MEDD2_LD_WD";
+}
+node R_LNLW_MEDD2_RD_WD
+{
+	states = ("NO" "MOD" "SEV" );
+	position = (1200 -1200);
+	label = "R_LNLW_MEDD2_RD_WD";
+}
+node R_LNLW_MEDD2_SALOSS_WD
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1210 -1210);
+	label = "R_LNLW_MEDD2_SALOSS_WD";
+}
+node R_LNLW_MED_BLOCK
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1220 -1220);
+	label = "R_LNLW_MED_BLOCK";
+}
+node R_LNLW_MED_PATHO
+{
+	states = ("DEMY" "BLOCK" "AXONAL" "V.E.REIN" "E.REIN" );
+	position = (1230 -1230);
+	label = "R_LNLW_MED_PATHO";
+}
+node R_LNLW_MED_SEV
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1240 -1240);
+	label = "R_LNLW_MED_SEV";
+}
+node R_LNLW_MED_TIME
+{
+	states = ("ACUTE" "SUBACUTE" "CHRONIC" "OLD" );
+	position = (1250 -1250);
+	label = "R_LNLW_MED_TIME";
+}
+node R_LNL_DIFFN_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1260 -1260);
+	label = "R_LNL_DIFFN_APB_DENERV";
+}
+node R_LNL_DIFFN_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (1270 -1270);
+	label = "R_LNL_DIFFN_APB_DE_REGEN";
+}
+node R_LNL_DIFFN_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (1280 -1280);
+	label = "R_LNL_DIFFN_APB_MUDENS";
+}
+node R_LNL_DIFFN_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (1290 -1290);
+	label = "R_LNL_DIFFN_APB_MUSIZE";
+}
+node R_MEDD2_ALLAMP_WD
+{
+	states = ("ZERO" "A0.01" "A0.10" "A0.30" "A0.70" "A1.00" );
+	position = (1300 -1300);
+	label = "R_MEDD2_ALLAMP_WD";
+}
+node R_MEDD2_ALLCV_EW
+{
+	states = ("M/S60" "M/S52" "M/S44" "M/S36" "M/S28" "M/S20" "M/S14" "M/S08" "M/S00" );
+	position = (1310 -1310);
+	label = "R_MEDD2_ALLCV_EW";
+}
+node R_MEDD2_ALLCV_WD
+{
+	states = ("M/S60" "M/S52" "M/S44" "M/S36" "M/S28" "M/S20" "M/S14" "M/S08" "M/S00" );
+	position = (1320 -1320);
+	label = "R_MEDD2_ALLCV_WD";
+}
+node R_MEDD2_AMPR_EW
+{
+	states = ("R0.0" "R0.1" "R0.2" "R0.3" "R0.4" "R0.5" "R0.6" "R0.7" "R0.8" "R0.9" "R1.0" "R>1.1" );
+	position = (1330 -1330);
+	label = "R_MEDD2_AMPR_EW";
+}
+node R_MEDD2_AMP_WD
+{
+	states = ("UV<0.63" "UV0.88" "UV1.25" "UV1.77" "UV2.50" "UV3.50" "UV5.00" "UV7.10" "UV10.0" "UV14.0" "UV20.0" "UV28.0" "UV40.0" "UV57.0" "UV>80.0" );
+	position = (1340 -1340);
+	label = "R_MEDD2_AMP_WD";
+}
+node R_MEDD2_BLOCK_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1350 -1350);
+	label = "R_MEDD2_BLOCK_EW";
+}
+node R_MEDD2_BLOCK_WD
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1360 -1360);
+	label = "R_MEDD2_BLOCK_WD";
+}
+node R_MEDD2_CV_EW
+{
+	states = ("M/S00" "M/S04" "M/S08" "M/S12" "M/S16" "M/S20" "M/S24" "M/S28" "M/S32" "M/S36" "M/S40" "M/S44" "M/S48" "M/S52" "M/S56" "M/S60" "M/S64" "M/S68" "M/S72" "M/S>76" );
+	position = (1370 -1370);
+	label = "R_MEDD2_CV_EW";
+}
+node R_MEDD2_CV_WD
+{
+	states = ("M/S00" "M/S04" "M/S08" "M/S12" "M/S16" "M/S20" "M/S24" "M/S28" "M/S32" "M/S36" "M/S40" "M/S44" "M/S48" "M/S52" "M/S56" "M/S60" "M/S64" "M/S68" "M/S>72" );
+	position = (1380 -1380);
+	label = "R_MEDD2_CV_WD";
+}
+node R_MEDD2_DIFSLOW_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1390 -1390);
+	label = "R_MEDD2_DIFSLOW_EW";
+}
+node R_MEDD2_DIFSLOW_WD
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1400 -1400);
+	label = "R_MEDD2_DIFSLOW_WD";
+}
+node R_MEDD2_DISP_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1410 -1410);
+	label = "R_MEDD2_DISP_EW";
+}
+node R_MEDD2_DISP_EWD
+{
+	states = ("R0.15" "R0.25" "R0.35" "R0.45" "R0.55" "R0.65" "R0.75" "R0.85" "R0.95" );
+	position = (1420 -1420);
+	label = "R_MEDD2_DISP_EWD";
+}
+node R_MEDD2_DISP_WD
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1430 -1430);
+	label = "R_MEDD2_DISP_WD";
+}
+node R_MEDD2_DSLOW_EW
+{
+	states = ("M/S60" "M/S52" "M/S44" "M/S36" "M/S28" "M/S20" "M/S14" "M/S08" "M/S00" );
+	position = (1440 -1440);
+	label = "R_MEDD2_DSLOW_EW";
+}
+node R_MEDD2_DSLOW_WD
+{
+	states = ("M/S60" "M/S52" "M/S44" "M/S36" "M/S28" "M/S20" "M/S14" "M/S08" "M/S00" );
+	position = (1450 -1450);
+	label = "R_MEDD2_DSLOW_WD";
+}
+node R_MEDD2_EFFAXLOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1460 -1460);
+	label = "R_MEDD2_EFFAXLOSS";
+}
+node R_MEDD2_LD_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1470 -1470);
+	label = "R_MEDD2_LD_EW";
+}
+node R_MEDD2_LD_WD
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1480 -1480);
+	label = "R_MEDD2_LD_WD";
+}
+node R_MEDD2_LSLOW_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" "V.SEV" );
+	position = (1490 -1490);
+	label = "R_MEDD2_LSLOW_EW";
+}
+node R_MEDD2_LSLOW_WD
+{
+	states = ("NO" "MILD" "MOD" "SEV" "V.SEV" );
+	position = (1500 -1500);
+	label = "R_MEDD2_LSLOW_WD";
+}
+node R_MEDD2_RD_EW
+{
+	states = ("NO" "MOD" "SEV" );
+	position = (1510 -1510);
+	label = "R_MEDD2_RD_EW";
+}
+node R_MEDD2_RD_WD
+{
+	states = ("NO" "MOD" "SEV" );
+	position = (1520 -1520);
+	label = "R_MEDD2_RD_WD";
+}
+node R_MEDD2_SALOSS
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1530 -1530);
+	label = "R_MEDD2_SALOSS";
+}
+node R_MED_ALLCV_EW
+{
+	states = ("M/S60" "M/S56" "M/S52" "M/S44" "M/S36" "M/S28" "M/S20" "M/S14" "M/S08" "M/S00" );
+	position = (1540 -1540);
+	label = "R_MED_ALLCV_EW";
+}
+node R_MED_ALLDEL_WA
+{
+	states = ("MS0.0" "MS0.4" "MS0.8" "MS1.6" "MS3.2" "MS6.4" "MS12.8" "MS25.6" "INFIN" );
+	position = (1550 -1550);
+	label = "R_MED_ALLDEL_WA";
+}
+node R_MED_AMPR_EW
+{
+	states = ("R>1.1" "R1.0" "R0.9" "R0.8" "R0.7" "R0.6" "R0.5" "R0.4" "R0.3" "R0.2" "R0.1" "R0.0" );
+	position = (1560 -1560);
+	label = "R_MED_AMPR_EW";
+}
+node R_MED_AMP_WA
+{
+	states = ("MV.000" "MV.13" "MV.18" "MV.25" "MV.35" "MV.5" "MV.71" "MV1" "MV1.4" "MV2" "MV2.8" "MV4" "MV5.6" "MV8" "MV11.3" "MV16" "MV22.6" );
+	position = (1570 -1570);
+	label = "R_MED_AMP_WA";
+}
+node R_MED_BLOCK_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1580 -1580);
+	label = "R_MED_BLOCK_EW";
+}
+node R_MED_BLOCK_WA
+{
+	states = ("NO" "MILD" "MOD" "SEV" "TOTAL" );
+	position = (1590 -1590);
+	label = "R_MED_BLOCK_WA";
+}
+node R_MED_CV_EW
+{
+	states = ("M/S00" "M/S04" "M/S08" "M/S12" "M/S16" "M/S20" "M/S24" "M/S28" "M/S32" "M/S36" "M/S40" "M/S44" "M/S48" "M/S52" "M/S56" "M/S60" "M/S64" "M/S68" "M/S72" );
+	position = (1600 -1600);
+	label = "R_MED_CV_EW";
+}
+node R_MED_DCV_EW
+{
+	states = ("M/S60" "M/S56" "M/S52" "M/S44" "M/S36" "M/S28" "M/S20" "M/S14" "M/S08" "M/S00" );
+	position = (1610 -1610);
+	label = "R_MED_DCV_EW";
+}
+node R_MED_DCV_WA
+{
+	states = ("M/S60" "M/S52" "M/S44" "M/S36" "M/S28" "M/S20" "M/S14" "M/S08" "M/S00" );
+	position = (1620 -1620);
+	label = "R_MED_DCV_WA";
+}
+node R_MED_DIFSLOW_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1630 -1630);
+	label = "R_MED_DIFSLOW_EW";
+}
+node R_MED_DIFSLOW_WA
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1640 -1640);
+	label = "R_MED_DIFSLOW_WA";
+}
+node R_MED_LAT_WA
+{
+	states = ("MS2.3" "MS2.7" "MS3.1" "MS3.5" "MS3.9" "MS4.3" "MS4.7" "MS5.3" "MS5.9" "MS6.5" "MS7.1" "MS8.0" "MS9.0" "MS10.0" "MS12.0" "MS14.0" "MS16.0" "MS18.0" "INFIN" );
+	position = (1650 -1650);
+	label = "R_MED_LAT_WA";
+}
+node R_MED_LD_EW
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1660 -1660);
+	label = "R_MED_LD_EW";
+}
+node R_MED_LD_WA
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1670 -1670);
+	label = "R_MED_LD_WA";
+}
+node R_MED_RDLDCV_EW
+{
+	states = ("M/S60" "M/S52" "M/S44" "M/S27" "M/S15" "M/S07" );
+	position = (1680 -1680);
+	label = "R_MED_RDLDCV_EW";
+}
+node R_MED_RDLDDEL
+{
+	states = ("MS3.1" "MS3.9" "MS4.7" "MS10.1" "MS20.1" );
+	position = (1690 -1690);
+	label = "R_MED_RDLDDEL";
+}
+node R_MED_RD_EW
+{
+	states = ("NO" "MOD" "SEV" );
+	position = (1700 -1700);
+	label = "R_MED_RD_EW";
+}
+node R_MED_RD_WA
+{
+	states = ("NO" "MOD" "SEV" );
+	position = (1710 -1710);
+	label = "R_MED_RD_WA";
+}
+node R_MUSCLE_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1720 -1720);
+	label = "R_MUSCLE_APB_DENERV";
+}
+node R_MUSCLE_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (1730 -1730);
+	label = "R_MUSCLE_APB_MUDENS";
+}
+node R_MYAS_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (1740 -1740);
+	label = "R_MYAS_APB_MUDENS";
+}
+node R_MYAS_APB_NMT
+{
+	states = ("NO" "MOD.PRE" "SEV.PRE" "MLD.POST" "MOD.POST" "SEV.POST" "MIXED" );
+	position = (1750 -1750);
+	label = "R_MYAS_APB_NMT";
+}
+node R_MYDY_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1760 -1760);
+	label = "R_MYDY_APB_DENERV";
+}
+node R_MYDY_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (1770 -1770);
+	label = "R_MYDY_APB_DE_REGEN";
+}
+node R_MYDY_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (1780 -1780);
+	label = "R_MYDY_APB_MUDENS";
+}
+node R_MYDY_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (1790 -1790);
+	label = "R_MYDY_APB_MUSIZE";
+}
+node R_MYOP_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1800 -1800);
+	label = "R_MYOP_APB_DENERV";
+}
+node R_MYOP_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (1810 -1810);
+	label = "R_MYOP_APB_DE_REGEN";
+}
+node R_MYOP_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (1820 -1820);
+	label = "R_MYOP_APB_MUDENS";
+}
+node R_MYOP_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (1830 -1830);
+	label = "R_MYOP_APB_MUSIZE";
+}
+node R_MYOP_MYDY_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1840 -1840);
+	label = "R_MYOP_MYDY_APB_DENERV";
+}
+node R_MYOP_MYDY_APB_DE_REGEN
+{
+	states = ("NO" "YES" );
+	position = (1850 -1850);
+	label = "R_MYOP_MYDY_APB_DE_REGEN";
+}
+node R_MYOP_MYDY_APB_MUDENS
+{
+	states = ("NORMAL" "INCR" "V.INCR" );
+	position = (1860 -1860);
+	label = "R_MYOP_MYDY_APB_MUDENS";
+}
+node R_MYOP_MYDY_APB_MUSIZE
+{
+	states = ("V.SMALL" "SMALL" "NORMAL" "INCR" "LARGE" "V.LARGE" );
+	position = (1870 -1870);
+	label = "R_MYOP_MYDY_APB_MUSIZE";
+}
+node R_NMT_APB_DENERV
+{
+	states = ("NO" "MILD" "MOD" "SEV" );
+	position = (1880 -1880);
+	label = "R_NMT_APB_DENERV";
+}
+potential ( R_LNLLP_APB_DE_REGEN | )
+{
+	data = (	1.0	0.0	);
+}
+potential ( R_LNLT1_APB_DE_REGEN | )
+{
+	data = (	1.0	0.0	);
+}
+potential ( R_MYDY_APB_DE_REGEN | )
+{
+	data = (	1.0	0.0	);
+}
+potential ( R_MYOP_APB_DE_REGEN | )
+{
+	data = (	1.0	0.0	);
+}
+potential ( DIFFN_DISTR | )
+{
+	data = (	0.93	0.02	0.05	);
+}
+potential ( DIFFN_TYPE | )
+{
+	data = (	0.06	0.935	0.0050	);
+}
+potential ( R_LNLLP_APB_MUDENS | )
+{
+	data = (	1.0	0.0	0.0	);
+}
+potential ( R_LNLT1_APB_MUDENS | )
+{
+	data = (	1.0	0.0	0.0	);
+}
+potential ( R_MYAS_APB_MUDENS | )
+{
+	data = (	1.0	0.0	0.0	);
+}
+potential ( R_MYDY_APB_MUDENS | )
+{
+	data = (	1.0	0.0	0.0	);
+}
+potential ( R_MYOP_APB_MUDENS | )
+{
+	data = (	1.0	0.0	0.0	);
+}
+potential ( DIFFN_SEV | )
+{
+	data = (	0.78	0.1	0.07	0.05	);
+}
+potential ( DIFFN_TIME | )
+{
+	data = (	0.01	0.25	0.65	0.09	);
+}
+potential ( R_APB_VOL_ACT | )
+{
+	data = (	1.0	0.0	0.0	0.0	);
+}
+potential ( R_LNLBE_MED_TIME | )
+{
+	data = (	0.05	0.6	0.3	0.05	);
+}
+potential ( R_LNLLP_APB_DENERV | )
+{
+	data = (	1.0	0.0	0.0	0.0	);
+}
+potential ( R_LNLT1_APB_DENERV | )
+{
+	data = (	1.0	0.0	0.0	0.0	);
+}
+potential ( R_LNLW_MED_TIME | )
+{
+	data = (	0.05	0.33	0.6	0.02	);
+}
+potential ( R_MYDY_APB_DENERV | )
+{
+	data = (	1.0	0.0	0.0	0.0	);
+}
+potential ( R_MYOP_APB_DENERV | )
+{
+	data = (	1.0	0.0	0.0	0.0	);
+}
+potential ( DIFFN_PATHO | )
+{
+	data = (	0.086	0.01	0.9	0.0020	0.0020	);
+}
+potential ( R_LNLBE_MED_PATHO | )
+{
+	data = (	0.6	0.19	0.2	0.0050	0.0050	);
+}
+potential ( R_LNLBE_MED_SEV | )
+{
+	data = (	0.9810000000000001	0.010000000000000002	0.005000000000000001	0.0030000000000000005	0.0010000000000000002	);
+}
+potential ( R_LNLLP_APB_MALOSS | )
+{
+	data = (	1.0	0.0	0.0	0.0	0.0	);
+}
+potential ( R_LNLT1_APB_MALOSS | )
+{
+	data = (	1.0	0.0	0.0	0.0	0.0	);
+}
+potential ( R_LNLW_MED_PATHO | )
+{
+	data = (	0.8	0.12	0.07	0.0050	0.0050	);
+}
+potential ( R_LNLW_MED_SEV | )
+{
+	data = (	0.73	0.16	0.07	0.03	0.01	);
+}
+potential ( R_LNLLP_APB_MUSIZE | )
+{
+	data = (	0.0	0.0	1.0	0.0	0.0	0.0	);
+}
+potential ( R_LNLLP_APB_NEUR_ACT | )
+{
+	data = (	1.0	0.0	0.0	0.0	0.0	0.0	);
+}
+potential ( R_LNLT1_APB_MUSIZE | )
+{
+	data = (	0.0	0.0	1.0	0.0	0.0	0.0	);
+}
+potential ( R_LNLT1_APB_NEUR_ACT | )
+{
+	data = (	1.0	0.0	0.0	0.0	0.0	0.0	);
+}
+potential ( R_MYDY_APB_MUSIZE | )
+{
+	data = (	0.0	0.0	1.0	0.0	0.0	0.0	);
+}
+potential ( R_MYOP_APB_MUSIZE | )
+{
+	data = (	0.0	0.0	1.0	0.0	0.0	0.0	);
+}
+potential ( R_MYAS_APB_NMT | )
+{
+	data = (	1.0	0.0	0.0	0.0	0.0	0.0	0.0	);
+}
+potential ( R_APB_MUPSATEL | R_APB_DE_REGEN )
+{
+	data = ((	0.95	0.05	)
+		(	0.2	0.8	));
+}
+potential ( R_APB_QUAL_MUPPOLY | R_APB_QUAN_MUPPOLY )
+{
+	data = ((	0.95	0.05	)
+		(	0.3	0.7	)
+		(	0.05	0.95	));
+}
+potential ( R_APB_SPONT_HF_DISCH | R_APB_DENERV )
+{
+	data = ((	0.99	0.01	)
+		(	0.97	0.03	)
+		(	0.95	0.05	)
+		(	0.93	0.07	));
+}
+potential ( R_APB_SPONT_INS_ACT | R_APB_DENERV )
+{
+	data = ((	0.98	0.02	)
+		(	0.1	0.9	)
+		(	0.05	0.95	)
+		(	0.05	0.95	));
+}
+potential ( R_APB_SF_DENSITY | R_APB_MUDENS )
+{
+	data = ((	0.97	0.03	0.0	)
+		(	0.05	0.9	0.05	)
+		(	0.01	0.04	0.95	));
+}
+potential ( R_MEDD2_RD_EW | R_LNLBE_MEDD2_RD_EW )
+{
+	data = ((	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	));
+}
+potential ( R_MEDD2_RD_WD | R_LNLW_MEDD2_RD_WD )
+{
+	data = ((	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	));
+}
+potential ( R_DE_REGEN_APB_NMT | R_APB_DE_REGEN )
+{
+	data = ((	1.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.65	0.02	0.01	0.27	0.02	0.01	0.02	));
+}
+potential ( R_APB_MUPINSTAB | R_APB_NMT )
+{
+	data = ((	0.95	0.05	)
+		(	0.1	0.9	)
+		(	0.03	0.97	)
+		(	0.2	0.8	)
+		(	0.1	0.9	)
+		(	0.03	0.97	)
+		(	0.1	0.9	));
+}
+potential ( R_LNLBE_MEDD2_RD_EW | R_LNLBE_MED_PATHO )
+{
+	data = ((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	1.0	0.0	));
+}
+potential ( R_MED_RD_EW | R_LNLBE_MED_PATHO )
+{
+	data = ((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	1.0	0.0	));
+}
+potential ( R_LNLW_MEDD2_RD_WD | R_LNLW_MED_PATHO )
+{
+	data = ((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	1.0	0.0	));
+}
+potential ( R_MED_RD_WA | R_LNLW_MED_PATHO )
+{
+	data = ((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	1.0	0.0	));
+}
+potential ( R_APB_SPONT_DENERV_ACT | R_APB_DENERV )
+{
+	data = ((	0.98	0.02	0.0	0.0	)
+		(	0.07	0.85	0.08	0.0	)
+		(	0.01	0.07	0.85	0.07	)
+		(	0.0	0.01	0.07	0.92	));
+}
+potential ( R_MEDD2_DISP_WD | R_DIFFN_LNLW_MEDD2_DISP_WD )
+{
+	data = ((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	));
+}
+potential ( R_MEDD2_DIFSLOW_EW | R_DIFFN_MEDD2_DIFSLOW )
+{
+	data = ((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	));
+}
+potential ( R_MED_DIFSLOW_EW | R_DIFFN_MED_DIFSLOW )
+{
+	data = ((	1.0	0.0	0.0	0.0	)
+		(	0.0126	0.9869	5.0E-4	0.0	)
+		(	0.0	0.0179	0.9821	0.0	)
+		(	0.0	3.0E-4	0.0252	0.9745	));
+}
+potential ( R_MEDD2_LD_EW | R_LNLBE_MEDD2_LD_EW )
+{
+	data = ((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	));
+}
+potential ( R_MEDD2_LD_WD | R_LNLW_MEDD2_LD_WD )
+{
+	data = ((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	));
+}
+potential ( R_LNLBE_MEDD2_DIFSLOW_WD | R_LNLBE_MED_PATHO )
+{
+	data = ((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	0.0	));
+}
+potential ( R_LNLBE_MED_DIFSLOW | R_LNLBE_MED_PATHO )
+{
+	data = ((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	0.0	));
+}
+potential ( R_APB_MVA_AMP | R_APB_EFFMUS )
+{
+	data = ((	0.0	0.04	0.96	)
+		(	0.01	0.15	0.84	)
+		(	0.05	0.9	0.05	)
+		(	0.5	0.49	0.01	)
+		(	0.85	0.15	0.0	)
+		(	0.96	0.04	0.0	)
+		(	0.33	0.34	0.33	));
+}
+potential ( R_APB_QUAL_MUPDUR | R_APB_MUPDUR )
+{
+	data = ((	0.8309000000000001	0.16770000000000002	0.0014000000000000002	)
+		(	0.49	0.49	0.02	)
+		(	0.1065	0.787	0.1065	)
+		(	0.02	0.49	0.49	)
+		(	0.0014	0.1677	0.8309	)
+		(	1.0E-4	0.0392	0.9607	)
+		(	0.2597	0.4806	0.2597	));
+}
+potential ( R_APB_REPSTIM_FACILI | R_APB_NMT )
+{
+	data = ((	0.95	0.02	0.01	0.02	)
+		(	0.01	0.889	0.1	0.0010	)
+		(	0.01	0.08	0.909	0.0010	)
+		(	0.89	0.08	0.01	0.02	)
+		(	0.48	0.5	0.01	0.01	)
+		(	0.02	0.9490000000000001	0.03	0.0010	)
+		(	0.25	0.25	0.25	0.25	));
+}
+potential ( R_APB_SF_JITTER | R_APB_NMT )
+{
+	data = ((	0.95	0.05	0.0	0.0	)
+		(	0.02	0.2	0.7	0.08	)
+		(	0.0	0.1	0.4	0.5	)
+		(	0.05	0.7	0.2	0.05	)
+		(	0.01	0.19	0.7	0.1	)
+		(	0.0	0.1	0.4	0.5	)
+		(	0.1	0.3	0.3	0.3	));
+}
+potential ( R_NMT_APB_DENERV | R_APB_NMT )
+{
+	data = ((	1.0	0.0	0.0	0.0	)
+		(	0.4	0.45	0.15	0.0	)
+		(	0.15	0.35	0.35	0.15	)
+		(	0.85	0.15	0.0	0.0	)
+		(	0.3	0.45	0.2	0.05	)
+		(	0.15	0.35	0.35	0.15	)
+		(	0.25	0.25	0.25	0.25	));
+}
+potential ( R_APB_QUAL_MUPAMP | R_APB_MUPAMP )
+{
+	data = ((	0.4289	0.5209	0.0499	3.0E-4	0.0	)
+		(	0.0647	0.5494	0.3679	0.018	0.0	)
+		(	0.0	0.0479047904790479	0.8753875387538753	0.07670767076707671	0.0	)
+		(	0.0	0.0086991300869913	0.28377162283771623	0.6779322067793221	0.029597040295970406	)
+		(	0.0	2.0000000000000004E-4	0.03760000000000001	0.6283000000000001	0.33390000000000003	)
+		(	0.0	0.0	0.0010	0.0788	0.9202	)
+		(	0.09600000000000002	0.18840000000000004	0.28300000000000003	0.30140000000000006	0.13120000000000004	));
+}
+potential ( R_APB_REPSTIM_DECR | R_APB_NMT )
+{
+	data = ((	0.9490000000000001	0.02	0.01	0.0010	0.02	)
+		(	0.04	0.2	0.7	0.04	0.02	)
+		(	0.0010	0.01	0.04	0.929	0.02	)
+		(	0.35	0.57	0.05	0.01	0.02	)
+		(	0.02	0.1	0.8	0.06	0.02	)
+		(	0.0010	0.01	0.04	0.929	0.02	)
+		(	0.245	0.245	0.245	0.245	0.02	));
+}
+potential ( R_APB_REPSTIM_POST_DECR | R_APB_NMT )
+{
+	data = ((	0.9490000000000001	0.02	0.01	0.0010	0.02	)
+		(	0.02	0.1	0.8	0.06	0.02	)
+		(	0.0010	0.01	0.02	0.9490000000000001	0.02	)
+		(	0.25	0.61	0.1	0.02	0.02	)
+		(	0.01	0.1	0.8	0.07	0.02	)
+		(	0.0010	0.01	0.02	0.9490000000000001	0.02	)
+		(	0.23	0.23	0.22	0.22	0.1	));
+}
+potential ( R_APB_SPONT_NEUR_DISCH | R_APB_NEUR_ACT )
+{
+	data = ((	0.98	0.02	0.0	0.0	0.0	0.0	)
+		(	0.1	0.9	0.0	0.0	0.0	0.0	)
+		(	0.01	0.04	0.75	0.05	0.05	0.1	)
+		(	0.01	0.04	0.05	0.75	0.05	0.1	)
+		(	0.01	0.04	0.05	0.05	0.75	0.1	)
+		(	0.01	0.05	0.05	0.05	0.05	0.79	));
+}
+potential ( R_APB_TA_CONCL | R_APB_EFFMUS )
+{
+	data = ((	0.0	0.0	0.01	0.1	0.88	0.01	)
+		(	0.0	0.0	0.1	0.8	0.09	0.01	)
+		(	0.0	0.03	0.93	0.03	0.0	0.01	)
+		(	0.17	0.5	0.3	0.02	0.0	0.01	)
+		(	0.44	0.5	0.05	0.0	0.0	0.01	)
+		(	0.8	0.18	0.01	0.0	0.0	0.01	)
+		(	0.17	0.17	0.17	0.17	0.16	0.16	));
+}
+potential ( R_APB_MUPAMP | R_APB_EFFMUS )
+{
+	data = ((	0.782	0.195	0.0030	0.0	0.0	0.0	0.02	)
+		(	0.1043104310431043	0.7710771077107711	0.1043104310431043	3.000300030003E-4	0.0	0.0	0.020002000200020003	)
+		(	0.0	0.0	0.98	0.0	0.0	0.0	0.02	)
+		(	0.0	2.9997000299970003E-4	0.10108989101089891	0.7471252874712528	0.1314868513148685	0.0	0.019998000199980003	)
+		(	0.0	0.0	0.0024	0.1528	0.7968	0.028	0.02	)
+		(	0.0	0.0	0.0	0.0028	0.0968	0.8804	0.02	)
+		(	0.1328	0.1932	0.2189	0.1932	0.1726	0.0693	0.02	));
+}
+potential ( R_APB_MUPDUR | R_APB_EFFMUS )
+{
+	data = ((	0.9388	0.0412	0.0	0.0	0.0	0.0	0.02	)
+		(	0.0396	0.9008	0.0396	0.0	0.0	0.0	0.02	)
+		(	0.0	0.0	0.98	0.0	0.0	0.0	0.02	)
+		(	0.0	0.0	0.0396	0.9008	0.0396	0.0	0.02	)
+		(	0.0	0.0	0.0	0.0412	0.938	8.0E-4	0.02	)
+		(	0.0	0.0	0.0	0.0039	0.2546	0.7215	0.02	)
+		(	0.09000000000000001	0.23500000000000001	0.32360000000000005	0.23500000000000001	0.09000000000000001	0.006400000000000001	0.020000000000000004	));
+}
+potential ( R_MED_AMPR_EW | R_MED_BLOCK_EW )
+{
+	data = ((	0.0879	0.4192	0.4232	0.0693	4.0E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0018998100189981002	0.034396560343965606	0.2566743325667433	0.5291470852914708	0.17348265173482652	0.004399560043995601	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0E-4	0.0010	0.0076	0.0403	0.172	0.373	0.342	0.0633	7.0E-4	0.0	0.0	0.0	)
+		(	9.000900090009E-4	0.0015001500150015003	0.0026002600260026003	0.0049004900490049	0.009500950095009501	0.017601760176017604	0.03470347034703471	0.0768076807680768	0.16681668166816682	0.3414341434143414	0.3432343234323432	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	));
+}
+potential ( R_MEDD2_AMP_WD | R_MEDD2_ALLAMP_WD )
+{
+	data = ((	0.7500750075007501	0.18781878187818782	0.04760476047604761	0.0112011201120112	0.0026002600260026003	6.000600060006E-4	1.0001000100010001E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.3184	0.2478	0.178	0.1158	0.0688	0.038	0.0189	0.0086	0.0036	0.0014	5.0E-4	2.0E-4	0.0	0.0	0.0	)
+		(	0.011701170117011701	0.0392039203920392	0.09350935093509351	0.16761676167616762	0.21892189218921893	0.20952095209520952	0.1465146514651465	0.0747074707470747	0.0287028702870287	0.0078007800780078	0.0016001600160016002	2.0002000200020003E-4	0.0	0.0	0.0	)
+		(	0.0	0.0	9.999000099990002E-5	0.0012998700129987	0.010898910108989102	0.0526947305269473	0.15628437156284372	0.27017298270172985	0.2742725727427257	0.1635836416358364	0.056894310568943104	0.012198780121987803	0.0014998500149985001	9.999000099990002E-5	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	9.999000099990002E-5	0.0021997800219978004	0.021797820217978204	0.10328967103289671	0.2591740825917408	0.3254674532546745	0.2091790820917908	0.06709329067093292	0.010798920107989201	8.999100089991E-4	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	4.0E-4	0.0072	0.0656	0.2449	0.3735	0.2388	0.0624	0.0072	));
+}
+potential ( R_APB_QUAN_MUPDUR | R_APB_MUPDUR )
+{
+	data = ((	0.09981996399279856	0.18333666733346668	0.24024804960992197	0.22454490898179635	0.14972994598919784	0.07121424284856971	0.024204840968193638	0.005801160232046409	0.0010002000400080016	1.0002000400080016E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.010201020102010202	0.03690369036903691	0.09510951095109513	0.17471747174717472	0.22892289228922894	0.21402140214021403	0.14261426142614264	0.06780678067806781	0.023002300230023004	0.005600560056005601	0.0010001000100010003	1.0001000100010003E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.9999999999999996E-4	0.0024999999999999996	0.017699999999999997	0.07389999999999998	0.18519999999999998	0.27849999999999997	0.25149999999999995	0.13629999999999998	0.044399999999999995	0.008699999999999998	9.999999999999998E-4	9.999999999999998E-5	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	2.9997000299970003E-4	0.001999800019998	0.010198980101989802	0.0367963203679632	0.0948905109489051	0.17428257174282574	0.2283771622837716	0.2134786521347865	0.14228577142285773	0.06769323067693231	0.022997700229977002	0.005599440055994401	9.99900009999E-4	9.999000099990002E-5	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	2.9997000299970003E-4	0.001999800019998	0.010198980101989802	0.0367963203679632	0.0948905109489051	0.17428257174282574	0.2283771622837716	0.2134786521347865	0.14228577142285773	0.06769323067693231	0.022997700229977002	0.005599440055994401	9.99900009999E-4	9.999000099990002E-5	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	9.999000099990002E-5	3.9996000399960006E-4	0.0017998200179982	0.006999300069993001	0.021897810218978103	0.05409459054094591	0.10518948105189481	0.16128387161283872	0.19498050194980504	0.18598140185981402	0.13988601139886012	0.08289171082891711	0.03879612038796121	0.005699430056994301	)
+		(	0.020099999999999996	0.03409999999999999	0.05289999999999999	0.07479999999999999	0.09659999999999998	0.11379999999999997	0.12239999999999997	0.12019999999999997	0.10779999999999998	0.08819999999999999	0.06579999999999998	0.044899999999999995	0.027899999999999994	0.015899999999999997	0.008199999999999999	0.003899999999999999	0.0016999999999999995	6.999999999999999E-4	9.999999999999998E-5	));
+}
+potential ( R_APB_QUAN_MUPAMP | R_APB_MUPAMP )
+{
+	data = ((	8.002400720216066E-4	0.0037011103330999305	0.013504051215364611	0.03811143343002901	0.08352505751725518	0.14254276282884865	0.18955686706011804	0.1963589076723017	0.1583475042512754	0.09942982894868461	0.048614584375312596	0.01850555166549965	0.005501650495148545	0.0013003901170351106	2.0006001800540165E-4	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0002000400080017E-4	8.001600320064014E-4	0.0037007401480296065	0.013502700540108022	0.038107621524304865	0.08351670334066814	0.14252850570114023	0.1895379075815163	0.19633926785357073	0.15833166633326667	0.09941988397679537	0.04860972194438888	0.01850370074014803	0.005501100220044009	0.0013002600520104022	2.0004000800160035E-4	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	5.000500050005002E-4	0.003700370037003701	0.018701870187018705	0.0639063906390639	0.14751475147514753	0.23022302230223024	0.24312431243124316	0.17371737173717372	0.08400840084008403	0.027502750275027507	0.0061006100610061014	9.000900090009002E-4	1.0001000100010003E-4	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0000000000000002E-4	8.000000000000001E-4	0.0037000000000000006	0.013500000000000002	0.03810000000000001	0.08350000000000002	0.14260000000000003	0.18960000000000002	0.19630000000000003	0.15830000000000002	0.09950000000000002	0.04870000000000001	0.018500000000000003	0.0055000000000000005	0.0013000000000000002	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	8.0E-4	0.0038	0.0136	0.0383	0.0841	0.1435	0.1909	0.1977	0.1594	0.1001	0.049	0.0187	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0000000000000002E-4	6.000000000000001E-4	0.0024000000000000002	0.008200000000000002	0.023200000000000002	0.054200000000000005	0.10410000000000001	0.16450000000000004	0.21370000000000003	0.22830000000000003	0.20070000000000002	)
+		(	0.0045000000000000005	0.0078000000000000005	0.012700000000000001	0.019700000000000002	0.028900000000000002	0.04030000000000001	0.05310000000000001	0.06640000000000001	0.07870000000000002	0.08830000000000002	0.09390000000000001	0.09460000000000002	0.09030000000000002	0.08170000000000001	0.07000000000000002	0.056900000000000006	0.043800000000000006	0.031900000000000005	0.022100000000000005	0.014400000000000001	));
+}
+potential ( R_MED_AMP_WA | R_APB_ALLAMP_WA )
+{
+	data = ((	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	3.000300030003E-4	0.285028502850285	0.23462346234623463	0.17811781178117814	0.12451245124512451	0.0803080308030803	0.04760476047604761	0.026102610261026105	0.013201320132013201	0.006100610061006101	0.0026002600260026003	0.001000100010001	4.0004000400040005E-4	1.0001000100010001E-4	0.0	0.0	0.0	)
+		(	0.0	0.013501350135013501	0.03690369036903691	0.07940794079407941	0.1353135313531353	0.1818181818181818	0.19321932193219324	0.16221622162216223	0.10771077107710772	0.056405640564056406	0.023402340234023402	0.007600760076007601	0.002000200020002	4.0004000400040005E-4	1.0001000100010001E-4	0.0	0.0	)
+		(	0.0	0.0	9.999000099989999E-5	5.999400059993998E-4	0.0035996400359963993	0.016498350164983498	0.053494650534946495	0.12328767123287669	0.20127987201279868	0.2334766523347665	0.1921807819218078	0.11208879112088789	0.0464953504649535	0.013698630136986299	0.0027997200279971995	3.9996000399959995E-4	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0001000100010001E-4	0.001000100010001	0.0069006900690069	0.030903090309030903	0.0926092609260926	0.1855185518551855	0.2496249624962496	0.22502250225022502	0.13581358135813582	0.0549054905490549	0.014901490149014901	0.0027002700270027003	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	3.0003000300030005E-4	0.0031003100310031005	0.019001900190019003	0.07230723072307232	0.17361736173617365	0.26222622262226225	0.24972497249724976	0.14971497149714974	0.056705670567056714	0.013301330133013302	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	2.0E-4	0.0017	0.0093	0.0355	0.0964	0.186	0.2545	0.2471	0.1693	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	4.0E-4	0.0029	0.0155	0.0599	0.1641	0.3182	0.439	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0001000100010001E-4	0.0015001500150015003	0.0115011501150115	0.0631063106310631	0.2445244524452445	0.6792679267926793	));
+}
+potential ( R_MEDD2_CV_WD | R_MEDD2_ALLCV_WD )
+{
+	data = ((	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.9998000199980003E-4	0.010898910108989102	0.09839016098390162	0.31656834316568344	0.3531646835316469	0.17488251174882513	0.04029597040295971	0.005599440055994401	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.9998000199979998E-4	0.0084991500849915	0.07679232076792318	0.28107189281071887	0.33226677332266763	0.20117988201179876	0.0815918408159184	0.016098390160983897	0.0020997900209979	1.9998000199979998E-4	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	2.0002000200020003E-4	0.0139013901390139	0.11201120112011201	0.29182918291829185	0.3134313431343134	0.19151915191519153	0.061006100610061	0.013001300130013	0.0028002800280028	3.000300030003E-4	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0029002900290029	0.0706070607060706	0.3151315131513151	0.3836383638363836	0.1709170917091709	0.04760476047604761	0.008200820082008202	9.000900090009E-4	1.0001000100010001E-4	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.9998000199980003E-4	0.039396060393960604	0.3184681531846815	0.41945805419458054	0.17558244175582444	0.0418958104189581	0.0044995500449955	4.999500049995E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0156984301569843	0.3144685531446855	0.46605339466053397	0.1715828417158284	0.029097090290970903	0.0027997200279972004	2.9997000299970003E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.030803080308030802	0.5769576957695769	0.3398339833983398	0.0482048204820482	0.004000400040004	2.0002000200020003E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.04650465046504651	0.8482848284828484	0.09990999099909992	0.005100510051005101	2.0002000200020005E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	));
+}
+potential ( R_MED_LAT_WA | R_MED_ALLDEL_WA )
+{
+	data = ((	0.005900590059005901	0.1326132613261326	0.5032503250325032	0.3226322632263226	0.03500350035003501	6.000600060006E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	6.999300069993001E-4	0.019598040195980403	0.16898310168983102	0.42545745425457454	0.3127687231276873	0.06719328067193281	0.0052994700529947	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	7.000000000000001E-4	0.019400000000000004	0.16690000000000002	0.4202000000000001	0.30890000000000006	0.08290000000000002	0.0010000000000000002	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0010001000100010003	0.010901090109010901	0.06350635063506352	0.19471947194719474	0.3934393439343935	0.2921292129212922	0.04280428042804281	0.0015001500150015003	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0E-4	3.0E-4	0.0011	0.0034	0.0090	0.021	0.0528	0.137	0.2128	0.2375	0.1826	0.1229	0.0179	0.0016	0.0	0.0	0.0	0.0	0.0	)
+		(	9.999000099990002E-5	1.9998000199980003E-4	3.9996000399960006E-4	7.999200079992001E-4	0.0013998600139986002	0.0024997500249975004	0.005099490050994901	0.011998800119988001	0.0214978502149785	0.035396460353964605	0.08919108089191082	0.13978602139786023	0.18288171182881713	0.28117188281171884	0.18898110188981102	0.035896410358964105	0.0025997400259974	9.999000099990002E-5	0.0	)
+		(	2.0E-4	2.0E-4	3.0E-4	4.0E-4	5.0E-4	7.0E-4	0.0012	0.0022	0.0032	0.0047	0.0109	0.0176	0.028	0.0629	0.1563	0.2269	0.2569	0.2269	0.0	)
+		(	7.999200079992001E-4	8.999100089991E-4	0.0010998900109989002	0.0011998800119988001	0.0013998600139986002	0.0016998300169983002	0.0024997500249975004	0.0036996300369963007	0.0045995400459954	0.005599440055994401	0.0105989401059894	0.0155984401559844	0.0213978602139786	0.0432956704329567	0.10068993100689931	0.1648835116488351	0.2535746425357464	0.3664633536646335	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	));
+}
+potential ( R_MEDD2_CV_EW | R_MEDD2_ALLCV_EW )
+{
+	data = ((	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0012	0.0172	0.1126	0.2484	0.321	0.1935	0.0803	0.0258	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	9.99900009999E-4	0.014898510148985102	0.09959004099590041	0.22617738226177383	0.2933706629337066	0.22617738226177383	0.101989801019898	0.0288971102889711	0.0064993500649935	0.0013998600139986002	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0025002500250025004	0.0317031703170317	0.14451445144514452	0.263926392639264	0.2925292529252925	0.16701670167016705	0.06690669066906692	0.024502450245024506	0.005400540054005401	9.000900090009002E-4	1.0001000100010003E-4	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	5.000000000000001E-4	0.018900000000000004	0.15670000000000003	0.33710000000000007	0.28620000000000007	0.14290000000000003	0.04650000000000001	0.009500000000000001	0.0014000000000000002	3.0000000000000003E-4	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.010498950104989501	0.15648435156484353	0.37786221377862217	0.30066993300669936	0.12518748125187482	0.024497550244975505	0.004199580041995801	4.999500049995E-4	9.999000099990002E-5	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0045	0.1674	0.4536	0.2834	0.0774	0.0118	0.0017	2.0E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0109010901090109	0.4228422842284228	0.44464446444644457	0.1066106610661066	0.0137013701370137	0.0012001200120011998	1.000100010001E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0199	0.8041	0.1629	0.0125	6.0E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	));
+}
+potential ( R_APB_REPSTIM_CMAPAMP | R_APB_ALLAMP_WA )
+{
+	data = ((	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0013001300130013002	0.11591159115911591	0.128012801280128	0.13301330133013303	0.13001300130013002	0.11941194119411942	0.1031103110311031	0.08380838083808381	0.0639063906390639	0.04590459045904591	0.031003100310031003	0.019701970197019702	0.011701170117011701	0.006600660066006601	0.0035003500350035003	0.0017001700170017002	8.000800080008001E-4	4.0004000400040005E-4	1.0001000100010001E-4	1.0001000100010001E-4	0.0	)
+		(	0.0	2.9997000299970003E-4	0.0012998700129987	0.0040995900409959	0.011198880111988802	0.026097390260973904	0.051594840515948405	0.08679132086791322	0.12468753124687532	0.1524847515248475	0.15888411158884114	0.14108589141085892	0.10678932106789321	0.06879312068793121	0.0377962203779622	0.017698230176982303	0.007099290070992901	0.0023997600239976003	6.999300069993001E-4	1.9998000199980003E-4	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	9.999000099990004E-5	6.999300069993002E-4	0.003099690030996901	0.011098890110988904	0.03129687031296871	0.07039296070392963	0.12478752124787523	0.17478252174782527	0.19348065193480657	0.16928307169283077	0.11698830116988304	0.06399360063993602	0.02759724027597241	0.009399060093990604	0.002499750024997501	4.999500049995001E-4	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	3.0003000300029994E-4	0.0021002100210020997	0.010701070107010699	0.0386038603860386	0.099009900990099	0.17961796179617961	0.2316231623162316	0.2119211921192119	0.13751375137513752	0.0632063206320632	0.0207020702070207	0.0047004700470047005	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	3.0003000300030005E-4	0.0031003100310031005	0.019001900190019003	0.07230723072307232	0.17361736173617365	0.26222622262226225	0.24972497249724976	0.14971497149714974	0.056705670567056714	0.013301330133013302	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	7.0E-4	0.0037	0.0151	0.0464	0.1065	0.1843	0.2393	0.2335	0.1704	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	2.0002000200020003E-4	0.0011001100110011003	0.006100610061006101	0.0249024902490249	0.0768076807680768	0.1779177917791779	0.30893089308930893	0.4040404040404041	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	5.0E-4	0.0038	0.0208	0.086	0.2659	0.6229	));
+}
+potential ( R_MED_CV_EW | R_MED_ALLCV_EW )
+{
+	data = ((	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	6.0E-4	0.0168	0.1184	0.296	0.3227	0.1783	0.056	0.0112	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	5.0E-4	0.0155	0.1165	0.2969	0.3229	0.1782	0.0564	0.0114	0.0016	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	6.000000000000001E-4	0.0039000000000000003	0.05890000000000001	0.24340000000000003	0.35860000000000003	0.23500000000000001	0.08080000000000001	0.016400000000000005	0.0022000000000000006	2.0000000000000004E-4	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	7.0E-4	0.0176	0.1966	0.2515	0.2699	0.1688	0.069	0.0203	0.0046	9.0E-4	1.0E-4	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0056005600560056	0.09000900090009001	0.3056305630563056	0.30933093309330933	0.20392039203920392	0.0673067306730673	0.015201520152015202	0.0026002600260026003	4.0004000400040005E-4	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	5.999999999999998E-4	0.049599999999999984	0.29719999999999996	0.40589999999999987	0.20969999999999994	0.025799999999999993	0.009799999999999998	0.0012999999999999997	9.999999999999998E-5	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.017898210178982098	0.29457054294570534	0.44695530446955295	0.1901809819018098	0.043395660433956595	0.0065993400659933995	2.999700029996999E-4	9.999000099989999E-5	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.026500000000000003	0.5431000000000001	0.36240000000000006	0.062200000000000005	0.005400000000000001	4.000000000000001E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.12651265126512654	0.7654765476547655	0.10061006100610062	0.007000700070007001	4.000400040004001E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.9999	1.0E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	));
+}
+potential ( R_DIFFN_LNLW_APB_DE_REGEN | R_DIFFN_APB_DE_REGEN R_LNLW_APB_DE_REGEN )
+{
+	data = (((	1.0	0.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( R_LNLT1_LP_APB_DE_REGEN | R_LNLT1_APB_DE_REGEN R_LNLLP_APB_DE_REGEN )
+{
+	data = (((	1.0	0.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( R_LNLT1_LP_BE_APB_DE_REGEN | R_LNLT1_LP_APB_DE_REGEN R_LNLBE_APB_DE_REGEN )
+{
+	data = (((	1.0	0.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( R_LNL_DIFFN_APB_DE_REGEN | R_LNLT1_LP_BE_APB_DE_REGEN R_DIFFN_LNLW_APB_DE_REGEN )
+{
+	data = (((	1.0	0.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( R_APB_DE_REGEN | R_LNL_DIFFN_APB_DE_REGEN R_MYOP_MYDY_APB_DE_REGEN )
+{
+	data = (((	1.0	0.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( R_MYOP_MYDY_APB_DE_REGEN | R_MYOP_APB_DE_REGEN R_MYDY_APB_DE_REGEN )
+{
+	data = (((	1.0	0.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( R_DIFFN_LNLW_APB_MUDENS | R_DIFFN_APB_MUDENS R_LNLW_APB_MUDENS )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( R_LNLT1_LP_APB_MUDENS | R_LNLT1_APB_MUDENS R_LNLLP_APB_MUDENS )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( R_LNLT1_LP_BE_APB_MUDENS | R_LNLT1_LP_APB_MUDENS R_LNLBE_APB_MUDENS )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( R_LNL_DIFFN_APB_MUDENS | R_LNLT1_LP_BE_APB_MUDENS R_DIFFN_LNLW_APB_MUDENS )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( R_APB_MUDENS | R_LNL_DIFFN_APB_MUDENS R_MUSCLE_APB_MUDENS )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( R_MYOP_MYDY_APB_MUDENS | R_MYOP_APB_MUDENS R_MYDY_APB_MUDENS )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( R_MUSCLE_APB_MUDENS | R_MYOP_MYDY_APB_MUDENS R_MYAS_APB_MUDENS )
+{
+	data = (((	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)
+		(	0.0	0.0	1.0	)));
+}
+potential ( R_APB_QUAN_MUPPOLY | R_APB_DE_REGEN R_APB_EFFMUS )
+{
+	data = (((	0.109	0.5479999999999999	0.34299999999999997	)
+		(	0.34	0.564	0.096	)
+		(	0.925	0.075	0.0	)
+		(	0.796	0.20100000000000004	0.0030000000000000005	)
+		(	0.637	0.348	0.015	)
+		(	0.34	0.564	0.096	)
+		(	0.34	0.564	0.096	))
+		((	0.0040	0.122	0.8740000000000001	)
+		(	0.015	0.261	0.7240000000000001	)
+		(	0.091	0.526	0.38299999999999995	)
+		(	0.061	0.465	0.474	)
+		(	0.039	0.396	0.565	)
+		(	0.015	0.261	0.7240000000000001	)
+		(	0.015	0.261	0.7240000000000001	)));
+}
+potential ( DIFFN_M_SEV_DIST | DIFFN_MOT_SEV DIFFN_DISTR )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.25	0.45	0.25	0.05	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	0.1	0.4	0.4	0.1	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.5	0.5	0.0	)
+		(	0.05	0.15	0.4	0.4	)));
+}
+potential ( DIFFN_M_SEV_PROX | DIFFN_MOT_SEV DIFFN_DISTR )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.25	0.45	0.25	0.05	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.1	0.4	0.4	0.1	))
+		((	0.0	0.5	0.5	0.0	)
+		(	0.0	0.5	0.5	0.0	)
+		(	0.05	0.15	0.4	0.4	)));
+}
+potential ( DIFFN_S_SEV_DIST | DIFFN_SENS_SEV DIFFN_DISTR )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.25	0.45	0.25	0.05	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	0.1	0.4	0.4	0.1	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.5	0.5	0.0	)
+		(	0.05	0.15	0.4	0.4	)));
+}
+potential ( DIFFN_MOT_SEV | DIFFN_SEV DIFFN_TYPE )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	1.0	0.0	0.0	0.0	)));
+}
+potential ( DIFFN_SENS_SEV | DIFFN_SEV DIFFN_TYPE )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	1.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MEDD2_LSLOW_EW | R_MEDD2_LD_EW R_MEDD2_RD_EW )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0084008400840084	0.011901190119011902	0.0619061906190619	0.9173917391739174	4.0004000400040005E-4	)
+		(	0.0052994700529947	0.006199380061993801	0.0263973602639736	0.2081791820817918	0.7539246075392461	))
+		((	0.018500000000000003	0.9561000000000001	0.025400000000000002	0.0	0.0	)
+		(	0.0069006900690069	0.010001000100010001	0.0535053505350535	0.9286928692869286	9.000900090009E-4	)
+		(	0.0049	0.0057	0.0244	0.1966	0.7684	))
+		((	0.0	0.0166	0.9834	0.0	0.0	)
+		(	0.005599440055994401	0.008299170082991702	0.0451954804519548	0.938906109389061	0.001999800019998	)
+		(	0.004400440044004401	0.005200520052005201	0.0224022402240224	0.18391839183918393	0.7840784078407841	))
+		((	7.0E-4	0.0020	0.0219	0.9754	0.0	)
+		(	0.0023	0.0036	0.0217	0.8326	0.1398	)
+		(	0.0028	0.0033	0.0145	0.1304	0.849	)));
+}
+potential ( R_MEDD2_LSLOW_WD | R_MEDD2_LD_WD R_MEDD2_RD_WD )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0021	0.0042	0.0295	0.9642	0.0	)
+		(	1.0E-4	2.0E-4	0.0014	0.083	0.9153	))
+		((	0.018500000000000003	0.9561000000000001	0.025400000000000002	0.0	0.0	)
+		(	0.0012	0.0025	0.0194	0.9769	0.0	)
+		(	1.0E-4	1.0E-4	8.0E-4	0.0533	0.9457	))
+		((	0.0	0.0166	0.9834	0.0	0.0	)
+		(	6.999300069993001E-4	0.0014998500149985001	0.011998800119988001	0.9858014198580142	0.0	)
+		(	0.0	1.0E-4	4.0E-4	0.0319	0.9676	))
+		((	7.0E-4	0.0020	0.0219	0.9754	0.0	)
+		(	2.0002000200020005E-4	5.000500050005002E-4	0.004600460046004601	0.9944994499449945	2.0002000200020005E-4	)
+		(	0.0	0.0	0.0	0.0035003500350035007	0.9964996499649965	)));
+}
+potential ( R_MED_RDLDDEL | R_MED_LD_WA R_MED_RD_WA )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0019	0.5257	0.4724	0.0	0.0	)
+		(	2.0E-4	0.0304	0.9694	0.0	0.0	))
+		((	0.0964	0.7981	0.1055	0.0	0.0	)
+		(	1.9998000199980003E-4	0.041495850414958506	0.9583041695830418	0.0	0.0	)
+		(	1.0E-4	0.0142	0.9857	0.0	0.0	))
+		((	0.0032	0.127	0.8698	0.0	0.0	)
+		(	1.0E-4	0.0144	0.9855	0.0	0.0	)
+		(	0.0	0.0090	0.9808	0.0102	0.0	))
+		((	9.000900090009E-4	0.0028002800280028	0.0147014701470147	0.9815981598159816	0.0	)
+		(	1.9998000199980003E-4	5.999400059994001E-4	0.0036996300369963007	0.9955004499550045	0.0	)
+		(	0.0	2.0000000000000004E-4	0.0012000000000000001	0.9984000000000001	2.0000000000000004E-4	)));
+}
+potential ( R_DIFFN_LNLW_APB_DENERV | R_DIFFN_APB_DENERV R_LNLW_APB_DENERV )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MEDD2_DISP_EW | R_DIFFN_MEDD2_DISP R_LNLBE_MEDD2_DISP_EW )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	0.07490000000000001	0.8229000000000001	0.10220000000000001	0.0	)
+		(	0.0	0.06260626062606262	0.9373937393739374	0.0	)
+		(	0.0	0.007900790079007902	0.6028602860286029	0.38923892389238923	))
+		((	0.07490000000000001	0.8229000000000001	0.10220000000000001	0.0	)
+		(	0.0047	0.1786	0.8167	0.0	)
+		(	0.0	0.019	0.9795	0.0015	)
+		(	0.0	1.0E-4	0.0069	0.993	))
+		((	0.0	0.06260626062606262	0.9373937393739374	0.0	)
+		(	0.0	0.019	0.9795	0.0015	)
+		(	0.0	1.0E-4	0.0833	0.9166	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.007900790079007902	0.6028602860286029	0.38923892389238923	)
+		(	0.0	1.0E-4	0.0069	0.993	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MEDD2_DIFSLOW_WD | R_LNLBE_MEDD2_DIFSLOW_WD R_DIFFN_MEDD2_DIFSLOW )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	0.0127	0.9867	6.0E-4	0.0	)
+		(	0.0	0.018101810181018103	0.9818981898189819	0.0	)
+		(	0.0	6.0E-4	0.0492	0.9502	))
+		((	0.0127	0.9867	6.0E-4	0.0	)
+		(	1.0E-4	0.0952	0.9047	0.0	)
+		(	0.0	0.0011	0.7402	0.2587	)
+		(	0.0	0.0	0.008800880088008802	0.9911991199119912	))
+		((	0.0	0.018101810181018103	0.9818981898189819	0.0	)
+		(	0.0	0.0011	0.7402	0.2587	)
+		(	0.0	0.0	0.0040	0.996	)
+		(	0.0	0.0	0.0012	0.9988	))
+		((	0.0	6.0E-4	0.0492	0.9502	)
+		(	0.0	0.0	0.008800880088008802	0.9911991199119912	)
+		(	0.0	0.0	0.0012	0.9988	)
+		(	0.0	0.0	9.0E-4	0.9991	)));
+}
+potential ( R_MED_DIFSLOW_WA | R_LNLBE_MED_DIFSLOW R_DIFFN_MED_DIFSLOW )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	0.0131986801319868	0.9862013798620137	5.999400059994001E-4	0.0	)
+		(	0.0	0.018101810181018103	0.9818981898189819	0.0	)
+		(	0.0	3.0E-4	0.0252	0.9745	))
+		((	0.0131986801319868	0.9862013798620137	5.999400059994001E-4	0.0	)
+		(	1.0E-4	0.0952	0.9047	0.0	)
+		(	0.0	9.0E-4	0.588	0.4111	)
+		(	0.0	0.0	0.004400440044004401	0.9955995599559957	))
+		((	0.0	0.018101810181018103	0.9818981898189819	0.0	)
+		(	0.0	9.0E-4	0.588	0.4111	)
+		(	0.0	0.0	0.0020	0.998	)
+		(	0.0	0.0	6.0E-4	0.9994	))
+		((	0.0	3.0E-4	0.0252	0.9745	)
+		(	0.0	0.0	0.004400440044004401	0.9955995599559957	)
+		(	0.0	0.0	6.0E-4	0.9994	)
+		(	0.0	0.0	5.0E-4	0.9995	)));
+}
+potential ( R_LNLT1_LP_APB_DENERV | R_LNLT1_APB_DENERV R_LNLLP_APB_DENERV )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNLT1_LP_BE_APB_DENERV | R_LNLT1_LP_APB_DENERV R_LNLBE_APB_DENERV )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNL_DIFFN_APB_DENERV | R_LNLT1_LP_BE_APB_DENERV R_DIFFN_LNLW_APB_DENERV )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_DIFFN_LNLW_MEDD2_DISP_WD | R_LNLW_MEDD2_DISP_WD R_DIFFN_MEDD2_DISP )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	0.07490000000000001	0.8229000000000001	0.10220000000000001	0.0	)
+		(	0.0	0.06260626062606262	0.9373937393739374	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.07490000000000001	0.8229000000000001	0.10220000000000001	0.0	)
+		(	0.0047	0.1786	0.8167	0.0	)
+		(	0.0	0.019	0.9795	0.0015	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.06260626062606262	0.9373937393739374	0.0	)
+		(	0.0	0.019	0.9795	0.0015	)
+		(	0.0	1.0E-4	0.0833	0.9166	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_APB_DENERV | R_MUSCLE_APB_DENERV R_LNL_DIFFN_APB_DENERV )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MYOP_MYDY_APB_DENERV | R_MYOP_APB_DENERV R_MYDY_APB_DENERV )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MUSCLE_APB_DENERV | R_MYOP_MYDY_APB_DENERV R_NMT_APB_DENERV )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MED_RDLDCV_EW | R_MED_LD_EW R_MED_RD_EW )
+{
+	data = (((	0.9044904490449045	0.0953095309530953	2.0002000200020003E-4	0.0	0.0	0.0	)
+		(	0.0115	0.0333	0.1509	0.7319	0.0724	0.0	)
+		(	0.0	9.999000099990002E-5	0.0010998900109989002	0.1461853814618538	0.807019298070193	0.04559544045595441	))
+		((	0.132	0.6039	0.2641	0.0	0.0	0.0	)
+		(	0.0034003400340034003	0.012201220122012201	0.06900690069006901	0.7196719671967197	0.19531953195319532	4.0004000400040005E-4	)
+		(	0.0	0.0	2.0E-4	0.0581	0.795	0.1467	))
+		((	0.0139	0.1839	0.8022	0.0	0.0	0.0	)
+		(	0.0011	0.0045	0.0299	0.5742	0.3876	0.0027	)
+		(	0.0	0.0	1.0E-4	0.0228	0.6344	0.3427	))
+		((	0.0012001200120012	0.006700670067006701	0.054405440544054405	0.86008600860086	0.0776077607760776	0.0	)
+		(	1.0E-4	2.0E-4	0.0018	0.0914	0.6093	0.2972	)
+		(	0.0	0.0	0.0	0.0014	0.1063	0.8923	)));
+}
+potential ( R_DIFFN_MED_DIFSLOW | DIFFN_M_SEV_DIST DIFFN_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.7	0.3	))
+		((	0.0	0.5	0.5	0.0	)
+		(	0.4	0.5	0.1	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.7	0.3	))
+		((	0.0	0.2	0.6	0.2	)
+		(	0.2	0.4	0.3	0.1	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.7	0.3	))
+		((	0.0	0.2	0.6	0.2	)
+		(	0.2	0.4	0.3	0.1	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.7	0.3	)));
+}
+potential ( R_DIFFN_MEDD2_DIFSLOW | DIFFN_S_SEV_DIST DIFFN_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.7	0.3	))
+		((	0.0	0.5	0.5	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.7	0.3	))
+		((	0.0	0.2	0.6	0.2	)
+		(	0.2	0.4	0.3	0.1	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.7	0.3	))
+		((	0.0	0.1	0.6	0.3	)
+		(	0.2	0.4	0.3	0.1	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.7	0.3	)));
+}
+potential ( R_DIFFN_MEDD2_DISP | DIFFN_S_SEV_DIST DIFFN_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.1	0.5	0.4	)
+		(	0.0	0.5	0.5	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_APB_MUSCLE_VOL | R_APB_MUSIZE R_APB_MALOSS )
+{
+	data = (((	0.9896	0.0104	)
+		(	0.9976	0.0024	)
+		(	0.999	0.0010	)
+		(	0.9995	5.0E-4	)
+		(	0.9989	0.0011	)
+		(	0.9363	0.0637	))
+		((	0.8137	0.1863	)
+		(	0.9603	0.0397	)
+		(	0.9893	0.0107	)
+		(	0.9969	0.0031	)
+		(	0.9984	0.0016	)
+		(	0.8403	0.1597	))
+		((	0.0209	0.9791	)
+		(	0.5185	0.4815	)
+		(	0.9588	0.0412	)
+		(	0.9953	0.0047	)
+		(	0.9984	0.0016	)
+		(	0.6534	0.3466	))
+		((	0.0090	0.991	)
+		(	0.1087	0.8913	)
+		(	0.6377	0.3623	)
+		(	0.9518	0.0482	)
+		(	0.9975	0.0025	)
+		(	0.4689	0.5311	))
+		((	0.0030	0.997	)
+		(	0.0278	0.9722	)
+		(	0.2716	0.7284	)
+		(	0.8234	0.1766	)
+		(	0.9965	0.0035	)
+		(	0.3174	0.6826	))
+		((	4.0E-4	0.9996	)
+		(	0.0046	0.9954	)
+		(	0.0779	0.9221	)
+		(	0.5986	0.4014	)
+		(	0.9956	0.0044	)
+		(	0.1948	0.8052	))
+		((	0.4212	0.5788	)
+		(	0.5185	0.4815	)
+		(	0.6336	0.3664	)
+		(	0.7685	0.2315	)
+		(	0.9857	0.0143	)
+		(	0.5681	0.4319	)));
+}
+potential ( R_DIFFN_APB_NEUR_ACT | DIFFN_M_SEV_DIST DIFFN_TIME )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.9	0.1	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	0.0	)
+		(	0.1	0.9	0.0	0.0	0.0	0.0	))
+		((	0.9	0.1	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	))
+		((	0.9	0.1	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	)
+		(	0.3	0.7	0.0	0.0	0.0	0.0	)
+		(	0.3	0.7	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_APB_MVA_RECRUIT | R_APB_MULOSS R_APB_VOL_ACT )
+{
+	data = (((	0.9295	0.0705	0.0	0.0	)
+		(	0.17070000000000002	0.7000000000000001	0.12930000000000003	0.0	)
+		(	0.0038	0.174	0.8222	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.48210000000000003	0.5165000000000001	0.0014000000000000002	0.0	)
+		(	0.0366	0.5168	0.4466	0.0	)
+		(	5.0E-4	0.0594	0.9401	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0661	0.7993	0.1346	0.0	)
+		(	0.0043	0.1788	0.8169	0.0	)
+		(	1.0E-4	0.0205	0.9794	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0014998500149985001	0.13658634136586342	0.8619138086191381	0.0	)
+		(	2.9997000299970003E-4	0.0347965203479652	0.964903509649035	0.0	)
+		(	0.0	0.0061	0.9939	0.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.263973602639736	0.4343565643435657	0.30166983301669836	0.0	)
+		(	0.1146	0.3465	0.5389	0.0	)
+		(	0.036	0.2144	0.7496	0.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_DIFFN_APB_MALOSS | DIFFN_M_SEV_DIST DIFFN_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.4	0.6	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.4	0.6	0.0	0.0	)
+		(	0.4	0.3	0.3	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.0	0.4	0.6	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	)
+		(	0.0	0.0	0.0	0.8	0.2	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	)));
+}
+potential ( R_DIFFN_MED_BLOCK | DIFFN_M_SEV_DIST DIFFN_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.6	0.4	0.0	0.0	0.0	)
+		(	0.0	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.25	0.5	0.25	0.0	0.0	)
+		(	0.0	0.0	0.4	0.5	0.1	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_DIFFN_MEDD2_BLOCK | DIFFN_S_SEV_DIST DIFFN_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.8	0.2	0.0	0.0	0.0	)
+		(	0.2	0.5	0.3	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.6	0.4	0.0	0.0	0.0	)
+		(	0.0	0.2	0.5	0.3	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.25	0.5	0.25	0.0	0.0	)
+		(	0.0	0.0	0.4	0.5	0.1	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_DIFFN_MEDD2_SALOSS | DIFFN_S_SEV_DIST DIFFN_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.5	0.5	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.5	0.5	0.0	0.0	)
+		(	0.4	0.3	0.3	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.0	0.0	0.7	0.3	)
+		(	0.0	0.3	0.5	0.2	0.0	)
+		(	0.0	0.0	0.0	0.7	0.3	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	)));
+}
+potential ( R_LNLBE_MEDD2_DISP_EW | R_LNLBE_MED_SEV R_LNLBE_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.1	0.5	0.4	)
+		(	0.3	0.5	0.2	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.0	0.5	0.5	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNLBE_MEDD2_LD_EW | R_LNLBE_MED_SEV R_LNLBE_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.25	0.5	0.25	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.05	0.3	0.5	0.15	)
+		(	0.0	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.25	0.25	0.25	0.25	)
+		(	0.0	0.5	0.5	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)));
+}
+potential ( R_MED_LD_EW | R_LNLBE_MED_SEV R_LNLBE_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.25	0.5	0.25	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.05	0.3	0.5	0.15	)
+		(	0.0	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.25	0.25	0.25	0.25	)
+		(	0.25	0.25	0.25	0.25	)
+		(	0.25	0.25	0.25	0.25	)
+		(	0.25	0.25	0.25	0.25	)
+		(	0.25	0.25	0.25	0.25	)));
+}
+potential ( R_LNLW_MEDD2_DISP_WD | R_LNLW_MED_SEV R_LNLW_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.0	0.5	0.5	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.1	0.5	0.4	)
+		(	0.3	0.5	0.2	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.0	0.5	0.5	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNLW_MEDD2_LD_WD | R_LNLW_MED_SEV R_LNLW_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.25	0.5	0.25	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.05	0.3	0.5	0.15	)
+		(	0.0	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.25	0.25	0.25	0.25	)
+		(	0.0	0.5	0.5	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)));
+}
+potential ( R_MED_LD_WA | R_LNLW_MED_SEV R_LNLW_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	1.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	)
+		(	0.25	0.5	0.25	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	1.0	)
+		(	0.05	0.3	0.5	0.15	)
+		(	0.0	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	0.25	0.25	0.25	0.25	)
+		(	0.25	0.25	0.25	0.25	)
+		(	0.25	0.25	0.25	0.25	)
+		(	0.25	0.25	0.25	0.25	)
+		(	0.25	0.25	0.25	0.25	)));
+}
+potential ( R_LNLBE_APB_NEUR_ACT | R_LNLBE_MED_SEV R_LNLBE_MED_TIME )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.9	0.1	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	0.0	)
+		(	0.1	0.9	0.0	0.0	0.0	0.0	))
+		((	0.9	0.1	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	))
+		((	0.9	0.1	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	)
+		(	0.3	0.7	0.0	0.0	0.0	0.0	)
+		(	0.3	0.7	0.0	0.0	0.0	0.0	))
+		((	0.9	0.1	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_LNLW_APB_NEUR_ACT | R_LNLW_MED_SEV R_LNLW_MED_TIME )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.9	0.1	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	0.0	)
+		(	0.1	0.9	0.0	0.0	0.0	0.0	))
+		((	0.9	0.1	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	))
+		((	0.9	0.1	0.0	0.0	0.0	0.0	)
+		(	0.7	0.3	0.0	0.0	0.0	0.0	)
+		(	0.3	0.7	0.0	0.0	0.0	0.0	)
+		(	0.3	0.7	0.0	0.0	0.0	0.0	))
+		((	0.9	0.1	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_MEDD2_ALLAMP_WD | R_MEDD2_DISP_WD R_MEDD2_EFFAXLOSS )
+{
+	data = (((	0.0	0.0	0.0	0.0	0.0215	0.9785	)
+		(	0.0	0.0	0.0	0.3443	0.6228	0.0329	)
+		(	0.0	0.0	0.0248	0.9704	0.0048	0.0	)
+		(	0.0	0.1028	0.8793	0.0178	1.0E-4	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.3192	0.6448	0.036	)
+		(	0.0	0.0	0.0474047404740474	0.9394939493949395	0.0129012901290129	2.0002000200020003E-4	)
+		(	0.0	0.0	0.9330933093309332	0.0669066906690669	0.0	0.0	)
+		(	0.0	0.8756	0.1237	7.0E-4	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0051	0.994	9.0E-4	0.0	)
+		(	0.0	0.0	0.9599	0.0401	0.0	0.0	)
+		(	0.0	1.0000000000000002E-4	0.9994000000000001	5.000000000000001E-4	0.0	0.0	)
+		(	0.0	0.9969	0.0031	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.9945	0.0055	0.0	0.0	)
+		(	0.0	0.0	0.9999	1.0E-4	0.0	0.0	)
+		(	0.0	0.7508	0.2492	0.0	0.0	0.0	)
+		(	0.0	0.9999	1.0E-4	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_MEDD2_SALOSS | R_DIFFN_LNLW_MEDD2_SALOSS R_LNLBE_MEDD2_SALOSS_EW )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.007300000000000001	0.9812000000000001	0.011500000000000002	0.0	0.0	)
+		(	0.0017	0.1306	0.867	7.0E-4	0.0	)
+		(	0.0	3.0E-4	0.0212	0.9785	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.007300000000000001	0.9812000000000001	0.011500000000000002	0.0	0.0	)
+		(	0.0	0.0289	0.9711	0.0	0.0	)
+		(	0.0	0.0097	0.5989	0.3914	0.0	)
+		(	0.0	0.0	0.0017	0.9983	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0017	0.1306	0.867	7.0E-4	0.0	)
+		(	0.0	0.0097	0.5989	0.3914	0.0	)
+		(	0.0	4.999500049995E-4	0.0330966903309669	0.9664033596640337	0.0	)
+		(	0.0	0.0	8.0E-4	0.9992	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	3.0E-4	0.0212	0.9785	0.0	)
+		(	0.0	0.0	0.0017	0.9983	0.0	)
+		(	0.0	0.0	8.0E-4	0.9992	0.0	)
+		(	0.0	0.0	1.0E-4	0.9999	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MEDD2_BLOCK_EW | R_DIFFN_MEDD2_BLOCK R_LNLBE_MEDD2_BLOCK_EW )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0077	0.9923	0.0	0.0	0.0	)
+		(	7.0E-4	0.0234	0.9759	0.0	0.0	)
+		(	0.0019	0.0060	0.0588	0.9333	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0077	0.9923	0.0	0.0	0.0	)
+		(	1.0E-4	0.498	0.5019	0.0	0.0	)
+		(	0.0	0.0032	0.9968	0.0	0.0	)
+		(	0.0010	0.0033	0.0376	0.9581	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	7.0E-4	0.0234	0.9759	0.0	0.0	)
+		(	0.0	0.0032	0.9968	0.0	0.0	)
+		(	0.0	7.0E-4	0.4328	0.5665	0.0	)
+		(	3.0E-4	0.0011	0.0159	0.9827	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0019	0.0060	0.0588	0.9333	0.0	)
+		(	0.0010	0.0033	0.0376	0.9581	0.0	)
+		(	3.0E-4	0.0011	0.0159	0.9827	0.0	)
+		(	3.000300030003E-4	0.0011001100110011003	0.012501250125012502	0.9860986098609861	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MED_BLOCK_EW | R_DIFFN_MED_BLOCK R_LNLBE_MED_BLOCK )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0077	0.9923	0.0	0.0	0.0	)
+		(	7.0E-4	0.0234	0.9759	0.0	0.0	)
+		(	0.0019	0.0060	0.0588	0.9333	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0077	0.9923	0.0	0.0	0.0	)
+		(	1.0E-4	0.498	0.5019	0.0	0.0	)
+		(	0.0	0.0032	0.9968	0.0	0.0	)
+		(	0.0010	0.0033	0.0376	0.9581	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	7.0E-4	0.0234	0.9759	0.0	0.0	)
+		(	0.0	0.0032	0.9968	0.0	0.0	)
+		(	0.0	7.0E-4	0.4328	0.5665	0.0	)
+		(	3.0E-4	0.0011	0.0159	0.9827	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0019	0.0060	0.0588	0.9333	0.0	)
+		(	0.0010	0.0033	0.0376	0.9581	0.0	)
+		(	3.0E-4	0.0011	0.0159	0.9827	0.0	)
+		(	3.000300030003E-4	0.0011001100110011003	0.012501250125012502	0.9860986098609861	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MED_BLOCK_WA | R_DIFFN_MED_BLOCK R_LNLW_MED_BLOCK )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0077	0.9923	0.0	0.0	0.0	)
+		(	7.0E-4	0.0234	0.9759	0.0	0.0	)
+		(	0.0019	0.0060	0.0588	0.9333	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0077	0.9923	0.0	0.0	0.0	)
+		(	1.0E-4	0.498	0.5019	0.0	0.0	)
+		(	0.0	0.0032	0.9968	0.0	0.0	)
+		(	0.0010	0.0033	0.0376	0.9581	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	7.0E-4	0.0234	0.9759	0.0	0.0	)
+		(	0.0	0.0032	0.9968	0.0	0.0	)
+		(	0.0	7.0E-4	0.4328	0.5665	0.0	)
+		(	3.0E-4	0.0011	0.0159	0.9827	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0019	0.0060	0.0588	0.9333	0.0	)
+		(	0.0010	0.0033	0.0376	0.9581	0.0	)
+		(	3.0E-4	0.0011	0.0159	0.9827	0.0	)
+		(	3.000300030003E-4	0.0011001100110011003	0.012501250125012502	0.9860986098609861	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNLBE_APB_MALOSS | R_LNLBE_MED_SEV R_LNLBE_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.5	0.5	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.5	0.5	0.0	0.0	)
+		(	0.4	0.3	0.3	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.0	0.5	0.5	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.0	0.0	0.1	0.9	)
+		(	0.25	0.25	0.25	0.25	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	)));
+}
+potential ( R_LNLBE_MEDD2_BLOCK_EW | R_LNLBE_MED_SEV R_LNLBE_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.8	0.2	0.0	0.0	0.0	)
+		(	0.0	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.3	0.6	0.1	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.1	0.5	0.3	0.1	0.0	)
+		(	0.0	0.0	0.2	0.6	0.2	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.05	0.2	0.55	0.2	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_LNLBE_MEDD2_SALOSS_EW | R_LNLBE_MED_SEV R_LNLBE_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.5	0.5	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.5	0.5	0.0	0.0	)
+		(	0.2	0.5	0.3	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.0	0.5	0.5	0.0	)
+		(	0.0	0.2	0.5	0.3	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.0	0.0	0.4	0.6	)
+		(	0.0	0.1	0.4	0.4	0.1	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	)));
+}
+potential ( R_LNLBE_MED_BLOCK | R_LNLBE_MED_SEV R_LNLBE_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.6	0.4	0.0	0.0	0.0	)
+		(	0.0	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.25	0.5	0.25	0.0	0.0	)
+		(	0.0	0.0	0.4	0.5	0.1	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.2	0.2	0.2	0.2	0.2	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.2	0.2	0.2	0.2	0.2	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_LNLT1_LP_APB_MALOSS | R_LNLT1_APB_MALOSS R_LNLLP_APB_MALOSS )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0022	0.9977	1.0E-4	0.0	0.0	)
+		(	1.9998000199980003E-4	0.036896310368963105	0.9588041195880411	0.0040995900409959	0.0	)
+		(	0.0	2.0E-4	0.0329	0.9669	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0022	0.9977	1.0E-4	0.0	0.0	)
+		(	0.0	0.0282	0.9718	0.0	0.0	)
+		(	0.0	9.0E-4	0.3409	0.6582	0.0	)
+		(	0.0	0.0	0.0038	0.9962	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	1.9998000199980003E-4	0.036896310368963105	0.9588041195880411	0.0040995900409959	0.0	)
+		(	0.0	9.0E-4	0.3409	0.6582	0.0	)
+		(	0.0	0.0	0.01	0.99	0.0	)
+		(	0.0	0.0	0.0011	0.9989	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	2.0E-4	0.0329	0.9669	0.0	)
+		(	0.0	0.0	0.0038	0.9962	0.0	)
+		(	0.0	0.0	0.0011	0.9989	0.0	)
+		(	0.0	0.0	4.0E-4	0.9996	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNLT1_LP_BE_APB_MALOSS | R_LNLT1_LP_APB_MALOSS R_LNLBE_APB_MALOSS )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0022	0.9977	1.0E-4	0.0	0.0	)
+		(	1.9998000199980003E-4	0.036896310368963105	0.9588041195880411	0.0040995900409959	0.0	)
+		(	0.0	2.0E-4	0.0329	0.9669	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0022	0.9977	1.0E-4	0.0	0.0	)
+		(	0.0	0.0282	0.9718	0.0	0.0	)
+		(	0.0	9.0E-4	0.3409	0.6582	0.0	)
+		(	0.0	0.0	0.0038	0.9962	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	1.9998000199980003E-4	0.036896310368963105	0.9588041195880411	0.0040995900409959	0.0	)
+		(	0.0	9.0E-4	0.3409	0.6582	0.0	)
+		(	0.0	0.0	0.01	0.99	0.0	)
+		(	0.0	0.0	0.0011	0.9989	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	2.0E-4	0.0329	0.9669	0.0	)
+		(	0.0	0.0	0.0038	0.9962	0.0	)
+		(	0.0	0.0	0.0011	0.9989	0.0	)
+		(	0.0	0.0	4.0E-4	0.9996	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_DIFFN_LNLW_APB_MALOSS | R_LNLW_APB_MALOSS R_DIFFN_APB_MALOSS )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0022	0.9977	1.0E-4	0.0	0.0	)
+		(	1.9998000199980003E-4	0.036896310368963105	0.9588041195880411	0.0040995900409959	0.0	)
+		(	0.0	2.0E-4	0.0329	0.9669	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0022	0.9977	1.0E-4	0.0	0.0	)
+		(	0.0	0.0282	0.9718	0.0	0.0	)
+		(	0.0	9.0E-4	0.3409	0.6582	0.0	)
+		(	0.0	0.0	0.0038	0.9962	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	1.9998000199980003E-4	0.036896310368963105	0.9588041195880411	0.0040995900409959	0.0	)
+		(	0.0	9.0E-4	0.3409	0.6582	0.0	)
+		(	0.0	0.0	0.01	0.99	0.0	)
+		(	0.0	0.0	0.0011	0.9989	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	2.0E-4	0.0329	0.9669	0.0	)
+		(	0.0	0.0	0.0038	0.9962	0.0	)
+		(	0.0	0.0	0.0011	0.9989	0.0	)
+		(	0.0	0.0	4.0E-4	0.9996	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MEDD2_BLOCK_WD | R_LNLW_MEDD2_BLOCK_WD R_DIFFN_MEDD2_BLOCK )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0077	0.9923	0.0	0.0	0.0	)
+		(	7.0E-4	0.0234	0.9759	0.0	0.0	)
+		(	0.0019	0.0060	0.0588	0.9333	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0077	0.9923	0.0	0.0	0.0	)
+		(	1.0E-4	0.498	0.5019	0.0	0.0	)
+		(	0.0	0.0032	0.9968	0.0	0.0	)
+		(	0.0010	0.0033	0.0376	0.9581	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	7.0E-4	0.0234	0.9759	0.0	0.0	)
+		(	0.0	0.0032	0.9968	0.0	0.0	)
+		(	0.0	7.0E-4	0.4328	0.5665	0.0	)
+		(	3.0E-4	0.0011	0.0159	0.9827	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0019	0.0060	0.0588	0.9333	0.0	)
+		(	0.0010	0.0033	0.0376	0.9581	0.0	)
+		(	3.0E-4	0.0011	0.0159	0.9827	0.0	)
+		(	3.000300030003E-4	0.0011001100110011003	0.012501250125012502	0.9860986098609861	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_DIFFN_LNLW_MEDD2_SALOSS | R_LNLW_MEDD2_SALOSS_WD R_DIFFN_MEDD2_SALOSS )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.007300000000000001	0.9812000000000001	0.011500000000000002	0.0	0.0	)
+		(	0.0017	0.1306	0.867	7.0E-4	0.0	)
+		(	0.0	3.0E-4	0.0212	0.9785	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.007300000000000001	0.9812000000000001	0.011500000000000002	0.0	0.0	)
+		(	0.0	0.0289	0.9711	0.0	0.0	)
+		(	0.0	0.0097	0.5989	0.3914	0.0	)
+		(	0.0	0.0	0.0017	0.9983	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0017	0.1306	0.867	7.0E-4	0.0	)
+		(	0.0	0.0097	0.5989	0.3914	0.0	)
+		(	0.0	4.999500049995E-4	0.0330966903309669	0.9664033596640337	0.0	)
+		(	0.0	0.0	8.0E-4	0.9992	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	3.0E-4	0.0212	0.9785	0.0	)
+		(	0.0	0.0	0.0017	0.9983	0.0	)
+		(	0.0	0.0	8.0E-4	0.9992	0.0	)
+		(	0.0	0.0	1.0E-4	0.9999	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNLW_APB_MALOSS | R_LNLW_MED_SEV R_LNLW_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.5	0.5	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.5	0.5	0.0	0.0	)
+		(	0.4	0.3	0.3	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.0	0.5	0.5	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.0	0.0	0.1	0.9	)
+		(	0.25	0.25	0.25	0.25	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	)));
+}
+potential ( R_LNLW_MEDD2_BLOCK_WD | R_LNLW_MED_SEV R_LNLW_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.8	0.2	0.0	0.0	0.0	)
+		(	0.0	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.3	0.6	0.1	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.1	0.5	0.3	0.1	0.0	)
+		(	0.0	0.0	0.2	0.6	0.2	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.05	0.2	0.55	0.2	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_LNLW_MEDD2_SALOSS_WD | R_LNLW_MED_SEV R_LNLW_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.5	0.5	0.0	0.0	0.0	)
+		(	0.5	0.5	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.5	0.5	0.0	0.0	)
+		(	0.2	0.5	0.3	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.0	0.5	0.5	0.0	)
+		(	0.0	0.2	0.5	0.3	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	))
+		((	0.0	0.0	0.0	0.4	0.6	)
+		(	0.0	0.1	0.4	0.4	0.1	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	0.0	)));
+}
+potential ( R_LNLW_MED_BLOCK | R_LNLW_MED_SEV R_LNLW_MED_PATHO )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.6	0.4	0.0	0.0	0.0	)
+		(	0.0	0.5	0.5	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.25	0.5	0.25	0.0	0.0	)
+		(	0.0	0.0	0.4	0.5	0.1	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	))
+		((	0.2	0.2	0.2	0.2	0.2	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.2	0.2	0.2	0.2	0.2	)
+		(	1.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_MEDD2_EFFAXLOSS | R_MEDD2_BLOCK_WD R_MEDD2_SALOSS )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	)
+		(	0.007300000000000001	0.9812000000000001	0.011500000000000002	0.0	0.0	)
+		(	0.0017	0.1306	0.867	7.0E-4	0.0	)
+		(	0.0	3.0E-4	0.0212	0.9785	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.007300000000000001	0.9812000000000001	0.011500000000000002	0.0	0.0	)
+		(	0.0	0.0289	0.9711	0.0	0.0	)
+		(	0.0	0.0097	0.5989	0.3914	0.0	)
+		(	0.0	0.0	0.0017	0.9983	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0017	0.1306	0.867	7.0E-4	0.0	)
+		(	0.0	0.0097	0.5989	0.3914	0.0	)
+		(	0.0	4.999500049995E-4	0.0330966903309669	0.9664033596640337	0.0	)
+		(	0.0	0.0	8.0E-4	0.9992	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	3.0E-4	0.0212	0.9785	0.0	)
+		(	0.0	0.0	0.0017	0.9983	0.0	)
+		(	0.0	0.0	8.0E-4	0.9992	0.0	)
+		(	0.0	0.0	1.0E-4	0.9999	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MEDD2_DISP_EWD | R_MEDD2_DISP_WD R_MEDD2_DISP_EW )
+{
+	data = (((	0.0	0.0	0.0742	0.9045	0.0213	0.0	0.0	0.0	0.0	)
+		(	1.0E-4	0.2215	0.7732	0.0052	0.0	0.0	0.0	0.0	0.0	)
+		(	0.1315	0.8577	0.0108	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.9933	0.0067	0.0	0.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0742	0.9045	0.0213	0.0	0.0	)
+		(	0.0	0.0	0.0	0.1315131513151315	0.8576857685768576	0.010801080108010801	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0742	0.9045	0.0213	0.0	0.0	0.0	0.0	)
+		(	0.0404	0.9192	0.0404	0.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.133	0.867	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0108	0.8577	0.1315	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0052	0.7732	0.2215	1.0E-4	)
+		(	0.0	0.0	0.0213	0.9045	0.0742	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.133	0.867	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0108	0.8577	0.1315	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0052	0.7732	0.2215	1.0E-4	)
+		(	0.0	0.0	0.0213	0.9045	0.0742	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_APB_MALOSS | R_LNLT1_LP_BE_APB_MALOSS R_DIFFN_LNLW_APB_MALOSS )
+{
+	data = (((	0.98	0.0	0.0	0.0	0.0	0.02	)
+		(	0.0021997800219978004	0.9777022297770223	9.999000099990002E-5	0.0	0.0	0.019998000199980003	)
+		(	2.0E-4	0.0471	0.9297	0.0030	0.0	0.02	)
+		(	0.0	3.0E-4	0.0424	0.9373	0.0	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	))
+		((	0.0021997800219978004	0.9777022297770223	9.999000099990002E-5	0.0	0.0	0.019998000199980003	)
+		(	0.0	0.0361	0.9439	0.0	0.0	0.02	)
+		(	0.0	0.0014	0.3987	0.5799	0.0	0.02	)
+		(	0.0	0.0	0.0050	0.975	0.0	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	))
+		((	2.0E-4	0.0471	0.9297	0.0030	0.0	0.02	)
+		(	0.0	0.0014	0.3987	0.5799	0.0	0.02	)
+		(	0.0	0.0	0.013	0.967	0.0	0.02	)
+		(	0.0	0.0	0.0014	0.9786	0.0	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	))
+		((	0.0	3.0E-4	0.0424	0.9373	0.0	0.02	)
+		(	0.0	0.0	0.0050	0.975	0.0	0.02	)
+		(	0.0	0.0	0.0014	0.9786	0.0	0.02	)
+		(	0.0	0.0	5.0E-4	0.9795	0.0	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	))
+		((	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)));
+}
+potential ( R_MEDD2_DSLOW_EW | R_MEDD2_SALOSS R_MEDD2_DIFSLOW_EW )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0532	0.2387	0.495	0.2072	0.0059	0.0	0.0	0.0	0.0	)
+		(	7.0E-4	0.0063	0.0614	0.3006	0.5524	0.0781	5.0E-4	0.0	0.0	)
+		(	3.0E-4	0.0011	0.0050	0.0205	0.087	0.2822	0.4514	0.1525	0.0	))
+		((	0.1036	0.8964	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.017801780178017805	0.11901190119011902	0.44814481448144816	0.3854385438543855	0.029602960296029608	0.0	0.0	0.0	0.0	)
+		(	2.0000000000000004E-4	0.0021000000000000003	0.028300000000000002	0.19950000000000004	0.5939000000000001	0.17370000000000002	0.0023000000000000004	0.0	0.0	)
+		(	2.0E-4	6.0E-4	0.0029	0.0133	0.0634	0.2436	0.4657	0.2103	0.0	))
+		((	5.999400059994001E-4	0.9973002699730027	0.0020997900209979003	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.004799999999999999	0.04759999999999999	0.31479999999999997	0.5310999999999999	0.10159999999999997	9.999999999999998E-5	0.0	0.0	0.0	)
+		(	0.0	6.000600060006E-4	0.011401140114011402	0.1147114711471147	0.5445544554455445	0.31963196319631965	0.009100910091009102	0.0	0.0	)
+		(	1.0001000100010001E-4	3.000300030003E-4	0.0017001700170017002	0.0083008300830083	0.0447044704470447	0.20312031203120312	0.46324632463246324	0.27852785278527853	0.0	))
+		((	1.0000000000000002E-4	0.06290000000000001	0.9278000000000001	0.009200000000000002	0.0	0.0	0.0	0.0	0.0	)
+		(	6.000600060005999E-4	0.0092009200920092	0.11601160116011601	0.48574857485748574	0.3835383538353835	0.0049004900490048995	0.0	0.0	0.0	)
+		(	0.0	1.0001000100010001E-4	0.0024002400240024	0.0374037403740374	0.3327332733273327	0.567056705670567	0.06030603060306031	0.0	0.0	)
+		(	0.0	1.0001000100010001E-4	7.000700070007E-4	0.0038003800380038005	0.024302430243024302	0.1416141614161416	0.42404240424042405	0.40544054405440544	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MEDD2_DSLOW_WD | R_MEDD2_SALOSS R_MEDD2_DIFSLOW_WD )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0532	0.2387	0.495	0.2072	0.0059	0.0	0.0	0.0	0.0	)
+		(	7.0E-4	0.0063	0.0614	0.3006	0.5524	0.0781	5.0E-4	0.0	0.0	)
+		(	3.0E-4	0.0011	0.0050	0.0205	0.087	0.2822	0.4514	0.1525	0.0	))
+		((	0.1036	0.8964	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.017801780178017805	0.11901190119011902	0.44814481448144816	0.3854385438543855	0.029602960296029608	0.0	0.0	0.0	0.0	)
+		(	2.0000000000000004E-4	0.0021000000000000003	0.028300000000000002	0.19950000000000004	0.5939000000000001	0.17370000000000002	0.0023000000000000004	0.0	0.0	)
+		(	2.0E-4	6.0E-4	0.0029	0.0133	0.0634	0.2436	0.4657	0.2103	0.0	))
+		((	5.999400059994001E-4	0.9973002699730027	0.0020997900209979003	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.004799999999999999	0.04759999999999999	0.31479999999999997	0.5310999999999999	0.10159999999999997	9.999999999999998E-5	0.0	0.0	0.0	)
+		(	0.0	6.000600060006E-4	0.011401140114011402	0.1147114711471147	0.5445544554455445	0.31963196319631965	0.009100910091009102	0.0	0.0	)
+		(	1.0001000100010001E-4	3.000300030003E-4	0.0017001700170017002	0.0083008300830083	0.0447044704470447	0.20312031203120312	0.46324632463246324	0.27852785278527853	0.0	))
+		((	1.0000000000000002E-4	0.06290000000000001	0.9278000000000001	0.009200000000000002	0.0	0.0	0.0	0.0	0.0	)
+		(	6.000600060005999E-4	0.0092009200920092	0.11601160116011601	0.48574857485748574	0.3835383538353835	0.0049004900490048995	0.0	0.0	0.0	)
+		(	0.0	1.0001000100010001E-4	0.0024002400240024	0.0374037403740374	0.3327332733273327	0.567056705670567	0.06030603060306031	0.0	0.0	)
+		(	0.0	1.0001000100010001E-4	7.000700070007E-4	0.0038003800380038005	0.024302430243024302	0.1416141614161416	0.42404240424042405	0.40544054405440544	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_APB_MULOSS | R_MED_BLOCK_WA R_APB_MALOSS )
+{
+	data = (((	0.98	0.0	0.0	0.0	0.0	0.02	)
+		(	0.0167	0.9613	0.0020	0.0	0.0	0.02	)
+		(	1.9998000199980003E-4	0.0534946505349465	0.9237076292370763	0.0025997400259974	0.0	0.019998000199980003	)
+		(	0.0	3.000300030003E-4	0.0481048104810481	0.9315931593159316	0.0	0.020002000200020003	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.1427	0.2958	0.4254	0.1161	0.0	0.02	))
+		((	0.9746	0.0054	0.0	0.0	0.0	0.02	)
+		(	0.0034003400340034003	0.9529952995299531	0.023602360236023603	0.0	0.0	0.020002000200020003	)
+		(	0.0	0.023402340234023405	0.9450945094509451	0.011501150115011502	0.0	0.020002000200020003	)
+		(	0.0	1.0001000100010001E-4	0.027002700270027002	0.9528952895289529	0.0	0.020002000200020003	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.1157	0.2677	0.4444	0.1522	0.0	0.02	))
+		((	0.0664	0.9136	0.0	0.0	0.0	0.02	)
+		(	2.0E-4	0.2725	0.7073	0.0	0.0	0.02	)
+		(	0.0	0.0048	0.7523	0.2229	0.0	0.02	)
+		(	0.0	0.0	0.0091	0.9709	0.0	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.06939306069393061	0.20107989201079893	0.45265473452654736	0.25687431256874316	0.0	0.019998000199980003	))
+		((	0.016	0.1801	0.7138	0.0701	0.0	0.02	)
+		(	9.0E-4	0.0263	0.4192	0.5336	0.0	0.02	)
+		(	0.0	0.0013001300130013002	0.0637063706370637	0.9149914991499151	0.0	0.020002000200020003	)
+		(	0.0	1.0E-4	0.0087	0.9712	0.0	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.0173	0.0696	0.2854	0.6077	0.0	0.02	))
+		((	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)
+		(	0.0	0.0	0.0	0.0	0.98	0.02	)));
+}
+potential ( R_MED_DCV_WA | R_APB_MALOSS R_MED_DIFSLOW_WA )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0080	0.168	0.7407	0.0833	0.0	0.0	0.0	0.0	0.0	)
+		(	6.998600279944011E-4	0.005898820235952809	0.061487702459508096	0.3006398720255949	0.5525894821035793	0.07818436312737453	4.999000199960008E-4	0.0	0.0	)
+		(	1.0E-4	3.0E-4	0.0018	0.011	0.067	0.2945	0.5047	0.1206	0.0	))
+		((	0.1136	0.8864	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	8.999100089991E-4	0.0367963203679632	0.5576442355764424	0.40245975402459755	0.0021997800219978004	0.0	0.0	0.0	0.0	)
+		(	2.0E-4	0.0018	0.0263	0.1887	0.5884	0.1916	0.0030	0.0	0.0	)
+		(	0.0	1.0001000100010003E-4	9.000900090009002E-4	0.005900590059005901	0.04220422042204221	0.23562356235623566	0.5225522552255226	0.19271927192719274	0.0	))
+		((	6.0E-4	0.0764	0.8866	0.0364	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	7.000700070007E-4	0.052505250525052505	0.5712571257125713	0.37523752375237523	3.000300030003E-4	0.0	0.0	0.0	)
+		(	0.0	1.0E-4	0.0024	0.0358	0.316	0.5741	0.0716	0.0	0.0	)
+		(	0.0	0.0	1.0E-4	0.0012	0.0121	0.1131	0.4415	0.432	0.0	))
+		((	0.0	0.0	0.0655	0.9299	0.0046	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	7.0E-4	0.0745	0.8859	0.0389	0.0	0.0	0.0	)
+		(	0.0	0.0	9.999000099990002E-5	0.0031996800319968005	0.07809219078092192	0.5946405359464054	0.32356764323567644	3.9996000399960006E-4	0.0	)
+		(	0.0	0.0	0.0	2.0002000200020003E-4	0.0028002800280028	0.04390439043904391	0.2917291729172917	0.6613661366136614	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.1523	0.2904	0.3678	0.1726	0.0169	0.0	0.0	0.0	0.0	)
+		(	0.0168	0.0618	0.2223	0.4015	0.2803	0.0172	1.0E-4	0.0	0.0	)
+		(	9.99900009999E-4	0.0046995300469953	0.027997200279972004	0.11838816118388162	0.36466353364663534	0.3922607739226077	0.09069093090690931	2.9997000299970003E-4	0.0	)
+		(	0.0	2.0E-4	0.0011	0.0057	0.0332	0.1704	0.4424	0.347	0.0	)));
+}
+potential ( R_APB_FORCE | R_APB_VOL_ACT R_APB_ALLAMP_WA )
+{
+	data = (((	0.0	0.0	0.0	0.0040995900409959	0.1907809219078092	0.8051194880511949	)
+		(	0.0015998400159984002	0.0185981401859814	0.09359064093590641	0.26787321267873215	0.3658634136586341	0.25247475252474755	)
+		(	0.0149014901490149	0.2354235423542354	0.5331533153315331	0.20152015201520151	0.0149014901490149	1.000100010001E-4	)
+		(	0.15380000000000002	0.6493000000000001	0.19360000000000002	0.0033000000000000004	0.0	0.0	)
+		(	0.6667	0.3291	0.0042	0.0	0.0	0.0	)
+		(	0.9468946894689468	0.05310531053105311	0.0	0.0	0.0	0.0	)
+		(	0.9782	0.0218	0.0	0.0	0.0	0.0	)
+		(	0.9971	0.0029	0.0	0.0	0.0	0.0	)
+		(	0.9996	4.0E-4	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.0010	0.0578	0.9412	)
+		(	2.0E-4	0.0034	0.026	0.1312	0.3333	0.5059	)
+		(	9.0E-4	0.0256	0.18	0.4308	0.3036	0.0591	)
+		(	0.009800000000000001	0.15890000000000004	0.47140000000000004	0.31010000000000004	0.04850000000000001	0.0013000000000000002	)
+		(	0.0537053705370537	0.42044204420442044	0.4548454845484548	0.06900690069006901	0.002000200020002	0.0	)
+		(	0.11731173117311731	0.5658565856585658	0.30103010301030103	0.0157015701570157	1.0001000100010001E-4	0.0	)
+		(	0.41015898410158985	0.47935206479352066	0.106989301069893	0.0034996500349965005	0.0	0.0	)
+		(	0.7017	0.2755	0.0226	2.0E-4	0.0	0.0	)
+		(	0.8804000000000001	0.11610000000000001	0.0035000000000000005	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	9.999000099990002E-5	0.012598740125987402	0.9873012698730128	)
+		(	0.0	3.0E-4	0.0044	0.0446	0.2226	0.7281	)
+		(	0.0	5.0E-4	0.0128	0.1328	0.4061	0.4478	)
+		(	1.0E-4	0.0049	0.0751	0.3632	0.429	0.1277	)
+		(	5.000500050005E-4	0.027302730273027303	0.2433243324332433	0.5013501350135013	0.2118211821182118	0.0157015701570157	)
+		(	0.0012001200120012	0.0602060206020602	0.3862386238623862	0.45424542454245426	0.0954095409540954	0.0027002700270027003	)
+		(	0.025602560256025607	0.24702470247024705	0.4838483848384839	0.21742174217421745	0.025602560256025607	5.000500050005002E-4	)
+		(	0.1171	0.4443	0.3699	0.0654	0.0033	0.0	)
+		(	0.32706729327067297	0.48795120487951205	0.1726827317268273	0.011998800119988001	2.9997000299970003E-4	0.0	))
+		((	0.0	0.0	0.0	0.0	0.005900590059005901	0.9940994099409941	)
+		(	0.0	0.0	5.0E-4	0.0098	0.1058	0.8839	)
+		(	0.0	0.0	3.0E-4	0.0091	0.1181	0.8725	)
+		(	0.0	0.0	8.0E-4	0.0215	0.1873	0.7904	)
+		(	0.0	9.999000099990002E-5	0.0024997500249975004	0.0471952804719528	0.27557244275572446	0.6746325367463254	)
+		(	0.0	1.0E-4	0.0044	0.0713	0.3326	0.5916	)
+		(	0.0	0.002000200020002	0.027902790279027905	0.18121812181218122	0.41124112411241126	0.37763776377637764	)
+		(	4.0E-4	0.0107	0.0847	0.3035	0.3988	0.2019	)
+		(	0.0030003000300030005	0.04260426042604261	0.19481948194819484	0.384938493849385	0.29292929292929293	0.0817081708170817	)));
+}
+potential ( R_DIFFN_LNLW_APB_NEUR_ACT | R_DIFFN_APB_NEUR_ACT R_LNLW_APB_NEUR_ACT )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNL_DIFFN_APB_MUSIZE | R_DIFFN_LNLW_APB_MUSIZE R_LNLT1_LP_BE_APB_MUSIZE )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.9993999399939995	5.000500050005002E-4	1.0001000100010003E-4	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.9981	0.0019	0.0	0.0	)
+		(	0.0	0.0	0.0019	0.9981	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0019	0.9981	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.9993999399939995	5.000500050005002E-4	1.0001000100010003E-4	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNLT1_LP_BE_APB_MUSIZE | R_LNLBE_APB_MUSIZE R_LNLT1_LP_APB_MUSIZE )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.9993999399939995	5.000500050005002E-4	1.0001000100010003E-4	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.9993999399939995	5.000500050005002E-4	1.0001000100010003E-4	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNLT1_LP_APB_MUSIZE | R_LNLLP_APB_MUSIZE R_LNLT1_APB_MUSIZE )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.9993999399939995	5.000500050005002E-4	1.0001000100010003E-4	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.9993999399939995	5.000500050005002E-4	1.0001000100010003E-4	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNLT1_LP_APB_NEUR_ACT | R_LNLT1_APB_NEUR_ACT R_LNLLP_APB_NEUR_ACT )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_LNLT1_LP_BE_APB_NEUR_ACT | R_LNLT1_LP_APB_NEUR_ACT R_LNLBE_APB_NEUR_ACT )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_APB_NEUR_ACT | R_LNLT1_LP_BE_APB_NEUR_ACT R_DIFFN_LNLW_APB_NEUR_ACT )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_DIFFN_LNLW_APB_MUSIZE | R_LNLW_APB_MUSIZE R_DIFFN_APB_MUSIZE )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.9993999399939995	5.000500050005002E-4	1.0001000100010003E-4	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.9981	0.0019	0.0	0.0	)
+		(	0.0	0.0	0.0019	0.9981	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0019	0.9981	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.9993999399939995	5.000500050005002E-4	1.0001000100010003E-4	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MYOP_MYDY_APB_MUSIZE | R_MYDY_APB_MUSIZE R_MYOP_APB_MUSIZE )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.9983	0.0017	0.0	0.0	0.0	0.0	)
+		(	0.9857	0.0143	0.0	0.0	0.0	0.0	)
+		(	0.3673	0.6298	0.0029	0.0	0.0	0.0	)
+		(	0.0115011501150115	0.8616861686168618	0.1249124912491249	0.0019001900190019003	0.0	0.0	)
+		(	0.0	0.1596	0.7368	0.1016	0.0020	0.0	))
+		((	0.9983	0.0017	0.0	0.0	0.0	0.0	)
+		(	0.8667	0.1329	4.0E-4	0.0	0.0	0.0	)
+		(	0.0139013901390139	0.9636963696369637	0.0224022402240224	0.0	0.0	0.0	)
+		(	3.0E-4	0.3514	0.6035	0.0443	5.0E-4	0.0	)
+		(	0.0	0.0105	0.5726	0.3806	0.0359	4.0E-4	)
+		(	0.0	0.0	0.0792	0.4758	0.4066	0.0384	))
+		((	0.9857	0.0143	0.0	0.0	0.0	0.0	)
+		(	0.0139013901390139	0.9636963696369637	0.0224022402240224	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.04060406040604061	0.9277927792779278	0.03160316031603161	0.0	)
+		(	0.0	0.0	0.0	0.0319	0.9362	0.0319	)
+		(	0.0	0.0	0.0	0.0	0.0329	0.9671	))
+		((	0.3673	0.6298	0.0029	0.0	0.0	0.0	)
+		(	3.0E-4	0.3514	0.6035	0.0443	5.0E-4	0.0	)
+		(	0.0	0.0	0.04060406040604061	0.9277927792779278	0.03160316031603161	0.0	)
+		(	0.0	0.0	3.9996000399960006E-4	0.10988901109889011	0.7798220177982202	0.10988901109889011	)
+		(	0.0	0.0	0.0	3.000300030003E-4	0.12341234123412341	0.8762876287628762	)
+		(	0.0	0.0	0.0	0.0	0.0028	0.9972	))
+		((	0.0115011501150115	0.8616861686168618	0.1249124912491249	0.0019001900190019003	0.0	0.0	)
+		(	0.0	0.0105	0.5726	0.3806	0.0359	4.0E-4	)
+		(	0.0	0.0	0.0	0.0319	0.9362	0.0319	)
+		(	0.0	0.0	0.0	3.000300030003E-4	0.12341234123412341	0.8762876287628762	)
+		(	0.0	0.0	0.0	0.0	0.0028	0.9972	)
+		(	0.0	0.0	0.0	0.0	1.0E-4	0.9999	))
+		((	0.0	0.1596	0.7368	0.1016	0.0020	0.0	)
+		(	0.0	0.0	0.0792	0.4758	0.4066	0.0384	)
+		(	0.0	0.0	0.0	0.0	0.0329	0.9671	)
+		(	0.0	0.0	0.0	0.0	0.0028	0.9972	)
+		(	0.0	0.0	0.0	0.0	1.0E-4	0.9999	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MED_DCV_EW | R_APB_MALOSS R_MED_DIFSLOW_EW )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.004100410041004101	0.024702470247024703	0.1546154615461546	0.738973897389739	0.0776077607760776	0.0	0.0	0.0	0.0	0.0	)
+		(	4.000000000000001E-4	0.0012000000000000001	0.0055000000000000005	0.06280000000000001	0.29500000000000004	0.5485000000000001	0.08610000000000001	5.000000000000001E-4	0.0	0.0	)
+		(	0.0	9.999000099990002E-5	1.9998000199980003E-4	0.0018998100189981002	0.0106989301069893	0.0657934206579342	0.28457154284571545	0.5054494550544945	0.1312868713128687	0.0	))
+		((	0.109	0.8903	7.0E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0011	0.0082	0.0683	0.7087	0.2135	2.0E-4	0.0	0.0	0.0	0.0	)
+		(	2.0002000200020005E-4	5.000500050005002E-4	0.0028002800280028006	0.0389038903890389	0.23092309230923094	0.582958295829583	0.1422142214221422	0.0015001500150015003	0.0	0.0	)
+		(	0.0	0.0	1.0001000100010001E-4	0.0012001200120012	0.007500750075007501	0.051005100510051	0.2524252425242524	0.5185518551855185	0.1692169216921692	0.0	))
+		((	0.003999600039996	0.11438856114388561	0.8621137886211379	0.019498050194980503	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	9.999000099990002E-5	7.999200079992001E-4	0.008999100089991	0.302969703029697	0.6654334566543345	0.021697830216978305	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0001000100010001E-4	6.000600060006E-4	0.012301230123012302	0.11291129112911291	0.5272527252725272	0.3355335533553355	0.0113011301130113	0.0	0.0	)
+		(	0.0	0.0	0.0	5.0E-4	0.0034	0.028	0.1822	0.5098	0.2761	0.0	))
+		((	1.0E-4	0.0028	0.064	0.9243	0.0088	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	6.0E-4	0.0547	0.6199	0.3247	1.0E-4	0.0	0.0	0.0	)
+		(	0.0	0.0	9.999000099990002E-5	0.0024997500249975004	0.035996400359964	0.3240675932406759	0.571042895710429	0.0662933706629337	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0001000100010001E-4	0.0012001200120012	0.012501250125012502	0.11181118111811181	0.4452445244524452	0.42914291429142915	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0835	0.1153	0.2417	0.3746	0.1682	0.0167	0.0	0.0	0.0	0.0	)
+		(	0.009299070092990698	0.0180981901809819	0.0545945405459454	0.22767723227677228	0.3933606639336066	0.2775722427757224	0.019298070192980698	9.999000099989999E-5	0.0	0.0	)
+		(	5.999400059994001E-4	0.0011998800119988001	0.004199580041995801	0.028397160283971604	0.11488851114888511	0.3575642435756424	0.39636036396360363	0.0963903609639036	3.9996000399960006E-4	0.0	)
+		(	0.0	0.0	2.0E-4	0.0011	0.0056	0.033	0.1653	0.4414	0.3534	0.0	)));
+}
+potential ( R_APB_MUSIZE | R_MYOP_MYDY_APB_MUSIZE R_LNL_DIFFN_APB_MUSIZE )
+{
+	data = (((	0.9791	9.0E-4	0.0	0.0	0.0	0.0	0.02	)
+		(	0.9637	0.0163	0.0	0.0	0.0	0.0	0.02	)
+		(	0.9221922192219222	0.057805780578057804	0.0	0.0	0.0	0.0	0.020002000200020003	)
+		(	0.39793979397939794	0.5663566356635664	0.015501550155015503	2.0002000200020005E-4	0.0	0.0	0.020002000200020003	)
+		(	0.043500000000000004	0.7319000000000001	0.19300000000000003	0.011400000000000002	2.0000000000000004E-4	0.0	0.020000000000000004	)
+		(	0.0012001200120012002	0.23172317231723175	0.5882588258825883	0.14741474147414743	0.011201120112011203	2.0002000200020005E-4	0.020002000200020003	))
+		((	0.9637	0.0163	0.0	0.0	0.0	0.0	0.02	)
+		(	0.7493	0.2257	0.0049	1.0E-4	0.0	0.0	0.02	)
+		(	0.0537	0.8568	0.0684	0.0011	0.0	0.0	0.02	)
+		(	0.0038996100389961	0.38106189381061895	0.5065493450654935	0.0840915908409159	0.004299570042995701	9.999000099990002E-5	0.019998000199980003	)
+		(	0.0	0.0395	0.5059	0.355	0.0758	0.0038	0.02	)
+		(	0.0	0.0011001100110011003	0.1357135713571357	0.40254025402540256	0.3631363136313631	0.0775077507750775	0.020002000200020003	))
+		((	0.9221922192219222	0.057805780578057804	0.0	0.0	0.0	0.0	0.020002000200020003	)
+		(	0.0537	0.8568	0.0684	0.0011	0.0	0.0	0.02	)
+		(	0.0	0.0	0.98	0.0	0.0	0.0	0.02	)
+		(	0.0	0.0	0.09080908090809081	0.8185818581858185	0.0706070607060706	0.0	0.020002000200020003	)
+		(	0.0	0.0	1.0E-4	0.0721	0.8357	0.0721	0.02	)
+		(	0.0	0.0	0.0	1.0E-4	0.0778	0.9021	0.02	))
+		((	0.39793979397939794	0.5663566356635664	0.015501550155015503	2.0002000200020005E-4	0.0	0.0	0.020002000200020003	)
+		(	0.0038996100389961	0.38106189381061895	0.5065493450654935	0.0840915908409159	0.004299570042995701	9.999000099990002E-5	0.019998000199980003	)
+		(	0.0	0.0	0.09080908090809081	0.8185818581858185	0.0706070607060706	0.0	0.020002000200020003	)
+		(	0.0	0.0	0.0035996400359964	0.16548345165483452	0.6454354564543545	0.16548345165483452	0.019998000199980003	)
+		(	0.0	0.0	0.0	0.0034	0.1993	0.7773	0.02	)
+		(	0.0	0.0	0.0	0.0	0.0162016201620162	0.9637963796379638	0.020002000200020003	))
+		((	0.043500000000000004	0.7319000000000001	0.19300000000000003	0.011400000000000002	2.0000000000000004E-4	0.0	0.020000000000000004	)
+		(	0.0	0.0395	0.5059	0.355	0.0758	0.0038	0.02	)
+		(	0.0	0.0	1.0E-4	0.0721	0.8357	0.0721	0.02	)
+		(	0.0	0.0	0.0	0.0034	0.1993	0.7773	0.02	)
+		(	0.0	0.0	0.0	0.0	0.0162016201620162	0.9637963796379638	0.020002000200020003	)
+		(	0.0	0.0	0.0	0.0	0.0011	0.9789	0.02	))
+		((	0.0012001200120012002	0.23172317231723175	0.5882588258825883	0.14741474147414743	0.011201120112011203	2.0002000200020005E-4	0.020002000200020003	)
+		(	0.0	0.0011001100110011003	0.1357135713571357	0.40254025402540256	0.3631363136313631	0.0775077507750775	0.020002000200020003	)
+		(	0.0	0.0	0.0	1.0E-4	0.0778	0.9021	0.02	)
+		(	0.0	0.0	0.0	0.0	0.0162016201620162	0.9637963796379638	0.020002000200020003	)
+		(	0.0	0.0	0.0	0.0	0.0011	0.9789	0.02	)
+		(	0.0	0.0	0.0	0.0	1.0E-4	0.9799	0.02	)));
+}
+potential ( R_APB_EFFMUS | R_APB_NMT R_APB_MUSIZE )
+{
+	data = (((	0.935	0.045	0.0	0.0	0.0	0.0	0.02	)
+		(	0.0609	0.8781	0.04	0.0010	0.0	0.0	0.02	)
+		(	0.0	0.0	0.98	0.0	0.0	0.0	0.02	)
+		(	0.0	0.0	0.015501550155015502	0.9427942794279428	0.021702170217021702	0.0	0.020002000200020003	)
+		(	0.0	0.0	0.0	0.021600000000000005	0.9368000000000001	0.021600000000000005	0.020000000000000004	)
+		(	0.0	0.0	0.0	0.0	0.0221	0.9579	0.02	)
+		(	0.122	0.2515	0.1645	0.2065	0.149	0.0865	0.02	))
+		((	0.97	0.01	0.0	0.0	0.0	0.0	0.02	)
+		(	0.7259	0.2514	0.0026	1.0E-4	0.0	0.0	0.02	)
+		(	0.0039	0.9275	0.0482	4.0E-4	0.0	0.0	0.02	)
+		(	9.999000099990002E-5	0.21607839216078392	0.6095390460953904	0.1512848715128487	0.0029997000299970002	0.0	0.019998000199980003	)
+		(	0.0	0.0029997000299970002	0.2676732326767323	0.6007399260073992	0.1064893510648935	0.0020997900209979003	0.019998000199980003	)
+		(	0.0	0.0	0.016401640164016403	0.3337333733373337	0.5350535053505351	0.0948094809480948	0.020002000200020003	)
+		(	0.26392639263926393	0.3276327632763276	0.1396139613961396	0.1359135913591359	0.0772077207720772	0.035703570357035704	0.02000200020002	))
+		((	0.978	0.0020	0.0	0.0	0.0	0.0	0.02	)
+		(	0.9451	0.0348	1.0E-4	0.0	0.0	0.0	0.02	)
+		(	0.7359	0.2437	4.0E-4	0.0	0.0	0.0	0.02	)
+		(	0.14028597140285973	0.7974202579742026	0.040495950404959506	0.0017998200179982	0.0	0.0	0.019998000199980003	)
+		(	0.006799320067993201	0.5643435656434357	0.3364663533646636	0.07019298070192981	0.0021997800219978004	0.0	0.019998000199980003	)
+		(	0.0	0.06090609060906091	0.4266426642664266	0.42684268426842686	0.0636063606360636	0.002000200020002	0.020002000200020003	)
+		(	0.44245575442455753	0.33496650334966505	0.09249075092490751	0.06899310068993102	0.030196980301969805	0.010898910108989102	0.019998000199980003	))
+		((	0.9487	0.0313	0.0	0.0	0.0	0.0	0.02	)
+		(	0.10158984101589841	0.8506149385061494	0.027197280271972803	5.999400059994001E-4	0.0	0.0	0.019998000199980003	)
+		(	0.0	0.0	0.98	0.0	0.0	0.0	0.02	)
+		(	0.0	0.0	0.0582	0.91	0.0118	0.0	0.02	)
+		(	0.0	0.0	0.0	0.07950795079507951	0.888988898889889	0.0115011501150115	0.020002000200020003	)
+		(	0.0	0.0	0.0	0.0	0.0805	0.8995	0.02	)
+		(	0.135	0.2632	0.1638	0.1995	0.1397	0.0788	0.02	))
+		((	0.9715	0.0085	0.0	0.0	0.0	0.0	0.02	)
+		(	0.43125687431256876	0.5435456454354565	0.005099490050994901	9.999000099990002E-5	0.0	0.0	0.019998000199980003	)
+		(	0.0	0.3917	0.5883	0.0	0.0	0.0	0.02	)
+		(	0.0	4.000000000000001E-4	0.6513000000000001	0.32730000000000004	0.0010000000000000002	0.0	0.020000000000000004	)
+		(	0.0	0.0	0.0119	0.7118	0.2555	8.0E-4	0.02	)
+		(	0.0	0.0	0.0	0.0166	0.7089	0.2545	0.02	)
+		(	0.1946	0.3041	0.1558	0.1682	0.1047	0.0526	0.02	))
+		((	0.9786	0.0014	0.0	0.0	0.0	0.0	0.02	)
+		(	0.8905109489051094	0.08929107089291072	1.9998000199980003E-4	0.0	0.0	0.0	0.019998000199980003	)
+		(	0.0029	0.9767	4.0E-4	0.0	0.0	0.0	0.02	)
+		(	1.0000000000000002E-4	0.5640000000000001	0.4045000000000001	0.011400000000000002	0.0	0.0	0.020000000000000004	)
+		(	0.0	0.005099490050994901	0.5676432356764324	0.39916008399160086	0.0080991900809919	0.0	0.019998000199980003	)
+		(	0.0	0.0	0.03570357035703571	0.6243624362436244	0.3136313631363137	0.006300630063006301	0.020002000200020003	)
+		(	0.31873187318731877	0.3432343234323433	0.12641264126412644	0.11131113111311132	0.056805680568056814	0.023502350235023506	0.020002000200020003	))
+		((	0.7800780078007801	0.1866186618661866	0.010801080108010801	0.0023002300230023	2.0002000200020003E-4	0.0	0.020002000200020003	)
+		(	0.5030503050305031	0.38083808380838086	0.0634063406340634	0.0266026602660266	0.0054005400540054005	7.000700070007E-4	0.020002000200020003	)
+		(	0.16451645164516454	0.44984498449844984	0.19101910191019103	0.12921292129212925	0.03840384038403841	0.007000700070007001	0.020002000200020003	)
+		(	0.0466953304669533	0.2656734326567343	0.2346765323467653	0.260973902609739	0.13068693130686931	0.04129587041295871	0.019998000199980003	)
+		(	0.007899210078992101	0.09849015098490152	0.17958204179582044	0.3166683331666833	0.25147485251474855	0.12588741125887412	0.019998000199980003	)
+		(	8.999100089991E-4	0.025097490250974904	0.0942905709429057	0.2637736226377362	0.3321667833216678	0.2637736226377362	0.019998000199980003	)
+		(	0.23812381238123811	0.287028702870287	0.13641364136413642	0.1523152315231523	0.10451045104510451	0.061606160616061605	0.020002000200020003	)));
+}
+potential ( R_APB_NMT | R_DE_REGEN_APB_NMT R_MYAS_APB_NMT )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_APB_ALLAMP_WA | R_APB_EFFMUS R_APB_MULOSS )
+{
+	data = (((	0.0026002600260026	0.36873687368736874	0.6075607560756076	0.0208020802080208	3.0003000300029994E-4	0.0	0.0	0.0	0.0	)
+		(	0.0409	0.8924	0.0661	6.0E-4	0.0	0.0	0.0	0.0	0.0	)
+		(	0.29259999999999997	0.7042999999999999	0.003099999999999999	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.781	0.2189	1.0E-4	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.9907	0.0093	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.3595640435956403	0.5147485251474851	0.0940905909409059	0.023997600239976	0.004599540045995399	0.0019998000199979997	7.999200079991999E-4	1.9998000199979998E-4	0.0	))
+		((	0.0	2.0E-4	0.4149	0.4809	0.0802	0.0218	0.0020	0.0	0.0	)
+		(	0.0	0.01	0.77	0.2049	0.0128	0.0022	1.0E-4	0.0	0.0	)
+		(	0.0091	0.4203	0.5312	0.038	0.0012	2.0E-4	0.0	0.0	0.0	)
+		(	0.266926692669267	0.7161716171617162	0.016601660166016604	3.0003000300030005E-4	0.0	0.0	0.0	0.0	0.0	)
+		(	0.9858	0.0142	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.13358664133586642	0.38546145385461456	0.26977302269773024	0.1307869213078692	0.0400959904009599	0.021897810218978103	0.012698730126987301	0.004399560043995601	0.0012998700129987	))
+		((	0.0	0.0	0.0	0.0	0.0215	0.9785	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.2489	0.7398	0.0113	0.0	0.0	0.0	)
+		(	0.0	0.0	0.3094690530946905	0.6807319268073192	0.0094990500949905	2.9997000299970003E-4	0.0	0.0	0.0	)
+		(	9.999000099990002E-5	0.10278972102789721	0.8792120787921208	0.017798220177982202	9.999000099990002E-5	0.0	0.0	0.0	0.0	)
+		(	0.9865	0.0135	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0096	0.0788	0.2992	0.2816	0.1319	0.0873	0.0689	0.0313	0.0114	))
+		((	0.0	0.0	0.0	0.0	0.0018	0.0536	0.8696	0.075	0.0	)
+		(	0.0	0.0	0.0	0.0042004200420042	0.34683468346834684	0.5348534853485349	0.1137113711371137	4.0004000400040005E-4	0.0	)
+		(	0.0	0.0	0.018	0.6298	0.2744	0.0746	0.0032	0.0	0.0	)
+		(	0.0	0.004400440044004401	0.8111811181118113	0.1762176217621762	0.007300730073007301	9.000900090009E-4	0.0	0.0	0.0	)
+		(	0.982	0.018	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.002600520104020804	0.028905781156231245	0.2040408081616323	0.265753150630126	0.15943188637727543	0.1199239847969594	0.11902380476095219	0.06841368273654731	0.031906381276255245	))
+		((	0.0	0.0	0.0	0.0	0.0	0.0	0.0736	0.8528	0.0736	)
+		(	0.0	0.0	0.0	0.0	0.0064	0.0855	0.788	0.1197	4.0E-4	)
+		(	0.0	0.0	1.0001000100010003E-4	0.10461046104610462	0.42814281428142814	0.3568356835683569	0.10711071107110712	0.003200320032003201	0.0	)
+		(	0.0	9.999000099990002E-5	0.412958704129587	0.49655034496550343	0.07189281071892811	0.017298270172982702	0.0011998800119988001	0.0	0.0	)
+		(	0.9779	0.0221	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	4.999500049995E-4	0.008399160083991601	0.11818818118188182	0.21387861213878612	0.16298370162983702	0.1381861813818618	0.1690830916908309	0.11988801119888012	0.06889311068893111	))
+		((	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	0.0794	0.9205	)
+		(	0.0	0.0	0.0	0.0	0.0	2.9997000299970003E-4	0.11648835116488351	0.7667233276672333	0.11648835116488351	)
+		(	0.0	0.0	0.0	0.0025002500250025004	0.09780978097809782	0.24982498249824983	0.5323532353235324	0.11411141114111412	0.0034003400340034003	)
+		(	0.0	0.0	0.07810781078107812	0.5196519651965197	0.26102610261026105	0.11671167116711673	0.023402340234023405	0.0011001100110011003	0.0	)
+		(	0.973	0.027	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0E-4	0.0021	0.0586	0.1473	0.1427	0.1363	0.2057	0.1798	0.1274	))
+		((	3.0E-4	0.0060	0.105	0.205	0.1633	0.141	0.1771	0.1279	0.0744	)
+		(	0.0019001900190019005	0.023002300230023007	0.19001900190019005	0.2623262326232624	0.16291629162916293	0.12441244124412444	0.12641264126412646	0.07400740074007402	0.035003500350035015	)
+		(	0.0144014401440144	0.0993099309930993	0.30283028302830284	0.2702270227022702	0.1243124312431243	0.08210821082108212	0.0652065206520652	0.030203020302030203	0.011401140114011402	)
+		(	0.11690000000000002	0.36970000000000003	0.28670000000000007	0.14110000000000003	0.043100000000000006	0.023400000000000004	0.013300000000000001	0.0045000000000000005	0.0013000000000000002	)
+		(	0.9370062993700631	0.0628937106289371	9.999000099990002E-5	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0521052105210521	0.1608160816081608	0.22722272227222723	0.20132013201320131	0.10661066106610662	0.07920792079207921	0.0831083108310831	0.055905590559055904	0.0337033703370337	)));
+}
+potential ( R_MEDD2_ALLCV_EW | R_MEDD2_LSLOW_EW R_MEDD2_DSLOW_EW )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.030496950304969503	0.9672032796720329	0.0022997700229977	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	3.9996000399960006E-4	0.0618938106189381	0.8881111888811118	0.049595040495950406	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0E-4	0.0655	0.9082	0.0262	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0E-4	0.0555	0.937	0.0074	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	2.0E-4	0.0491	0.8863	0.0644	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	2.9997000299970003E-4	0.09559044095590441	0.8966103389661034	0.007499250074992501	0.0	)
+		(	2.0002000200020003E-4	6.000600060006E-4	0.0019001900190019003	0.006400640064006401	0.024702470247024703	0.09740974097409741	0.2855285528552855	0.5832583258325833	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0264	0.9149	0.0587	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	6.0E-4	0.0944	0.8841	0.0209	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0018	0.1956	0.786	0.0166	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0026	0.2655	0.7316	3.0E-4	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0044	0.5355	0.46	1.0E-4	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0047	0.5053	0.49	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0218	0.8352	0.143	0.0	)
+		(	1.0E-4	3.0E-4	0.0010	0.0036	0.0154	0.0712	0.2467	0.6617	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0218	0.9469	0.0313	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	7.0E-4	0.2183	0.779	0.0020	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0077	0.4577	0.5345	1.0E-4	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0166	0.9182	0.0652	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0398	0.946	0.0142	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	2.0E-4	0.1104	0.8881	0.0013	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0020	0.3203	0.6777	0.0	)
+		(	0.0	1.0001000100010001E-4	5.000500050005E-4	0.0019001900190019003	0.0093009300930093	0.050405040504050404	0.2072207220722072	0.7305730573057306	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	3.0003000300030005E-4	0.0019001900190019005	0.014001400140014003	0.07880788078807881	0.32383238323832386	0.4596459645964597	0.12121212121212123	3.0003000300030005E-4	0.0	)
+		(	9.999000099990002E-5	3.9996000399960006E-4	0.004299570042995701	0.0320967903209679	0.19558044195580443	0.5048495150484952	0.26037396260373963	0.0022997700229977	0.0	)
+		(	0.0	1.0E-4	7.0E-4	0.0074	0.0735	0.4044	0.4938	0.0201	0.0	)
+		(	0.0	0.0	1.0E-4	0.0010	0.0172	0.2179	0.6479	0.1159	0.0	)
+		(	0.0	0.0	0.0	9.999000099990002E-5	0.0017998200179982	0.055894410558944105	0.46005399460054	0.4821517848215179	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0E-4	0.0041	0.1033	0.8925	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	3.0E-4	0.0194	0.9803	0.0	)
+		(	0.0	0.0	1.0E-4	4.0E-4	0.0026	0.019	0.1153	0.8626	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	1.0001000100010001E-4	5.000500050005E-4	0.004100410041004101	0.0384038403840384	0.2145214521452145	0.7423742374237423	0.0	)
+		(	0.0	0.0	0.0	2.0002000200020003E-4	0.0021002100210021	0.023902390239023904	0.16481648164816481	0.8089808980898089	0.0	)
+		(	0.0	0.0	0.0	1.0E-4	8.0E-4	0.0123	0.1119	0.8749	0.0	)
+		(	0.0	0.0	0.0	0.0	3.0E-4	0.0055	0.0699	0.9243	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0E-4	0.0021	0.039	0.9588	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	6.999300069993001E-4	0.0188981101889811	0.9804019598040197	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	2.0E-4	0.0093	0.9905	0.0	)
+		(	0.0	0.0	0.0	1.0E-4	6.0E-4	0.0062	0.0562	0.9369	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MEDD2_ALLCV_WD | R_MEDD2_LSLOW_WD R_MEDD2_DSLOW_WD )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.030496950304969503	0.9672032796720329	0.0022997700229977	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	3.9996000399960006E-4	0.0618938106189381	0.8881111888811118	0.049595040495950406	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0E-4	0.0655	0.9082	0.0262	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0E-4	0.0555	0.937	0.0074	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	2.0E-4	0.0491	0.8863	0.0644	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	2.9997000299970003E-4	0.09559044095590441	0.8966103389661034	0.007499250074992501	0.0	)
+		(	2.0002000200020003E-4	6.000600060006E-4	0.0019001900190019003	0.006400640064006401	0.024702470247024703	0.09740974097409741	0.2855285528552855	0.5832583258325833	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0235976402359764	0.25787421257874216	0.6403359664033597	0.07809219078092192	9.999000099990002E-5	0.0	0.0	0.0	0.0	)
+		(	0.0017000000000000001	0.042100000000000005	0.45970000000000005	0.4852000000000001	0.011300000000000001	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0019001900190019003	0.0749074907490749	0.5694569456945695	0.35323532353235326	5.000500050005E-4	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0022002200220022005	0.10511051105110512	0.8251825182518252	0.06750675067506752	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0022002200220022005	0.17001700170017003	0.8062806280628063	0.0215021502150215	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0021997800219978004	0.23377662233776622	0.762023797620238	0.001999800019998	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0100989901009899	0.4894510548945105	0.5004499550044995	0.0	)
+		(	1.0E-4	2.0E-4	7.0E-4	0.0026	0.0117	0.0585	0.2222	0.704	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0021	0.1149	0.7277	0.1553	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0E-4	0.0146	0.3403	0.6424	0.0026	0.0	0.0	0.0	)
+		(	0.0	0.0	7.0E-4	0.0498	0.764	0.1854	1.0E-4	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0012	0.137	0.8421	0.0197	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0034	0.4375	0.5591	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.020802080208020803	0.8094809480948095	0.1697169716971697	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0001000100010001E-4	0.0392039203920392	0.9606960696069607	0.0	)
+		(	0.0	1.0E-4	2.0E-4	9.0E-4	0.0051	0.0329	0.1636	0.7972	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	3.0E-4	0.0011	0.0050	0.0205	0.087	0.2822	0.4514	0.1525	0.0	)
+		(	1.0002000400080016E-4	4.0008001600320064E-4	0.002100420084016803	0.010102020404080815	0.051610322064412885	0.21844368873774755	0.46469293858771754	0.2525505101020204	0.0	)
+		(	0.0	1.0001000100010001E-4	6.000600060006E-4	0.0034003400340034003	0.0223022302230223	0.1336133613361336	0.4145414541454145	0.42544254425442546	0.0	)
+		(	0.0	0.0	1.0E-4	8.0E-4	0.0073	0.0649	0.3063	0.6206	0.0	)
+		(	0.0	0.0	0.0	1.0001000100010003E-4	0.0016001600160016004	0.022602260226022602	0.17471747174717472	0.800980098009801	0.0	)
+		(	0.0	0.0	0.0	0.0	2.0002000200020003E-4	0.005200520052005201	0.0726072607260726	0.921992199219922	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0012001200120012	0.029602960296029605	0.9691969196919692	0.0	)
+		(	0.0	0.0	1.0E-4	4.0E-4	0.0022	0.0159	0.0994	0.882	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0	0.0	9.999000099990002E-5	2.9997000299970003E-4	0.0021997800219978004	0.019198080191980802	0.12518748125187482	0.853014698530147	0.0	)
+		(	0.0	0.0	0.0	1.9998000199980003E-4	0.0013998600139986002	0.013698630136986302	0.10288971102889712	0.8818118188181182	0.0	)
+		(	0.0	0.0	0.0	1.0001000100010001E-4	7.000700070007E-4	0.008600860086008601	0.07820782078207822	0.9123912391239124	0.0	)
+		(	0.0	0.0	0.0	0.0	3.000300030003E-4	0.005000500050005001	0.056405640564056406	0.9382938293829384	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0E-4	0.0026	0.0379	0.9594	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0012	0.023	0.9758	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	5.0E-4	0.014	0.9855	0.0	)
+		(	0.0	0.0	0.0	1.0E-4	6.0E-4	0.0058	0.0523	0.9412	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MED_ALLDEL_WA | R_MED_RDLDDEL R_MED_DCV_WA )
+{
+	data = (((	0.9996	4.0E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.5607	0.4393	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0069	0.7963	0.1968	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0184	0.9806	0.0010	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0E-4	0.0179	0.982	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	2.0E-4	0.0030	0.1393	0.8575	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	6.0E-4	0.8145	0.1849	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	4.000400040004E-4	0.0113011301130113	0.5973597359735974	0.3909390939093909	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.05119488051194881	0.22907709229077092	0.5662433756624338	0.15348465153484653	0.0	0.0	0.0	0.0	0.0	)
+		(	0.019298070192980705	0.12868713128687131	0.4928507149285072	0.35916408359164087	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0027	0.0328	0.2398	0.7246	1.0E-4	0.0	0.0	0.0	0.0	)
+		(	1.000100010001E-4	0.0033003300330033	0.0547054705470547	0.9381938193819381	0.0037003700370037	0.0	0.0	0.0	0.0	)
+		(	0.0	1.9998000199980003E-4	0.0047995200479952005	0.503949605039496	0.49105089491050896	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	3.0E-4	0.0188	0.9804	5.0E-4	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0494	0.9506	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0001000100010001E-4	0.0034003400340034003	0.299029902990299	0.6974697469746974	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0E-4	0.0035	0.0632	0.9326	6.0E-4	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0011000000000000003	0.028300000000000002	0.9651000000000001	0.0055000000000000005	0.0	0.0	0.0	0.0	)
+		(	0.0	2.0E-4	0.0075	0.8889	0.1034	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	3.000300030003E-4	0.185018501850185	0.8146814681468146	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0032	0.9968	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0015001500150015003	0.9313931393139314	0.06710671067106712	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0010	0.999	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	7.0E-4	0.1112	0.8881	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	0.0012998700129987	0.001999800019998	0.004399560043995601	0.018698130186981302	0.12128787121287872	0.7479252074792521	0.10438956104389562	0.0	0.0	)
+		(	0.0010001000100010003	0.0016001600160016004	0.003700370037003701	0.016101610161016102	0.10931093109310931	0.7421742174217423	0.1261126112611261	0.0	0.0	)
+		(	7.999200079992001E-4	0.0011998800119988001	0.0027997200279972004	0.012498750124987502	0.09159084091590841	0.7235276472352765	0.1675832416758324	0.0	0.0	)
+		(	4.999500049995E-4	7.999200079992001E-4	0.0017998200179982	0.0086991300869913	0.07029297070292971	0.6802319768023198	0.23767623237676233	0.0	0.0	)
+		(	2.0E-4	4.0E-4	9.0E-4	0.0047	0.044	0.5737	0.3761	0.0	0.0	)
+		(	1.0E-4	1.0E-4	2.0E-4	0.0013	0.015	0.3152	0.6681	0.0	0.0	)
+		(	0.0	0.0	0.0	1.0E-4	0.0017	0.0786	0.9196	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	1.0001000100010001E-4	0.009400940094009401	0.9593959395939594	0.031103110311031103	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	))
+		((	1.0001000100010001E-4	1.0001000100010001E-4	3.000300030003E-4	9.000900090009E-4	0.0045004500450045	0.043404340434043405	0.5767576757675767	0.37393739373937396	0.0	)
+		(	1.0E-4	1.0E-4	2.0E-4	8.0E-4	0.0041	0.0399	0.5568	0.398	0.0	)
+		(	1.0E-4	1.0E-4	2.0E-4	7.0E-4	0.0034	0.0348	0.5239	0.4368	0.0	)
+		(	1.0E-4	1.0E-4	1.0E-4	5.0E-4	0.0027	0.0287	0.4783	0.4895	0.0	)
+		(	0.0	0.0	1.0001000100010001E-4	3.000300030003E-4	0.0018001800180018	0.021002100210021003	0.40724072407240725	0.5695569556955695	0.0	)
+		(	0.0	0.0	0.0	1.0002000400080016E-4	8.001600320064013E-4	0.011102220444088817	0.2804560912182436	0.7075415083016603	0.0	)
+		(	0.0	0.0	0.0	0.0	2.0E-4	0.0035	0.138	0.8583	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	3.000300030003E-4	0.025302530253025302	0.9743974397439744	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( R_MEDD2_AMPR_EW | R_MEDD2_DISP_EWD R_MEDD2_BLOCK_EW )
+{
+	data = (((	0.0	0.2826717328267173	0.7164283571642837	8.999100089991E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.9103	0.0897	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.9974	0.0026	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.9467053294670533	0.04919508049195081	0.0034996500349965005	4.999500049995E-4	9.999000099990002E-5	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.5547	0.4268	0.0183	2.0E-4	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	4.000000000000001E-4	0.8945000000000001	0.10360000000000001	0.0015000000000000002	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.38560000000000005	0.6048000000000001	0.009500000000000001	1.0000000000000002E-4	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.8721127887211279	0.11098890110988902	0.013498650134986502	0.0024997500249975004	5.999400059994001E-4	1.9998000199980003E-4	9.999000099990002E-5	0.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.009000900090009	0.5127512751275128	0.4152415241524153	0.05890589058905891	0.0039003900390039	2.0002000200020003E-4	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.11401140114011403	0.716971697169717	0.15981598159815982	0.008900890089008903	3.0003000300030005E-4	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.007300000000000001	0.8191000000000002	0.16380000000000003	0.009500000000000001	3.0000000000000003E-4	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.778255651130226	0.18013602720544108	0.03120624124824965	0.007501500300060012	0.002000400080016003	6.001200240048009E-4	2.0004000800160032E-4	1.0002000400080016E-4	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.0635	0.4459	0.3732	0.0995	0.0162	0.0015	2.0E-4	0.0	0.0	)
+		(	0.0	0.0	0.0026	0.3111	0.5155	0.1499	0.019	0.0018	1.0E-4	0.0	0.0	0.0	)
+		(	0.0	1.0E-4	0.386	0.4993	0.1036	0.0101	8.0E-4	1.0E-4	0.0	0.0	0.0	0.0	)
+		(	0.0	0.678	0.2436	0.0548	0.0156	0.0050	0.0018	7.0E-4	3.0E-4	1.0E-4	1.0E-4	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.0029002900290028997	0.11411141114111409	0.39513951395139507	0.3198319831983198	0.1315131513151315	0.0298029802980298	0.0058005800580057994	9.000900090008999E-4	0.0	)
+		(	0.0	0.0	0.0	0.04510000000000001	0.37170000000000003	0.40390000000000004	0.14330000000000004	0.03130000000000001	0.004100000000000001	5.000000000000001E-4	1.0000000000000002E-4	0.0	)
+		(	0.0	0.0	0.09129999999999999	0.5258999999999999	0.30269999999999997	0.06809999999999998	0.010399999999999998	0.0013999999999999998	1.9999999999999996E-4	0.0	0.0	0.0	)
+		(	0.0	0.5788999999999999	0.29569999999999996	0.08199999999999999	0.026999999999999993	0.009599999999999997	0.0036999999999999993	0.0016999999999999995	6.999999999999999E-4	3.999999999999999E-4	1.9999999999999996E-4	9.999999999999998E-5	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	1.0000000000000002E-4	0.013600000000000001	0.15780000000000002	0.32850000000000007	0.29660000000000003	0.14040000000000002	0.04830000000000001	0.013500000000000002	0.0012000000000000001	)
+		(	0.0	0.0	0.0	0.0035000000000000005	0.11220000000000001	0.3738000000000001	0.31860000000000005	0.14440000000000003	0.03760000000000001	0.008300000000000002	0.0015000000000000002	1.0000000000000002E-4	)
+		(	0.0	0.0	0.014998500149985002	0.30686931306869314	0.4203579642035796	0.1928807119288071	0.05119488051194881	0.011398860113988602	0.0018998100189981002	2.9997000299970003E-4	9.999000099990002E-5	0.0	)
+		(	0.0	0.48500000000000004	0.3340000000000001	0.11060000000000002	0.041100000000000005	0.016200000000000003	0.0068000000000000005	0.0033000000000000004	0.0015000000000000002	8.000000000000001E-4	4.000000000000001E-4	3.0000000000000003E-4	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0012002400480096017	0.03850770154030806	0.1746349269853971	0.30156031206241246	0.26135227045409076	0.14472894578915782	0.06511302260452091	0.012902580516103221	)
+		(	0.0	0.0	0.0	2.0002000200020005E-4	0.022602260226022602	0.18901890189018905	0.33173317331733176	0.27442744274427444	0.12521252125212523	0.04310431043104311	0.012401240124012402	0.0013001300130013002	)
+		(	0.0	0.0	0.0023000000000000004	0.13330000000000003	0.3728000000000001	0.30750000000000005	0.12920000000000004	0.042100000000000005	0.009900000000000003	0.0024000000000000002	5.000000000000001E-4	0.0	)
+		(	0.0	0.4048404840484049	0.3566356635663566	0.13671367136713672	0.05620562056205621	0.024002400240024004	0.010801080108010803	0.005400540054005401	0.0027002700270027007	0.0014001400140014003	8.000800080008002E-4	5.000500050005002E-4	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.0	1.0000000000000002E-4	0.006200000000000001	0.05800000000000001	0.18280000000000002	0.27790000000000004	0.23920000000000002	0.16750000000000004	0.06830000000000001	)
+		(	0.0	0.0	0.0	0.0	0.0031003100310031005	0.06150615061506151	0.21092109210921095	0.3051305130513051	0.23442344234423446	0.12171217121712173	0.05280528052805281	0.010401040104010401	)
+		(	0.0	0.0	3.0003000300030005E-4	0.04440444044404441	0.24132413241324133	0.3431343134313432	0.22082208220822083	0.10251025102510251	0.03370337033703371	0.010401040104010401	0.0030003000300030005	4.000400040004001E-4	)
+		(	0.0	0.331633673265347	0.3671265746850631	0.1612677464507099	0.07268546290741854	0.033493301339732065	0.01599680063987203	0.008498300339932017	0.004399120175964808	0.002399520095980804	0.0014997000599880027	9.998000399920018E-4	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0	9.0E-4	0.0157	0.0823	0.2012	0.2516	0.2559	0.1924	)
+		(	0.0	0.0	0.0	0.0	4.000000000000001E-4	0.016600000000000004	0.10020000000000001	0.23250000000000004	0.27770000000000006	0.20390000000000003	0.12510000000000002	0.04360000000000001	)
+		(	0.0	0.0	0.0	0.0138	0.1311	0.2956	0.2729	0.1711	0.0745	0.0286	0.0104	0.0020	)
+		(	0.0	0.2731	0.3669	0.1808	0.0881	0.0434	0.0217	0.012	0.0064	0.0036	0.0023	0.0017	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)));
+}
+potential ( R_MED_ALLCV_EW | R_MED_DCV_EW R_MED_RDLDCV_EW )
+{
+	data = (((	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.006600660066006601	0.1455145514551455	0.8380838083808381	0.0098009800980098	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0047	0.9951	2.0E-4	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0012	0.1305	0.8445	0.0238	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	2.0E-4	0.0321	0.9677	0.0	))
+		((	0.0699	0.8102	0.1199	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	5.0E-4	0.0239	0.4369	0.5387	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	4.000000000000001E-4	0.9005000000000001	0.09910000000000001	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.997	0.0030	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	4.0E-4	0.074	0.8589	0.0667	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	0.0184	0.9815	0.0	))
+		((	0.0	0.0479047904790479	0.9520952095209521	0.0	0.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	3.0E-4	0.0239	0.9748	0.0010	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.1288	0.8712	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.2336	0.7664	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	1.0001000100010001E-4	0.0373037303730373	0.8028802880288028	0.15971597159715972	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0101010101010101	0.98989898989899	0.0	))
+		((	8.999100089991E-4	0.008999100089991	0.08879112088791122	0.8186181381861813	0.0826917308269173	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	2.0000000000000004E-4	0.0036000000000000003	0.24670000000000003	0.7339000000000001	0.015600000000000001	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0113011301130113	0.5711571157115712	0.4175417541754175	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0025997400259974	0.9934006599340066	0.003999600039996	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0070	0.3517	0.6413	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0042	0.9958	0.0	))
+		((	0.0	0.0	5.000500050005E-4	0.10111011101110111	0.8477847784778478	0.050605060506050605	0.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0050	0.3134	0.6811	5.0E-4	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0214	0.9354	0.0432	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.2469	0.7531	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	3.0E-4	0.0581	0.9416	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0011	0.9989	0.0	))
+		((	0.0	0.0	0.0	5.000500050005E-4	0.07910791079107911	0.9001900190019002	0.0202020202020202	0.0	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.007100710071007101	0.5493549354935494	0.44334433443344334	2.0002000200020003E-4	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	9.999000099990002E-5	0.05649435056494351	0.9323067693230677	0.011098890110988902	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0020	0.9939	0.0041	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0060	0.994	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	3.0E-4	0.9997	0.0	))
+		((	0.0	0.0	0.0	0.0	6.0E-4	0.0734	0.8393	0.0867	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.009100910091009102	0.5283528352835284	0.46254625462546256	0.0	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	4.000000000000001E-4	0.14300000000000002	0.8551000000000001	0.0015000000000000002	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0314	0.9686	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	8.0E-4	0.9992	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	0.9999	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0	3.0003000300030005E-4	0.09470947094709473	0.8945894589458946	0.010401040104010401	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.021600000000000005	0.8359000000000001	0.14250000000000002	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.001999800019998	0.3548645135486451	0.6431356864313569	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	2.0E-4	0.9998	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	0.9999	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0	0.0	0.0020	0.0932	0.9048	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	4.0E-4	0.0355	0.9641	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	0.0122	0.9877	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	3.0E-4	0.9997	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	2.0E-4	0.9998	0.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	0.9999	0.0	))
+		((	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	0.9999	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	0.9999	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0E-4	0.9999	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	)));
+}
+potential ( DIFFN_DUMMY_2 | DIFFN_M_SEV_DIST DIFFN_PATHO DIFFN_TIME )
+{
+	data = ((((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	)))
+		(((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	)))
+		(((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	)))
+		(((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))));
+}
+potential ( DIFFN_DUMMY_1 | DIFFN_M_SEV_PROX DIFFN_PATHO DIFFN_TIME )
+{
+	data = ((((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	)))
+		(((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	)))
+		(((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	)))
+		(((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))));
+}
+potential ( DIFFN_DUMMY_3 | DIFFN_S_SEV_DIST DIFFN_PATHO DIFFN_TIME )
+{
+	data = ((((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	)))
+		(((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	)))
+		(((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	)))
+		(((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))
+		((	1.0	)
+		(	1.0	)
+		(	1.0	)
+		(	1.0	))));
+}
+potential ( R_DIFFN_APB_DE_REGEN | DIFFN_M_SEV_DIST DIFFN_TIME DIFFN_PATHO )
+{
+	data = ((((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	)))
+		(((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.5	0.5	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.5	0.5	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	)))
+		(((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.0	1.0	)
+		(	0.0	1.0	)))
+		(((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.1	0.9	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.1	0.9	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))));
+}
+potential ( R_LNLBE_APB_DE_REGEN | R_LNLBE_MED_SEV R_LNLBE_MED_TIME R_LNLBE_MED_PATHO )
+{
+	data = ((((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	)))
+		(((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.5	0.5	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.5	0.5	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	)))
+		(((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.0	1.0	)
+		(	0.0	1.0	)))
+		(((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.1	0.9	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.1	0.9	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.0	1.0	)
+		(	0.0	1.0	)))
+		(((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))));
+}
+potential ( R_LNLW_APB_DE_REGEN | R_LNLW_MED_SEV R_LNLW_MED_TIME R_LNLW_MED_PATHO )
+{
+	data = ((((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	)))
+		(((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.5	0.5	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.5	0.5	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	)))
+		(((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.2	0.8	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.8	0.2	)
+		(	0.0	1.0	)
+		(	0.0	1.0	)))
+		(((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.1	0.9	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.1	0.9	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.4	0.6	)
+		(	0.0	1.0	)
+		(	0.0	1.0	)))
+		(((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))
+		((	1.0	0.0	)
+		(	1.0	0.0	)
+		(	1.0	0.0	)
+		(	0.0	1.0	)
+		(	0.0	1.0	))));
+}
+potential ( R_DIFFN_APB_MUDENS | DIFFN_M_SEV_DIST DIFFN_TIME DIFFN_PATHO )
+{
+	data = ((((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)))
+		(((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	0.9	0.1	0.0	)
+		(	0.9	0.1	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.8	0.2	0.0	)
+		(	0.8	0.2	0.0	)
+		(	0.7	0.3	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.8	0.2	0.0	)
+		(	0.8	0.2	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	)))
+		(((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	0.8	0.2	0.0	)
+		(	0.8	0.2	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.7	0.3	0.0	)
+		(	0.7	0.3	0.0	)
+		(	0.1	0.6	0.3	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.7	0.3	0.0	)
+		(	0.7	0.3	0.0	)
+		(	0.15	0.7	0.15	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	)))
+		(((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.5	0.4	0.1	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.0	0.5	0.5	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.0	0.5	0.5	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))));
+}
+potential ( R_LNLBE_APB_MUDENS | R_LNLBE_MED_SEV R_LNLBE_MED_TIME R_LNLBE_MED_PATHO )
+{
+	data = ((((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)))
+		(((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	0.9	0.1	0.0	)
+		(	0.9	0.1	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.8	0.2	0.0	)
+		(	0.8	0.2	0.0	)
+		(	0.7	0.3	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.8	0.2	0.0	)
+		(	0.8	0.2	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	)))
+		(((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	0.8	0.2	0.0	)
+		(	0.8	0.2	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.7	0.3	0.0	)
+		(	0.7	0.3	0.0	)
+		(	0.1	0.6	0.3	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.7	0.3	0.0	)
+		(	0.7	0.3	0.0	)
+		(	0.15	0.7	0.15	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	)))
+		(((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.5	0.4	0.1	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.0	0.5	0.5	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.0	0.5	0.5	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	)))
+		(((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.3	0.6	0.1	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.0	0.5	0.5	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.0	0.5	0.5	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))));
+}
+potential ( R_LNLW_APB_MUDENS | R_LNLW_MED_SEV R_LNLW_MED_TIME R_LNLW_MED_PATHO )
+{
+	data = ((((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)))
+		(((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	0.9	0.1	0.0	)
+		(	0.9	0.1	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.8	0.2	0.0	)
+		(	0.8	0.2	0.0	)
+		(	0.7	0.3	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.8	0.2	0.0	)
+		(	0.8	0.2	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	)))
+		(((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	0.8	0.2	0.0	)
+		(	0.8	0.2	0.0	)
+		(	0.5	0.5	0.0	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.7	0.3	0.0	)
+		(	0.7	0.3	0.0	)
+		(	0.1	0.6	0.3	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.7	0.3	0.0	)
+		(	0.7	0.3	0.0	)
+		(	0.15	0.7	0.15	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	)))
+		(((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.5	0.4	0.1	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.0	0.5	0.5	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.0	0.5	0.5	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	)))
+		(((	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	)
+		(	1.0	0.0	0.0	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.3	0.6	0.1	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.0	0.5	0.5	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))
+		((	0.6	0.4	0.0	)
+		(	0.6	0.4	0.0	)
+		(	0.0	0.5	0.5	)
+		(	0.05	0.5	0.45	)
+		(	0.2	0.5	0.3	))));
+}
+potential ( R_DIFFN_APB_DENERV | DIFFN_M_SEV_DIST DIFFN_TIME DIFFN_PATHO )
+{
+	data = ((((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)))
+		(((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.8	0.2	0.0	0.0	)
+		(	0.9	0.1	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.8	0.2	0.0	0.0	)
+		(	0.9	0.1	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	)))
+		(((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.3	0.5	0.2	0.0	)
+		(	0.6	0.4	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.3	0.5	0.2	0.0	)
+		(	0.6	0.4	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.9	0.1	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	)))
+		(((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.1	0.5	0.4	0.0	)
+		(	0.4	0.5	0.1	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.1	0.5	0.4	0.0	)
+		(	0.4	0.5	0.1	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.5	0.4	0.1	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	0.6	0.3	0.1	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))));
+}
+potential ( R_LNLBE_APB_DENERV | R_LNLBE_MED_SEV R_LNLBE_MED_TIME R_LNLBE_MED_PATHO )
+{
+	data = ((((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)))
+		(((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.8	0.2	0.0	0.0	)
+		(	0.9	0.1	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	)))
+		(((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.3	0.5	0.2	0.0	)
+		(	0.6	0.4	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.3	0.5	0.2	0.0	)
+		(	0.6	0.4	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.9	0.1	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	)))
+		(((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.1	0.5	0.4	0.0	)
+		(	0.4	0.5	0.1	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.1	0.5	0.4	0.0	)
+		(	0.4	0.5	0.1	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.5	0.4	0.1	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	0.6	0.3	0.1	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	)))
+		(((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.0	0.4	0.4	0.2	)
+		(	0.3	0.4	0.3	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.0	0.4	0.4	0.2	)
+		(	0.3	0.4	0.3	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.1	0.6	0.25	0.05	)
+		(	0.5	0.5	0.0	0.0	)
+		(	0.45	0.45	0.1	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))));
+}
+potential ( R_LNLW_APB_DENERV | R_LNLW_MED_SEV R_LNLW_MED_TIME R_LNLW_MED_PATHO )
+{
+	data = ((((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)))
+		(((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.8	0.2	0.0	0.0	)
+		(	0.9	0.1	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	)))
+		(((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.3	0.5	0.2	0.0	)
+		(	0.6	0.4	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.3	0.5	0.2	0.0	)
+		(	0.6	0.4	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	)
+		(	0.9	0.1	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	)))
+		(((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.1	0.5	0.4	0.0	)
+		(	0.4	0.5	0.1	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.1	0.5	0.4	0.0	)
+		(	0.4	0.5	0.1	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.5	0.4	0.1	0.0	)
+		(	0.5	0.5	0.0	0.0	)
+		(	0.6	0.3	0.1	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	)))
+		(((	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.8	0.2	0.0	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.0	0.4	0.4	0.2	)
+		(	0.3	0.4	0.3	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.0	0.4	0.4	0.2	)
+		(	0.3	0.4	0.3	0.0	)
+		(	0.0	0.0	0.0	1.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))
+		((	0.1	0.6	0.25	0.05	)
+		(	0.5	0.5	0.0	0.0	)
+		(	0.45	0.45	0.1	0.0	)
+		(	0.0	0.0	0.5	0.5	)
+		(	0.05	0.4	0.5	0.05	))));
+}
+potential ( R_DIFFN_APB_MUSIZE | DIFFN_M_SEV_DIST DIFFN_TIME DIFFN_PATHO )
+{
+	data = ((((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)))
+		(((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.7	0.3	0.0	0.0	)
+		(	0.0	0.0	0.9	0.1	0.0	0.0	)
+		(	0.0	0.0	0.7	0.3	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.7	0.3	0.0	0.0	)
+		(	0.0	0.0	0.9	0.1	0.0	0.0	)
+		(	0.0	0.0	0.7	0.3	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)))
+		(((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.8	0.2	0.0	)
+		(	0.0	0.0	0.7	0.2	0.1	0.0	)
+		(	0.0	0.0	0.0	0.7	0.3	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.8	0.2	0.0	)
+		(	0.0	0.0	0.7	0.2	0.1	0.0	)
+		(	0.0	0.0	0.0	0.7	0.3	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)))
+		(((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.0	0.5	0.5	)
+		(	0.0	0.0	0.0	0.25	0.5	0.25	)
+		(	0.0	0.0	0.0	0.0	0.5	0.5	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.0	0.5	0.5	)
+		(	0.0	0.0	0.0	0.25	0.5	0.25	)
+		(	0.0	0.0	0.0	0.0	0.5	0.5	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))));
+}
+potential ( R_LNLBE_APB_MUSIZE | R_LNLBE_MED_SEV R_LNLBE_MED_TIME R_LNLBE_MED_PATHO )
+{
+	data = ((((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)))
+		(((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.9	0.1	0.0	0.0	)
+		(	0.0	0.0	0.95	0.05	0.0	0.0	)
+		(	0.0	0.0	0.8	0.2	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.9	0.1	0.0	0.0	)
+		(	0.0	0.0	0.95	0.05	0.0	0.0	)
+		(	0.0	0.0	0.8	0.2	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)))
+		(((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.2	0.7	0.1	0.0	)
+		(	0.0	0.0	0.7	0.25	0.05	0.0	)
+		(	0.0	0.0	0.0	0.8	0.2	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.2	0.7	0.1	0.0	)
+		(	0.0	0.0	0.7	0.25	0.05	0.0	)
+		(	0.0	0.0	0.0	0.8	0.2	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)))
+		(((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.2	0.7	0.1	)
+		(	0.0	0.0	0.0	0.25	0.7	0.05	)
+		(	0.0	0.0	0.0	0.1	0.6	0.3	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.2	0.7	0.1	)
+		(	0.0	0.0	0.0	0.25	0.7	0.05	)
+		(	0.0	0.0	0.0	0.1	0.6	0.3	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)))
+		(((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.2	0.7	0.1	)
+		(	0.0	0.0	0.0	0.25	0.7	0.05	)
+		(	0.0	0.0	0.0	0.1	0.6	0.3	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.2	0.7	0.1	)
+		(	0.0	0.0	0.0	0.25	0.7	0.05	)
+		(	0.0	0.0	0.0	0.1	0.6	0.3	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))));
+}
+potential ( R_LNLW_APB_MUSIZE | R_LNLW_MED_SEV R_LNLW_MED_TIME R_LNLW_MED_PATHO )
+{
+	data = ((((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)))
+		(((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.9	0.1	0.0	0.0	)
+		(	0.0	0.0	0.95	0.05	0.0	0.0	)
+		(	0.0	0.0	0.8	0.2	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.9	0.1	0.0	0.0	)
+		(	0.0	0.0	0.95	0.05	0.0	0.0	)
+		(	0.0	0.0	0.8	0.2	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)))
+		(((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.2	0.7	0.1	0.0	)
+		(	0.0	0.0	0.7	0.25	0.05	0.0	)
+		(	0.0	0.0	0.0	0.8	0.2	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.2	0.7	0.1	0.0	)
+		(	0.0	0.0	0.7	0.25	0.05	0.0	)
+		(	0.0	0.0	0.0	0.8	0.2	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)))
+		(((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.2	0.7	0.1	)
+		(	0.0	0.0	0.0	0.25	0.7	0.05	)
+		(	0.0	0.0	0.0	0.1	0.6	0.3	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.2	0.7	0.1	)
+		(	0.0	0.0	0.0	0.25	0.7	0.05	)
+		(	0.0	0.0	0.0	0.1	0.6	0.3	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	)))
+		(((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	0.0	0.0	1.0	0.0	0.0	0.0	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.2	0.7	0.1	)
+		(	0.0	0.0	0.0	0.25	0.7	0.05	)
+		(	0.0	0.0	0.0	0.1	0.6	0.3	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))
+		((	0.0	0.0	0.0	0.2	0.7	0.1	)
+		(	0.0	0.0	0.0	0.25	0.7	0.05	)
+		(	0.0	0.0	0.0	0.1	0.6	0.3	)
+		(	1.0	0.0	0.0	0.0	0.0	0.0	)
+		(	0.0	1.0	0.0	0.0	0.0	0.0	))));
+}

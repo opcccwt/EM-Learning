@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instantiation date="Oct 7, 2007 10:36:02 AM">
+<inst id="meldug_4" value="0.00 - 0.01 %"/>
+<inst id="temp_1" value="13.0 - 14.9 C"/>
+<inst id="foto_1" value="0.70 kg/m2"/>
+<inst id="middel_2" value="0.25 l/ha"/>
+<inst id="lai_4" value="0.5 - 1.5"/>
+<inst id="lai_1" value="2.5 - 3.5"/>
+<inst id="nedboer_2" value="&gt;= 4"/>
+<inst id="lai_0" value="2.5 - 3.5"/>
+<inst id="meldug_2" value="0.00 - 0.01 %"/>
+<inst id="middel_3" value="0 l/ha"/>
+<inst id="udbytte" value="95 - 97 hkg/ha"/>
+<inst id="mikro_1" value="Trt og koldt"/>
+<inst id="nedboer_1" value="0 - 1"/>
+</instantiation>

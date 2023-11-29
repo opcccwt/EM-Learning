@@ -1,0 +1,13 @@
+%%% 12
+parameters: 100 4096 10 1
+read data time: 0.05
+ read net time: 0.01
+=======================
+equivalent sample size: 1
+ randomized parameters: 0
+                  seed: 0
+             relevance: 0
+ uniformize parameters: 0
+         learning rate: 0.6
+initial learning point: 1
+=======================

@@ -1,0 +1,33 @@
+Network : examples/2n_bn/2nodes_det.net
+Network Read Time (ms) : 104.641908
+Number of Evidence Sets : 2
+AC :
+  Nodes : 11
+  Edges : 10
+  Total Initialization Time (ms) : 5.817702
+  Total Inference Time (ms) : 0.56392
+  Minimum Inference Time (ms) : 0.039396
+  Maximum Inference Time (ms) : 0.524524
+  Median Inference Time (ms) : 0.28196
+  Mean Inference Time (ms) : 0.28196
+  Standard Deviation Inference Time (ms) : 0.242564
+
+
+=============================================
+
+e = {B=b0}
+
+Pr(e) = 1E-1
+
+Pr(B,e) = [1.0, 0.0]
+Pr(A,e) = [1.0, 0.0]
+
+
+=============================================
+
+e = {B=b0}
+
+Pr(e) = 1E-1
+
+Pr(B,e) = [1.0, 0.0]
+Pr(A,e) = [1.0, 0.0]

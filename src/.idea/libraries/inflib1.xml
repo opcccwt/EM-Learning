@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="inflib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/em-smile/py/pybn/java/lib/inflib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

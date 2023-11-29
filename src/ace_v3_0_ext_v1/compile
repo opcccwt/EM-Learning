@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+# Unix script to run AceCompile
+#
+# by Mark Chavira
+#
+# Configuration: adjust the memory allocated to java below if necessary
+
+ACEDIR=`dirname $0`
+if test -f "$ACEDIR/c2d_arm"; then
+  C2D=c2d_arm
+  #export DYLD_LIBRARY_PATH=$ACEDIR
+  OPTIONS=-Djava.awt.headless=true
+else
+  C2D=c2d_linux
+  #export LD_LIBRARY_PATH=$ACEDIR
+  OPTIONS=''
+fi
+java $OPTIONS -DACEC2D="$ACEDIR/$C2D" -Xmx27000m -classpath "$ACEDIR/ace.jar:$ACEDIR/inflib.jar:$ACEDIR/json-20231013.jar:$ACEDIR/jdom-2.0.6.1.jar" edu.ucla.belief.ace.AceCompile "$@"

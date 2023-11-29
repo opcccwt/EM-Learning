@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="inflib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/inflib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

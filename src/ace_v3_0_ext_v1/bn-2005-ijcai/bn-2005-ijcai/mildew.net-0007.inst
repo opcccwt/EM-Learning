@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instantiation date="Oct 7, 2007 10:36:02 AM">
+<inst id="dm_1" value="0.10 kg/m2"/>
+<inst id="dm_2" value="0.14 kg/m2"/>
+<inst id="meldug_2" value="50 - 100 %"/>
+<inst id="udbytte" value="0 - 1 hkg/ha"/>
+<inst id="foto_4" value="0.00 kg/m2"/>
+<inst id="meldug_3" value="2 - 6 %"/>
+<inst id="lai_2" value="0.0 - 0.5"/>
+<inst id="middel_3" value="0.25 l/ha"/>
+<inst id="straaling_4" value="300 - 349 MJ/m2"/>
+</instantiation>

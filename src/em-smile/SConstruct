@@ -1,0 +1,23 @@
+
+# mode debug, profile, or default
+mode = ARGUMENTS.get('mode',None)
+
+# libraries
+lib = ['smile','smilearn']
+
+# compile
+env = Environment(CC='g++',CCFLAGS='-Wall -finline-functions ',
+                  CPPPATH='#/include',
+                  LIBS=lib,LIBPATH='#/lib')
+
+if mode == 'debug':
+    build_dir = 'debug'
+    env.Append(CCFLAGS='-g')
+elif mode == 'profile':
+    build_dir = 'debug'
+    env.Append(CCFLAGS='-pg')
+else:
+    build_dir = 'build'
+    env.Append(CCFLAGS='-O3 -DNDEBUG -ffast-math')
+
+SConscript('src/SConscript',variant_dir=build_dir,duplicate=0,exports='env')

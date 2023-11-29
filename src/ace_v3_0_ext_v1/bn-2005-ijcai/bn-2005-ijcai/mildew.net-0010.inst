@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instantiation date="Oct 7, 2007 10:36:02 AM">
+<inst id="foto_4" value="0.45 kg/m2"/>
+<inst id="nedboer_3" value="&gt;= 4"/>
+<inst id="udbytte" value="109 - 111 hkg/ha"/>
+<inst id="foto_2" value="0.55 kg/m2"/>
+<inst id="lai_0" value="4.5 - 5.5"/>
+<inst id="lai_1" value="4.5 - 5.5"/>
+<inst id="temp_3" value="13.0 - 14.9 C"/>
+<inst id="lai_2" value="4.5 - 5.5"/>
+<inst id="dm_4" value="1.28 kg/m2"/>
+<inst id="mikro_3" value="Vdt og koldt"/>
+<inst id="straaling_4" value="300 - 349 MJ/m2"/>
+<inst id="foto_3" value="0.85 kg/m2"/>
+<inst id="meldug_4" value="0.00 - 0.01 %"/>
+<inst id="meldug_3" value="0.00 - 0.01 %"/>
+<inst id="nedboer_2" value="0 - 1"/>
+</instantiation>

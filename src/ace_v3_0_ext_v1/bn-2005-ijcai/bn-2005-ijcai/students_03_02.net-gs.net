@@ -1,0 +1,4695 @@
+net
+{
+}
+node advisorIs1pPro1I
+{
+	states = ("false" "true" );
+	position = (0 0);
+	label = "advisorIs1pPro1I";
+}
+node advisorIs1pPro2I
+{
+	states = ("false" "true" );
+	position = (10 -10);
+	label = "advisorIs1pPro2I";
+}
+node advisorIs1pPro3I
+{
+	states = ("false" "true" );
+	position = (20 -20);
+	label = "advisorIs1pPro3I";
+}
+node advisorIs2pPro1I
+{
+	states = ("false" "true" );
+	position = (30 -30);
+	label = "advisorIs2pPro1I";
+}
+node advisorIs2pPro2I
+{
+	states = ("false" "true" );
+	position = (40 -40);
+	label = "advisorIs2pPro2I";
+}
+node advisorIs2pPro3I
+{
+	states = ("false" "true" );
+	position = (50 -50);
+	label = "advisorIs2pPro3I";
+}
+node countIf_1_1pf_1_1I
+{
+	states = ("false" "true" );
+	position = (60 -60);
+	label = "countIf_1_1pf_1_1I";
+}
+node countIf_1_1pf_1_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (70 -70);
+	label = "countIf_1_1pf_1_1I_CC1_CC2_CC2";
+}
+node countIf_1_1pf_1_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p4I
+{
+	states = ("false" "true" );
+	position = (80 -80);
+	label = "countIf_1_1pf_1_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p4I";
+}
+node countIf_1_1pf_1_2I
+{
+	states = ("false" "true" );
+	position = (90 -90);
+	label = "countIf_1_1pf_1_2I";
+}
+node countIf_1_1pf_1_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (100 -100);
+	label = "countIf_1_1pf_1_2I_CC1_CC2_CC2";
+}
+node countIf_1_1pf_1_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p5I
+{
+	states = ("false" "true" );
+	position = (110 -110);
+	label = "countIf_1_1pf_1_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p5I";
+}
+node countIf_1_1pf_1_3I
+{
+	states = ("false" "true" );
+	position = (120 -120);
+	label = "countIf_1_1pf_1_3I";
+}
+node countIf_1_1pf_1_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (130 -130);
+	label = "countIf_1_1pf_1_3I_CC1_CC2_CC2";
+}
+node countIf_1_1pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I4p6I
+{
+	states = ("false" "true" );
+	position = (140 -140);
+	label = "countIf_1_1pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I4p6I";
+}
+node countIf_1_1pf_2_1I
+{
+	states = ("false" "true" );
+	position = (150 -150);
+	label = "countIf_1_1pf_2_1I";
+}
+node countIf_1_1pf_2_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (160 -160);
+	label = "countIf_1_1pf_2_1I_CC1_CC2_CC2";
+}
+node countIf_1_1pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p7I
+{
+	states = ("false" "true" );
+	position = (170 -170);
+	label = "countIf_1_1pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p7I";
+}
+node countIf_1_1pf_2_2I
+{
+	states = ("false" "true" );
+	position = (180 -180);
+	label = "countIf_1_1pf_2_2I";
+}
+node countIf_1_1pf_2_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (190 -190);
+	label = "countIf_1_1pf_2_2I_CC1_CC2_CC2";
+}
+node countIf_1_1pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p8I
+{
+	states = ("false" "true" );
+	position = (200 -200);
+	label = "countIf_1_1pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p8I";
+}
+node countIf_1_1pf_2_3I
+{
+	states = ("false" "true" );
+	position = (210 -210);
+	label = "countIf_1_1pf_2_3I";
+}
+node countIf_1_1pf_2_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (220 -220);
+	label = "countIf_1_1pf_2_3I_CC1_CC2_CC2";
+}
+node countIf_1_1pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I4p9I
+{
+	states = ("false" "true" );
+	position = (230 -230);
+	label = "countIf_1_1pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I4p9I";
+}
+node countIf_1_1pf_3_1I
+{
+	states = ("false" "true" );
+	position = (240 -240);
+	label = "countIf_1_1pf_3_1I";
+}
+node countIf_1_1pf_3_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (250 -250);
+	label = "countIf_1_1pf_3_1I_CC1_CC2_CC2";
+}
+node countIf_1_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p10I
+{
+	states = ("false" "true" );
+	position = (260 -260);
+	label = "countIf_1_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p10I";
+}
+node countIf_1_1pf_3_2I
+{
+	states = ("false" "true" );
+	position = (270 -270);
+	label = "countIf_1_1pf_3_2I";
+}
+node countIf_1_1pf_3_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (280 -280);
+	label = "countIf_1_1pf_3_2I_CC1_CC2_CC2";
+}
+node countIf_1_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p11I
+{
+	states = ("false" "true" );
+	position = (290 -290);
+	label = "countIf_1_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p11I";
+}
+node countIf_1_1pf_3_3I
+{
+	states = ("false" "true" );
+	position = (300 -300);
+	label = "countIf_1_1pf_3_3I";
+}
+node countIf_1_1pf_3_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (310 -310);
+	label = "countIf_1_1pf_3_3I_CC1_CC2_CC2";
+}
+node countIf_1_2pf_1_1I
+{
+	states = ("false" "true" );
+	position = (320 -320);
+	label = "countIf_1_2pf_1_1I";
+}
+node countIf_1_2pf_1_2I
+{
+	states = ("false" "true" );
+	position = (330 -330);
+	label = "countIf_1_2pf_1_2I";
+}
+node countIf_1_2pf_1_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (340 -340);
+	label = "countIf_1_2pf_1_2I_CC1_CC2_CC2";
+}
+node countIf_1_2pf_1_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p5I
+{
+	states = ("false" "true" );
+	position = (350 -350);
+	label = "countIf_1_2pf_1_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p5I";
+}
+node countIf_1_2pf_1_3I
+{
+	states = ("false" "true" );
+	position = (360 -360);
+	label = "countIf_1_2pf_1_3I";
+}
+node countIf_1_2pf_1_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (370 -370);
+	label = "countIf_1_2pf_1_3I_CC1_CC2_CC2";
+}
+node countIf_1_2pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I5p6I
+{
+	states = ("false" "true" );
+	position = (380 -380);
+	label = "countIf_1_2pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I5p6I";
+}
+node countIf_1_2pf_2_1I
+{
+	states = ("false" "true" );
+	position = (390 -390);
+	label = "countIf_1_2pf_2_1I";
+}
+node countIf_1_2pf_2_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (400 -400);
+	label = "countIf_1_2pf_2_1I_CC1_CC2_CC2";
+}
+node countIf_1_2pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I5p7I
+{
+	states = ("false" "true" );
+	position = (410 -410);
+	label = "countIf_1_2pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I5p7I";
+}
+node countIf_1_2pf_2_2I
+{
+	states = ("false" "true" );
+	position = (420 -420);
+	label = "countIf_1_2pf_2_2I";
+}
+node countIf_1_2pf_2_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (430 -430);
+	label = "countIf_1_2pf_2_2I_CC1_CC2_CC2";
+}
+node countIf_1_2pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p8I
+{
+	states = ("false" "true" );
+	position = (440 -440);
+	label = "countIf_1_2pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p8I";
+}
+node countIf_1_2pf_2_3I
+{
+	states = ("false" "true" );
+	position = (450 -450);
+	label = "countIf_1_2pf_2_3I";
+}
+node countIf_1_2pf_2_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (460 -460);
+	label = "countIf_1_2pf_2_3I_CC1_CC2_CC2";
+}
+node countIf_1_2pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I5p9I
+{
+	states = ("false" "true" );
+	position = (470 -470);
+	label = "countIf_1_2pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I5p9I";
+}
+node countIf_1_2pf_3_1I
+{
+	states = ("false" "true" );
+	position = (480 -480);
+	label = "countIf_1_2pf_3_1I";
+}
+node countIf_1_2pf_3_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (490 -490);
+	label = "countIf_1_2pf_3_1I_CC1_CC2_CC2";
+}
+node countIf_1_2pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I5p10I
+{
+	states = ("false" "true" );
+	position = (500 -500);
+	label = "countIf_1_2pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I5p10I";
+}
+node countIf_1_2pf_3_2I
+{
+	states = ("false" "true" );
+	position = (510 -510);
+	label = "countIf_1_2pf_3_2I";
+}
+node countIf_1_2pf_3_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (520 -520);
+	label = "countIf_1_2pf_3_2I_CC1_CC2_CC2";
+}
+node countIf_1_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p11I
+{
+	states = ("false" "true" );
+	position = (530 -530);
+	label = "countIf_1_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p11I";
+}
+node countIf_1_2pf_3_3I
+{
+	states = ("false" "true" );
+	position = (540 -540);
+	label = "countIf_1_2pf_3_3I";
+}
+node countIf_1_2pf_3_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (550 -550);
+	label = "countIf_1_2pf_3_3I_CC1_CC2_CC2";
+}
+node countIf_1_3pf_1_2I
+{
+	states = ("false" "true" );
+	position = (560 -560);
+	label = "countIf_1_3pf_1_2I";
+}
+node countIf_1_3pf_1_3I
+{
+	states = ("false" "true" );
+	position = (570 -570);
+	label = "countIf_1_3pf_1_3I";
+}
+node countIf_1_3pf_1_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (580 -580);
+	label = "countIf_1_3pf_1_3I_CC1_CC2_CC2";
+}
+node countIf_1_3pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I6p6I
+{
+	states = ("false" "true" );
+	position = (590 -590);
+	label = "countIf_1_3pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I6p6I";
+}
+node countIf_1_3pf_2_1I
+{
+	states = ("false" "true" );
+	position = (600 -600);
+	label = "countIf_1_3pf_2_1I";
+}
+node countIf_1_3pf_2_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (610 -610);
+	label = "countIf_1_3pf_2_1I_CC1_CC2_CC2";
+}
+node countIf_1_3pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I6p7I
+{
+	states = ("false" "true" );
+	position = (620 -620);
+	label = "countIf_1_3pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I6p7I";
+}
+node countIf_1_3pf_2_2I
+{
+	states = ("false" "true" );
+	position = (630 -630);
+	label = "countIf_1_3pf_2_2I";
+}
+node countIf_1_3pf_2_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (640 -640);
+	label = "countIf_1_3pf_2_2I_CC1_CC2_CC2";
+}
+node countIf_1_3pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I6p8I
+{
+	states = ("false" "true" );
+	position = (650 -650);
+	label = "countIf_1_3pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I6p8I";
+}
+node countIf_1_3pf_2_3I
+{
+	states = ("false" "true" );
+	position = (660 -660);
+	label = "countIf_1_3pf_2_3I";
+}
+node countIf_1_3pf_2_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (670 -670);
+	label = "countIf_1_3pf_2_3I_CC1_CC2_CC2";
+}
+node countIf_1_3pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I6p9I
+{
+	states = ("false" "true" );
+	position = (680 -680);
+	label = "countIf_1_3pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I6p9I";
+}
+node countIf_1_3pf_3_1I
+{
+	states = ("false" "true" );
+	position = (690 -690);
+	label = "countIf_1_3pf_3_1I";
+}
+node countIf_1_3pf_3_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (700 -700);
+	label = "countIf_1_3pf_3_1I_CC1_CC2_CC2";
+}
+node countIf_1_3pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I6p10I
+{
+	states = ("false" "true" );
+	position = (710 -710);
+	label = "countIf_1_3pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I6p10I";
+}
+node countIf_1_3pf_3_2I
+{
+	states = ("false" "true" );
+	position = (720 -720);
+	label = "countIf_1_3pf_3_2I";
+}
+node countIf_1_3pf_3_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (730 -730);
+	label = "countIf_1_3pf_3_2I_CC1_CC2_CC2";
+}
+node countIf_1_3pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I6p11I
+{
+	states = ("false" "true" );
+	position = (740 -740);
+	label = "countIf_1_3pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I6p11I";
+}
+node countIf_1_3pf_3_3I
+{
+	states = ("false" "true" );
+	position = (750 -750);
+	label = "countIf_1_3pf_3_3I";
+}
+node countIf_1_3pf_3_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (760 -760);
+	label = "countIf_1_3pf_3_3I_CC1_CC2_CC2";
+}
+node countIf_2_1pf_1_3I
+{
+	states = ("false" "true" );
+	position = (770 -770);
+	label = "countIf_2_1pf_1_3I";
+}
+node countIf_2_1pf_2_1I
+{
+	states = ("false" "true" );
+	position = (780 -780);
+	label = "countIf_2_1pf_2_1I";
+}
+node countIf_2_1pf_2_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (790 -790);
+	label = "countIf_2_1pf_2_1I_CC1_CC2_CC2";
+}
+node countIf_2_1pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I7p7I
+{
+	states = ("false" "true" );
+	position = (800 -800);
+	label = "countIf_2_1pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I7p7I";
+}
+node countIf_2_1pf_2_2I
+{
+	states = ("false" "true" );
+	position = (810 -810);
+	label = "countIf_2_1pf_2_2I";
+}
+node countIf_2_1pf_2_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (820 -820);
+	label = "countIf_2_1pf_2_2I_CC1_CC2_CC2";
+}
+node countIf_2_1pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I7p8I
+{
+	states = ("false" "true" );
+	position = (830 -830);
+	label = "countIf_2_1pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I7p8I";
+}
+node countIf_2_1pf_2_3I
+{
+	states = ("false" "true" );
+	position = (840 -840);
+	label = "countIf_2_1pf_2_3I";
+}
+node countIf_2_1pf_2_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (850 -850);
+	label = "countIf_2_1pf_2_3I_CC1_CC2_CC2";
+}
+node countIf_2_1pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I7p9I
+{
+	states = ("false" "true" );
+	position = (860 -860);
+	label = "countIf_2_1pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I7p9I";
+}
+node countIf_2_1pf_3_1I
+{
+	states = ("false" "true" );
+	position = (870 -870);
+	label = "countIf_2_1pf_3_1I";
+}
+node countIf_2_1pf_3_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (880 -880);
+	label = "countIf_2_1pf_3_1I_CC1_CC2_CC2";
+}
+node countIf_2_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I7p10I
+{
+	states = ("false" "true" );
+	position = (890 -890);
+	label = "countIf_2_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I7p10I";
+}
+node countIf_2_1pf_3_2I
+{
+	states = ("false" "true" );
+	position = (900 -900);
+	label = "countIf_2_1pf_3_2I";
+}
+node countIf_2_1pf_3_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (910 -910);
+	label = "countIf_2_1pf_3_2I_CC1_CC2_CC2";
+}
+node countIf_2_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I7p11I
+{
+	states = ("false" "true" );
+	position = (920 -920);
+	label = "countIf_2_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I7p11I";
+}
+node countIf_2_1pf_3_3I
+{
+	states = ("false" "true" );
+	position = (930 -930);
+	label = "countIf_2_1pf_3_3I";
+}
+node countIf_2_1pf_3_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (940 -940);
+	label = "countIf_2_1pf_3_3I_CC1_CC2_CC2";
+}
+node countIf_2_2pf_2_1I
+{
+	states = ("false" "true" );
+	position = (950 -950);
+	label = "countIf_2_2pf_2_1I";
+}
+node countIf_2_2pf_2_2I
+{
+	states = ("false" "true" );
+	position = (960 -960);
+	label = "countIf_2_2pf_2_2I";
+}
+node countIf_2_2pf_2_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (970 -970);
+	label = "countIf_2_2pf_2_2I_CC1_CC2_CC2";
+}
+node countIf_2_2pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I8p8I
+{
+	states = ("false" "true" );
+	position = (980 -980);
+	label = "countIf_2_2pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I8p8I";
+}
+node countIf_2_2pf_2_3I
+{
+	states = ("false" "true" );
+	position = (990 -990);
+	label = "countIf_2_2pf_2_3I";
+}
+node countIf_2_2pf_2_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1000 -1000);
+	label = "countIf_2_2pf_2_3I_CC1_CC2_CC2";
+}
+node countIf_2_2pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I8p9I
+{
+	states = ("false" "true" );
+	position = (1010 -1010);
+	label = "countIf_2_2pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I8p9I";
+}
+node countIf_2_2pf_3_1I
+{
+	states = ("false" "true" );
+	position = (1020 -1020);
+	label = "countIf_2_2pf_3_1I";
+}
+node countIf_2_2pf_3_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1030 -1030);
+	label = "countIf_2_2pf_3_1I_CC1_CC2_CC2";
+}
+node countIf_2_2pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I8p10I
+{
+	states = ("false" "true" );
+	position = (1040 -1040);
+	label = "countIf_2_2pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I8p10I";
+}
+node countIf_2_2pf_3_2I
+{
+	states = ("false" "true" );
+	position = (1050 -1050);
+	label = "countIf_2_2pf_3_2I";
+}
+node countIf_2_2pf_3_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1060 -1060);
+	label = "countIf_2_2pf_3_2I_CC1_CC2_CC2";
+}
+node countIf_2_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I8p11I
+{
+	states = ("false" "true" );
+	position = (1070 -1070);
+	label = "countIf_2_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I8p11I";
+}
+node countIf_2_2pf_3_3I
+{
+	states = ("false" "true" );
+	position = (1080 -1080);
+	label = "countIf_2_2pf_3_3I";
+}
+node countIf_2_2pf_3_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1090 -1090);
+	label = "countIf_2_2pf_3_3I_CC1_CC2_CC2";
+}
+node countIf_2_3pf_2_2I
+{
+	states = ("false" "true" );
+	position = (1100 -1100);
+	label = "countIf_2_3pf_2_2I";
+}
+node countIf_2_3pf_2_3I
+{
+	states = ("false" "true" );
+	position = (1110 -1110);
+	label = "countIf_2_3pf_2_3I";
+}
+node countIf_2_3pf_2_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1120 -1120);
+	label = "countIf_2_3pf_2_3I_CC1_CC2_CC2";
+}
+node countIf_2_3pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I9p9I
+{
+	states = ("false" "true" );
+	position = (1130 -1130);
+	label = "countIf_2_3pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I9p9I";
+}
+node countIf_2_3pf_3_1I
+{
+	states = ("false" "true" );
+	position = (1140 -1140);
+	label = "countIf_2_3pf_3_1I";
+}
+node countIf_2_3pf_3_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1150 -1150);
+	label = "countIf_2_3pf_3_1I_CC1_CC2_CC2";
+}
+node countIf_2_3pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I9p10I
+{
+	states = ("false" "true" );
+	position = (1160 -1160);
+	label = "countIf_2_3pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I9p10I";
+}
+node countIf_2_3pf_3_2I
+{
+	states = ("false" "true" );
+	position = (1170 -1170);
+	label = "countIf_2_3pf_3_2I";
+}
+node countIf_2_3pf_3_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1180 -1180);
+	label = "countIf_2_3pf_3_2I_CC1_CC2_CC2";
+}
+node countIf_2_3pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I9p11I
+{
+	states = ("false" "true" );
+	position = (1190 -1190);
+	label = "countIf_2_3pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I9p11I";
+}
+node countIf_2_3pf_3_3I
+{
+	states = ("false" "true" );
+	position = (1200 -1200);
+	label = "countIf_2_3pf_3_3I";
+}
+node countIf_2_3pf_3_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1210 -1210);
+	label = "countIf_2_3pf_3_3I_CC1_CC2_CC2";
+}
+node countIf_3_1pf_2_3I
+{
+	states = ("false" "true" );
+	position = (1220 -1220);
+	label = "countIf_3_1pf_2_3I";
+}
+node countIf_3_1pf_3_1I
+{
+	states = ("false" "true" );
+	position = (1230 -1230);
+	label = "countIf_3_1pf_3_1I";
+}
+node countIf_3_1pf_3_1I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1240 -1240);
+	label = "countIf_3_1pf_3_1I_CC1_CC2_CC2";
+}
+node countIf_3_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I10p10I
+{
+	states = ("false" "true" );
+	position = (1250 -1250);
+	label = "countIf_3_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I10p10I";
+}
+node countIf_3_1pf_3_2I
+{
+	states = ("false" "true" );
+	position = (1260 -1260);
+	label = "countIf_3_1pf_3_2I";
+}
+node countIf_3_1pf_3_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1270 -1270);
+	label = "countIf_3_1pf_3_2I_CC1_CC2_CC2";
+}
+node countIf_3_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I10p11I
+{
+	states = ("false" "true" );
+	position = (1280 -1280);
+	label = "countIf_3_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I10p11I";
+}
+node countIf_3_1pf_3_3I
+{
+	states = ("false" "true" );
+	position = (1290 -1290);
+	label = "countIf_3_1pf_3_3I";
+}
+node countIf_3_1pf_3_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1300 -1300);
+	label = "countIf_3_1pf_3_3I_CC1_CC2_CC2";
+}
+node countIf_3_2pf_3_1I
+{
+	states = ("false" "true" );
+	position = (1310 -1310);
+	label = "countIf_3_2pf_3_1I";
+}
+node countIf_3_2pf_3_2I
+{
+	states = ("false" "true" );
+	position = (1320 -1320);
+	label = "countIf_3_2pf_3_2I";
+}
+node countIf_3_2pf_3_2I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1330 -1330);
+	label = "countIf_3_2pf_3_2I_CC1_CC2_CC2";
+}
+node countIf_3_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I11p11I
+{
+	states = ("false" "true" );
+	position = (1340 -1340);
+	label = "countIf_3_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I11p11I";
+}
+node countIf_3_2pf_3_3I
+{
+	states = ("false" "true" );
+	position = (1350 -1350);
+	label = "countIf_3_2pf_3_3I";
+}
+node countIf_3_2pf_3_3I_CC1_CC2_CC2
+{
+	states = ("false" "true" );
+	position = (1360 -1360);
+	label = "countIf_3_2pf_3_3I_CC1_CC2_CC2";
+}
+node countIf_3_3pf_3_2I
+{
+	states = ("false" "true" );
+	position = (1370 -1370);
+	label = "countIf_3_3pf_3_2I";
+}
+node countIf_3_3pf_3_3I
+{
+	states = ("false" "true" );
+	position = (1380 -1380);
+	label = "countIf_3_3pf_3_3I";
+}
+node fameIPro1I
+{
+	states = ("false" "true" );
+	position = (1390 -1390);
+	label = "fameIPro1I";
+}
+node fameIPro2I
+{
+	states = ("false" "true" );
+	position = (1400 -1400);
+	label = "fameIPro2I";
+}
+node fameIPro3I
+{
+	states = ("false" "true" );
+	position = (1410 -1410);
+	label = "fameIPro3I";
+}
+node grantedIf_1_1I
+{
+	states = ("false" "true" );
+	position = (1420 -1420);
+	label = "grantedIf_1_1I";
+}
+node grantedIf_1_2I
+{
+	states = ("false" "true" );
+	position = (1430 -1430);
+	label = "grantedIf_1_2I";
+}
+node grantedIf_1_3I
+{
+	states = ("false" "true" );
+	position = (1440 -1440);
+	label = "grantedIf_1_3I";
+}
+node grantedIf_2_1I
+{
+	states = ("false" "true" );
+	position = (1450 -1450);
+	label = "grantedIf_2_1I";
+}
+node grantedIf_2_2I
+{
+	states = ("false" "true" );
+	position = (1460 -1460);
+	label = "grantedIf_2_2I";
+}
+node grantedIf_2_3I
+{
+	states = ("false" "true" );
+	position = (1470 -1470);
+	label = "grantedIf_2_3I";
+}
+node grantedIf_3_1I
+{
+	states = ("false" "true" );
+	position = (1480 -1480);
+	label = "grantedIf_3_1I";
+}
+node grantedIf_3_2I
+{
+	states = ("false" "true" );
+	position = (1490 -1490);
+	label = "grantedIf_3_2I";
+}
+node grantedIf_3_3I
+{
+	states = ("false" "true" );
+	position = (1500 -1500);
+	label = "grantedIf_3_3I";
+}
+node or_advisorIs1pPro1I_CC1_pf0I10I_advisorIs1pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1510 -1510);
+	label = "or_advisorIs1pPro1I_CC1_pf0I10I_advisorIs1pPro1I_CC1";
+}
+node or_advisorIs1pPro1I_CC1_pf0I11I_advisorIs1pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1520 -1520);
+	label = "or_advisorIs1pPro1I_CC1_pf0I11I_advisorIs1pPro1I_CC1";
+}
+node or_advisorIs1pPro1I_CC1_pf0I6I_advisorIs1pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1530 -1530);
+	label = "or_advisorIs1pPro1I_CC1_pf0I6I_advisorIs1pPro1I_CC1";
+}
+node or_advisorIs1pPro1I_CC1_pf0I7I_advisorIs1pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1540 -1540);
+	label = "or_advisorIs1pPro1I_CC1_pf0I7I_advisorIs1pPro1I_CC1";
+}
+node or_advisorIs1pPro1I_CC1_pf0I8I_advisorIs1pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1550 -1550);
+	label = "or_advisorIs1pPro1I_CC1_pf0I8I_advisorIs1pPro1I_CC1";
+}
+node or_advisorIs1pPro1I_CC1_pf0I9I_advisorIs1pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1560 -1560);
+	label = "or_advisorIs1pPro1I_CC1_pf0I9I_advisorIs1pPro1I_CC1";
+}
+node or_advisorIs1pPro2I_CC1_pf0I10I_advisorIs1pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1570 -1570);
+	label = "or_advisorIs1pPro2I_CC1_pf0I10I_advisorIs1pPro2I_CC1";
+}
+node or_advisorIs1pPro2I_CC1_pf0I11I_advisorIs1pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1580 -1580);
+	label = "or_advisorIs1pPro2I_CC1_pf0I11I_advisorIs1pPro2I_CC1";
+}
+node or_advisorIs1pPro2I_CC1_pf0I6I_advisorIs1pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1590 -1590);
+	label = "or_advisorIs1pPro2I_CC1_pf0I6I_advisorIs1pPro2I_CC1";
+}
+node or_advisorIs1pPro2I_CC1_pf0I7I_advisorIs1pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1600 -1600);
+	label = "or_advisorIs1pPro2I_CC1_pf0I7I_advisorIs1pPro2I_CC1";
+}
+node or_advisorIs1pPro2I_CC1_pf0I8I_advisorIs1pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1610 -1610);
+	label = "or_advisorIs1pPro2I_CC1_pf0I8I_advisorIs1pPro2I_CC1";
+}
+node or_advisorIs1pPro2I_CC1_pf0I9I_advisorIs1pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1620 -1620);
+	label = "or_advisorIs1pPro2I_CC1_pf0I9I_advisorIs1pPro2I_CC1";
+}
+node or_advisorIs1pPro3I_CC1_pf0I10I_advisorIs1pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1630 -1630);
+	label = "or_advisorIs1pPro3I_CC1_pf0I10I_advisorIs1pPro3I_CC1";
+}
+node or_advisorIs1pPro3I_CC1_pf0I11I_advisorIs1pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1640 -1640);
+	label = "or_advisorIs1pPro3I_CC1_pf0I11I_advisorIs1pPro3I_CC1";
+}
+node or_advisorIs1pPro3I_CC1_pf0I4I_advisorIs1pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1650 -1650);
+	label = "or_advisorIs1pPro3I_CC1_pf0I4I_advisorIs1pPro3I_CC1";
+}
+node or_advisorIs1pPro3I_CC1_pf0I5I_advisorIs1pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1660 -1660);
+	label = "or_advisorIs1pPro3I_CC1_pf0I5I_advisorIs1pPro3I_CC1";
+}
+node or_advisorIs1pPro3I_CC1_pf0I6I_advisorIs1pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1670 -1670);
+	label = "or_advisorIs1pPro3I_CC1_pf0I6I_advisorIs1pPro3I_CC1";
+}
+node or_advisorIs1pPro3I_CC1_pf0I7I_advisorIs1pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1680 -1680);
+	label = "or_advisorIs1pPro3I_CC1_pf0I7I_advisorIs1pPro3I_CC1";
+}
+node or_advisorIs1pPro3I_CC1_pf0I8I_advisorIs1pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1690 -1690);
+	label = "or_advisorIs1pPro3I_CC1_pf0I8I_advisorIs1pPro3I_CC1";
+}
+node or_advisorIs1pPro3I_CC1_pf0I9I_advisorIs1pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1700 -1700);
+	label = "or_advisorIs1pPro3I_CC1_pf0I9I_advisorIs1pPro3I_CC1";
+}
+node or_advisorIs2pPro1I_CC1_pf0I10I_advisorIs2pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1710 -1710);
+	label = "or_advisorIs2pPro1I_CC1_pf0I10I_advisorIs2pPro1I_CC1";
+}
+node or_advisorIs2pPro1I_CC1_pf0I11I_advisorIs2pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1720 -1720);
+	label = "or_advisorIs2pPro1I_CC1_pf0I11I_advisorIs2pPro1I_CC1";
+}
+node or_advisorIs2pPro1I_CC1_pf0I6I_advisorIs2pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1730 -1730);
+	label = "or_advisorIs2pPro1I_CC1_pf0I6I_advisorIs2pPro1I_CC1";
+}
+node or_advisorIs2pPro1I_CC1_pf0I7I_advisorIs2pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1740 -1740);
+	label = "or_advisorIs2pPro1I_CC1_pf0I7I_advisorIs2pPro1I_CC1";
+}
+node or_advisorIs2pPro1I_CC1_pf0I8I_advisorIs2pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1750 -1750);
+	label = "or_advisorIs2pPro1I_CC1_pf0I8I_advisorIs2pPro1I_CC1";
+}
+node or_advisorIs2pPro1I_CC1_pf0I9I_advisorIs2pPro1I_CC1
+{
+	states = ("false" "true" );
+	position = (1760 -1760);
+	label = "or_advisorIs2pPro1I_CC1_pf0I9I_advisorIs2pPro1I_CC1";
+}
+node or_advisorIs2pPro2I_CC1_pf0I10I_advisorIs2pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1770 -1770);
+	label = "or_advisorIs2pPro2I_CC1_pf0I10I_advisorIs2pPro2I_CC1";
+}
+node or_advisorIs2pPro2I_CC1_pf0I11I_advisorIs2pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1780 -1780);
+	label = "or_advisorIs2pPro2I_CC1_pf0I11I_advisorIs2pPro2I_CC1";
+}
+node or_advisorIs2pPro2I_CC1_pf0I4I_advisorIs2pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1790 -1790);
+	label = "or_advisorIs2pPro2I_CC1_pf0I4I_advisorIs2pPro2I_CC1";
+}
+node or_advisorIs2pPro2I_CC1_pf0I5I_advisorIs2pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1800 -1800);
+	label = "or_advisorIs2pPro2I_CC1_pf0I5I_advisorIs2pPro2I_CC1";
+}
+node or_advisorIs2pPro2I_CC1_pf0I6I_advisorIs2pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1810 -1810);
+	label = "or_advisorIs2pPro2I_CC1_pf0I6I_advisorIs2pPro2I_CC1";
+}
+node or_advisorIs2pPro2I_CC1_pf0I7I_advisorIs2pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1820 -1820);
+	label = "or_advisorIs2pPro2I_CC1_pf0I7I_advisorIs2pPro2I_CC1";
+}
+node or_advisorIs2pPro2I_CC1_pf0I8I_advisorIs2pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1830 -1830);
+	label = "or_advisorIs2pPro2I_CC1_pf0I8I_advisorIs2pPro2I_CC1";
+}
+node or_advisorIs2pPro2I_CC1_pf0I9I_advisorIs2pPro2I_CC1
+{
+	states = ("false" "true" );
+	position = (1840 -1840);
+	label = "or_advisorIs2pPro2I_CC1_pf0I9I_advisorIs2pPro2I_CC1";
+}
+node or_advisorIs2pPro3I_CC1_pf0I10I_advisorIs2pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1850 -1850);
+	label = "or_advisorIs2pPro3I_CC1_pf0I10I_advisorIs2pPro3I_CC1";
+}
+node or_advisorIs2pPro3I_CC1_pf0I11I_advisorIs2pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1860 -1860);
+	label = "or_advisorIs2pPro3I_CC1_pf0I11I_advisorIs2pPro3I_CC1";
+}
+node or_advisorIs2pPro3I_CC1_pf0I6I_advisorIs2pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1870 -1870);
+	label = "or_advisorIs2pPro3I_CC1_pf0I6I_advisorIs2pPro3I_CC1";
+}
+node or_advisorIs2pPro3I_CC1_pf0I7I_advisorIs2pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1880 -1880);
+	label = "or_advisorIs2pPro3I_CC1_pf0I7I_advisorIs2pPro3I_CC1";
+}
+node or_advisorIs2pPro3I_CC1_pf0I8I_advisorIs2pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1890 -1890);
+	label = "or_advisorIs2pPro3I_CC1_pf0I8I_advisorIs2pPro3I_CC1";
+}
+node or_advisorIs2pPro3I_CC1_pf0I9I_advisorIs2pPro3I_CC1
+{
+	states = ("false" "true" );
+	position = (1900 -1900);
+	label = "or_advisorIs2pPro3I_CC1_pf0I9I_advisorIs2pPro3I_CC1";
+}
+node or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (1910 -1910);
+	label = "or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (1920 -1920);
+	label = "or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (1930 -1930);
+	label = "or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (1940 -1940);
+	label = "or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (1950 -1950);
+	label = "or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (1960 -1960);
+	label = "or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (1970 -1970);
+	label = "or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (1980 -1980);
+	label = "or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (1990 -1990);
+	label = "or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2000 -2000);
+	label = "or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2010 -2010);
+	label = "or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2020 -2020);
+	label = "or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2030 -2030);
+	label = "or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_2I_studfundingIs1pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2040 -2040);
+	label = "or_studfundingIs1pf_1_2I_studfundingIs1pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2050 -2050);
+	label = "or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2060 -2060);
+	label = "or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2070 -2070);
+	label = "or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2080 -2080);
+	label = "or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2090 -2090);
+	label = "or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_1_3I_studfundingIs1pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2100 -2100);
+	label = "or_studfundingIs1pf_1_3I_studfundingIs1pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2110 -2110);
+	label = "or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2120 -2120);
+	label = "or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2130 -2130);
+	label = "or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2140 -2140);
+	label = "or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_2_1I_studfundingIs1pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2150 -2150);
+	label = "or_studfundingIs1pf_2_1I_studfundingIs1pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2160 -2160);
+	label = "or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2170 -2170);
+	label = "or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2180 -2180);
+	label = "or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_2_2I_studfundingIs1pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2190 -2190);
+	label = "or_studfundingIs1pf_2_2I_studfundingIs1pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2200 -2200);
+	label = "or_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2210 -2210);
+	label = "or_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_2_3I_studfundingIs1pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2220 -2220);
+	label = "or_studfundingIs1pf_2_3I_studfundingIs1pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs1pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_3_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2230 -2230);
+	label = "or_studfundingIs1pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_3_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs1pf_3_1I_studfundingIs1pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2240 -2240);
+	label = "or_studfundingIs1pf_3_1I_studfundingIs1pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs1pf_3_2I_studfundingIs1pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2250 -2250);
+	label = "or_studfundingIs1pf_3_2I_studfundingIs1pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2260 -2260);
+	label = "or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2270 -2270);
+	label = "or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2280 -2280);
+	label = "or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2290 -2290);
+	label = "or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2300 -2300);
+	label = "or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2310 -2310);
+	label = "or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2320 -2320);
+	label = "or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2330 -2330);
+	label = "or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2340 -2340);
+	label = "or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2350 -2350);
+	label = "or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2360 -2360);
+	label = "or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2370 -2370);
+	label = "or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2380 -2380);
+	label = "or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_2I_studfundingIs2pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2390 -2390);
+	label = "or_studfundingIs2pf_1_2I_studfundingIs2pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2400 -2400);
+	label = "or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2410 -2410);
+	label = "or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2420 -2420);
+	label = "or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2430 -2430);
+	label = "or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2440 -2440);
+	label = "or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_1_3I_studfundingIs2pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2450 -2450);
+	label = "or_studfundingIs2pf_1_3I_studfundingIs2pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2460 -2460);
+	label = "or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2470 -2470);
+	label = "or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2480 -2480);
+	label = "or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2490 -2490);
+	label = "or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_2_1I_studfundingIs2pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2500 -2500);
+	label = "or_studfundingIs2pf_2_1I_studfundingIs2pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2510 -2510);
+	label = "or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2520 -2520);
+	label = "or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2530 -2530);
+	label = "or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_2_2I_studfundingIs2pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2540 -2540);
+	label = "or_studfundingIs2pf_2_2I_studfundingIs2pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2550 -2550);
+	label = "or_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2560 -2560);
+	label = "or_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_2_3I_studfundingIs2pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2570 -2570);
+	label = "or_studfundingIs2pf_2_3I_studfundingIs2pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2580 -2580);
+	label = "or_studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2";
+}
+node or_studfundingIs2pf_3_1I_studfundingIs2pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2590 -2590);
+	label = "or_studfundingIs2pf_3_1I_studfundingIs2pf_3_3I_CC1_CC0";
+}
+node or_studfundingIs2pf_3_2I_studfundingIs2pf_3_3I_CC1_CC0
+{
+	states = ("false" "true" );
+	position = (2600 -2600);
+	label = "or_studfundingIs2pf_3_2I_studfundingIs2pf_3_3I_CC1_CC0";
+}
+node or_successIs1I_CC1_pf0I1I_successIs1I_CC1
+{
+	states = ("false" "true" );
+	position = (2610 -2610);
+	label = "or_successIs1I_CC1_pf0I1I_successIs1I_CC1";
+}
+node or_successIs1I_CC1_pf0I2I_successIs1I_CC1
+{
+	states = ("false" "true" );
+	position = (2620 -2620);
+	label = "or_successIs1I_CC1_pf0I2I_successIs1I_CC1";
+}
+node or_successIs2I_CC1_pf0I1I_successIs2I_CC1
+{
+	states = ("false" "true" );
+	position = (2630 -2630);
+	label = "or_successIs2I_CC1_pf0I1I_successIs2I_CC1";
+}
+node or_successIs2I_CC1_pf0I2I_successIs2I_CC1
+{
+	states = ("false" "true" );
+	position = (2640 -2640);
+	label = "or_successIs2I_CC1_pf0I2I_successIs2I_CC1";
+}
+node studfundingIs1pf_1_1I
+{
+	states = ("false" "true" );
+	position = (2650 -2650);
+	label = "studfundingIs1pf_1_1I";
+}
+node studfundingIs1pf_1_1I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2660 -2660);
+	label = "studfundingIs1pf_1_1I_CC1_CC2";
+}
+node studfundingIs1pf_1_1I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (2670 -2670);
+	label = "studfundingIs1pf_1_1I_CC1_CC2_CC1";
+}
+node studfundingIs1pf_1_2I
+{
+	states = ("false" "true" );
+	position = (2680 -2680);
+	label = "studfundingIs1pf_1_2I";
+}
+node studfundingIs1pf_1_2I_CC1
+{
+	states = ("false" "true" );
+	position = (2690 -2690);
+	label = "studfundingIs1pf_1_2I_CC1";
+}
+node studfundingIs1pf_1_2I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2700 -2700);
+	label = "studfundingIs1pf_1_2I_CC1_CC2";
+}
+node studfundingIs1pf_1_2I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (2710 -2710);
+	label = "studfundingIs1pf_1_2I_CC1_CC2_CC1";
+}
+node studfundingIs1pf_1_3I
+{
+	states = ("false" "true" );
+	position = (2720 -2720);
+	label = "studfundingIs1pf_1_3I";
+}
+node studfundingIs1pf_1_3I_CC1
+{
+	states = ("false" "true" );
+	position = (2730 -2730);
+	label = "studfundingIs1pf_1_3I_CC1";
+}
+node studfundingIs1pf_1_3I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2740 -2740);
+	label = "studfundingIs1pf_1_3I_CC1_CC2";
+}
+node studfundingIs1pf_1_3I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (2750 -2750);
+	label = "studfundingIs1pf_1_3I_CC1_CC2_CC1";
+}
+node studfundingIs1pf_2_1I
+{
+	states = ("false" "true" );
+	position = (2760 -2760);
+	label = "studfundingIs1pf_2_1I";
+}
+node studfundingIs1pf_2_1I_CC1
+{
+	states = ("false" "true" );
+	position = (2770 -2770);
+	label = "studfundingIs1pf_2_1I_CC1";
+}
+node studfundingIs1pf_2_1I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2780 -2780);
+	label = "studfundingIs1pf_2_1I_CC1_CC2";
+}
+node studfundingIs1pf_2_1I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (2790 -2790);
+	label = "studfundingIs1pf_2_1I_CC1_CC2_CC1";
+}
+node studfundingIs1pf_2_2I
+{
+	states = ("false" "true" );
+	position = (2800 -2800);
+	label = "studfundingIs1pf_2_2I";
+}
+node studfundingIs1pf_2_2I_CC1
+{
+	states = ("false" "true" );
+	position = (2810 -2810);
+	label = "studfundingIs1pf_2_2I_CC1";
+}
+node studfundingIs1pf_2_2I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2820 -2820);
+	label = "studfundingIs1pf_2_2I_CC1_CC2";
+}
+node studfundingIs1pf_2_2I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (2830 -2830);
+	label = "studfundingIs1pf_2_2I_CC1_CC2_CC1";
+}
+node studfundingIs1pf_2_3I
+{
+	states = ("false" "true" );
+	position = (2840 -2840);
+	label = "studfundingIs1pf_2_3I";
+}
+node studfundingIs1pf_2_3I_CC1
+{
+	states = ("false" "true" );
+	position = (2850 -2850);
+	label = "studfundingIs1pf_2_3I_CC1";
+}
+node studfundingIs1pf_2_3I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2860 -2860);
+	label = "studfundingIs1pf_2_3I_CC1_CC2";
+}
+node studfundingIs1pf_2_3I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (2870 -2870);
+	label = "studfundingIs1pf_2_3I_CC1_CC2_CC1";
+}
+node studfundingIs1pf_3_1I
+{
+	states = ("false" "true" );
+	position = (2880 -2880);
+	label = "studfundingIs1pf_3_1I";
+}
+node studfundingIs1pf_3_1I_CC1
+{
+	states = ("false" "true" );
+	position = (2890 -2890);
+	label = "studfundingIs1pf_3_1I_CC1";
+}
+node studfundingIs1pf_3_1I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2900 -2900);
+	label = "studfundingIs1pf_3_1I_CC1_CC2";
+}
+node studfundingIs1pf_3_1I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (2910 -2910);
+	label = "studfundingIs1pf_3_1I_CC1_CC2_CC1";
+}
+node studfundingIs1pf_3_2I
+{
+	states = ("false" "true" );
+	position = (2920 -2920);
+	label = "studfundingIs1pf_3_2I";
+}
+node studfundingIs1pf_3_2I_CC1
+{
+	states = ("false" "true" );
+	position = (2930 -2930);
+	label = "studfundingIs1pf_3_2I_CC1";
+}
+node studfundingIs1pf_3_2I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2940 -2940);
+	label = "studfundingIs1pf_3_2I_CC1_CC2";
+}
+node studfundingIs1pf_3_2I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (2950 -2950);
+	label = "studfundingIs1pf_3_2I_CC1_CC2_CC1";
+}
+node studfundingIs1pf_3_3I
+{
+	states = ("false" "true" );
+	position = (2960 -2960);
+	label = "studfundingIs1pf_3_3I";
+}
+node studfundingIs1pf_3_3I_CC1
+{
+	states = ("false" "true" );
+	position = (2970 -2970);
+	label = "studfundingIs1pf_3_3I_CC1";
+}
+node studfundingIs2pf_1_1I
+{
+	states = ("false" "true" );
+	position = (2980 -2980);
+	label = "studfundingIs2pf_1_1I";
+}
+node studfundingIs2pf_1_1I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (2990 -2990);
+	label = "studfundingIs2pf_1_1I_CC1_CC2";
+}
+node studfundingIs2pf_1_1I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (3000 -3000);
+	label = "studfundingIs2pf_1_1I_CC1_CC2_CC1";
+}
+node studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0
+{
+	states = ("false" "true" );
+	position = (3010 -3010);
+	label = "studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0";
+}
+node studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I3p4I_CC0
+{
+	states = ("false" "true" );
+	position = (3020 -3020);
+	label = "studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I3p4I_CC0";
+}
+node studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_CC0
+{
+	states = ("false" "true" );
+	position = (3030 -3030);
+	label = "studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_CC0";
+}
+node studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0
+{
+	states = ("false" "true" );
+	position = (3040 -3040);
+	label = "studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0";
+}
+node studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0
+{
+	states = ("false" "true" );
+	position = (3050 -3050);
+	label = "studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0";
+}
+node studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0
+{
+	states = ("false" "true" );
+	position = (3060 -3060);
+	label = "studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0";
+}
+node studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0
+{
+	states = ("false" "true" );
+	position = (3070 -3070);
+	label = "studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0";
+}
+node studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0
+{
+	states = ("false" "true" );
+	position = (3080 -3080);
+	label = "studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0";
+}
+node studfundingIs2pf_1_2I
+{
+	states = ("false" "true" );
+	position = (3090 -3090);
+	label = "studfundingIs2pf_1_2I";
+}
+node studfundingIs2pf_1_2I_CC1
+{
+	states = ("false" "true" );
+	position = (3100 -3100);
+	label = "studfundingIs2pf_1_2I_CC1";
+}
+node studfundingIs2pf_1_2I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (3110 -3110);
+	label = "studfundingIs2pf_1_2I_CC1_CC2";
+}
+node studfundingIs2pf_1_2I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (3120 -3120);
+	label = "studfundingIs2pf_1_2I_CC1_CC2_CC1";
+}
+node studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0
+{
+	states = ("false" "true" );
+	position = (3130 -3130);
+	label = "studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0";
+}
+node studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I4p5I_CC0
+{
+	states = ("false" "true" );
+	position = (3140 -3140);
+	label = "studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I4p5I_CC0";
+}
+node studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0
+{
+	states = ("false" "true" );
+	position = (3150 -3150);
+	label = "studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0";
+}
+node studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0
+{
+	states = ("false" "true" );
+	position = (3160 -3160);
+	label = "studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0";
+}
+node studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0
+{
+	states = ("false" "true" );
+	position = (3170 -3170);
+	label = "studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0";
+}
+node studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0
+{
+	states = ("false" "true" );
+	position = (3180 -3180);
+	label = "studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0";
+}
+node studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0
+{
+	states = ("false" "true" );
+	position = (3190 -3190);
+	label = "studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0";
+}
+node studfundingIs2pf_1_3I
+{
+	states = ("false" "true" );
+	position = (3200 -3200);
+	label = "studfundingIs2pf_1_3I";
+}
+node studfundingIs2pf_1_3I_CC1
+{
+	states = ("false" "true" );
+	position = (3210 -3210);
+	label = "studfundingIs2pf_1_3I_CC1";
+}
+node studfundingIs2pf_1_3I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (3220 -3220);
+	label = "studfundingIs2pf_1_3I_CC1_CC2";
+}
+node studfundingIs2pf_1_3I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (3230 -3230);
+	label = "studfundingIs2pf_1_3I_CC1_CC2_CC1";
+}
+node studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0
+{
+	states = ("false" "true" );
+	position = (3240 -3240);
+	label = "studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0";
+}
+node studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0
+{
+	states = ("false" "true" );
+	position = (3250 -3250);
+	label = "studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0";
+}
+node studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0
+{
+	states = ("false" "true" );
+	position = (3260 -3260);
+	label = "studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0";
+}
+node studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0
+{
+	states = ("false" "true" );
+	position = (3270 -3270);
+	label = "studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0";
+}
+node studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0
+{
+	states = ("false" "true" );
+	position = (3280 -3280);
+	label = "studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0";
+}
+node studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0
+{
+	states = ("false" "true" );
+	position = (3290 -3290);
+	label = "studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0";
+}
+node studfundingIs2pf_2_1I
+{
+	states = ("false" "true" );
+	position = (3300 -3300);
+	label = "studfundingIs2pf_2_1I";
+}
+node studfundingIs2pf_2_1I_CC1
+{
+	states = ("false" "true" );
+	position = (3310 -3310);
+	label = "studfundingIs2pf_2_1I_CC1";
+}
+node studfundingIs2pf_2_1I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (3320 -3320);
+	label = "studfundingIs2pf_2_1I_CC1_CC2";
+}
+node studfundingIs2pf_2_1I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (3330 -3330);
+	label = "studfundingIs2pf_2_1I_CC1_CC2_CC1";
+}
+node studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0
+{
+	states = ("false" "true" );
+	position = (3340 -3340);
+	label = "studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0";
+}
+node studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0
+{
+	states = ("false" "true" );
+	position = (3350 -3350);
+	label = "studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0";
+}
+node studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0
+{
+	states = ("false" "true" );
+	position = (3360 -3360);
+	label = "studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0";
+}
+node studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0
+{
+	states = ("false" "true" );
+	position = (3370 -3370);
+	label = "studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0";
+}
+node studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0
+{
+	states = ("false" "true" );
+	position = (3380 -3380);
+	label = "studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0";
+}
+node studfundingIs2pf_2_2I
+{
+	states = ("false" "true" );
+	position = (3390 -3390);
+	label = "studfundingIs2pf_2_2I";
+}
+node studfundingIs2pf_2_2I_CC1
+{
+	states = ("false" "true" );
+	position = (3400 -3400);
+	label = "studfundingIs2pf_2_2I_CC1";
+}
+node studfundingIs2pf_2_2I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (3410 -3410);
+	label = "studfundingIs2pf_2_2I_CC1_CC2";
+}
+node studfundingIs2pf_2_2I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (3420 -3420);
+	label = "studfundingIs2pf_2_2I_CC1_CC2_CC1";
+}
+node studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0
+{
+	states = ("false" "true" );
+	position = (3430 -3430);
+	label = "studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0";
+}
+node studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0
+{
+	states = ("false" "true" );
+	position = (3440 -3440);
+	label = "studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0";
+}
+node studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0
+{
+	states = ("false" "true" );
+	position = (3450 -3450);
+	label = "studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0";
+}
+node studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0
+{
+	states = ("false" "true" );
+	position = (3460 -3460);
+	label = "studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0";
+}
+node studfundingIs2pf_2_3I
+{
+	states = ("false" "true" );
+	position = (3470 -3470);
+	label = "studfundingIs2pf_2_3I";
+}
+node studfundingIs2pf_2_3I_CC1
+{
+	states = ("false" "true" );
+	position = (3480 -3480);
+	label = "studfundingIs2pf_2_3I_CC1";
+}
+node studfundingIs2pf_2_3I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (3490 -3490);
+	label = "studfundingIs2pf_2_3I_CC1_CC2";
+}
+node studfundingIs2pf_2_3I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (3500 -3500);
+	label = "studfundingIs2pf_2_3I_CC1_CC2_CC1";
+}
+node studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0
+{
+	states = ("false" "true" );
+	position = (3510 -3510);
+	label = "studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0";
+}
+node studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0
+{
+	states = ("false" "true" );
+	position = (3520 -3520);
+	label = "studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0";
+}
+node studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0
+{
+	states = ("false" "true" );
+	position = (3530 -3530);
+	label = "studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0";
+}
+node studfundingIs2pf_3_1I
+{
+	states = ("false" "true" );
+	position = (3540 -3540);
+	label = "studfundingIs2pf_3_1I";
+}
+node studfundingIs2pf_3_1I_CC1
+{
+	states = ("false" "true" );
+	position = (3550 -3550);
+	label = "studfundingIs2pf_3_1I_CC1";
+}
+node studfundingIs2pf_3_1I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (3560 -3560);
+	label = "studfundingIs2pf_3_1I_CC1_CC2";
+}
+node studfundingIs2pf_3_1I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (3570 -3570);
+	label = "studfundingIs2pf_3_1I_CC1_CC2_CC1";
+}
+node studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0
+{
+	states = ("false" "true" );
+	position = (3580 -3580);
+	label = "studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0";
+}
+node studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0
+{
+	states = ("false" "true" );
+	position = (3590 -3590);
+	label = "studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0";
+}
+node studfundingIs2pf_3_2I
+{
+	states = ("false" "true" );
+	position = (3600 -3600);
+	label = "studfundingIs2pf_3_2I";
+}
+node studfundingIs2pf_3_2I_CC1
+{
+	states = ("false" "true" );
+	position = (3610 -3610);
+	label = "studfundingIs2pf_3_2I_CC1";
+}
+node studfundingIs2pf_3_2I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (3620 -3620);
+	label = "studfundingIs2pf_3_2I_CC1_CC2";
+}
+node studfundingIs2pf_3_2I_CC1_CC2_CC1
+{
+	states = ("false" "true" );
+	position = (3630 -3630);
+	label = "studfundingIs2pf_3_2I_CC1_CC2_CC1";
+}
+node studfundingIs2pf_3_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0
+{
+	states = ("false" "true" );
+	position = (3640 -3640);
+	label = "studfundingIs2pf_3_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0";
+}
+node studfundingIs2pf_3_3I
+{
+	states = ("false" "true" );
+	position = (3650 -3650);
+	label = "studfundingIs2pf_3_3I";
+}
+node studfundingIs2pf_3_3I_CC1
+{
+	states = ("false" "true" );
+	position = (3660 -3660);
+	label = "studfundingIs2pf_3_3I_CC1";
+}
+node studfundingIs2pf_3_3I_CC1_CC2
+{
+	states = ("false" "true" );
+	position = (3670 -3670);
+	label = "studfundingIs2pf_3_3I_CC1_CC2";
+}
+node successIs1I
+{
+	states = ("false" "true" );
+	position = (3680 -3680);
+	label = "successIs1I";
+}
+node successIs1I_CC1_pf0I0I
+{
+	states = ("false" "true" );
+	position = (3690 -3690);
+	label = "successIs1I_CC1_pf0I0I";
+}
+node successIs1I_CC1_pf0I1I
+{
+	states = ("false" "true" );
+	position = (3700 -3700);
+	label = "successIs1I_CC1_pf0I1I";
+}
+node successIs1I_CC1_pf0I2I
+{
+	states = ("false" "true" );
+	position = (3710 -3710);
+	label = "successIs1I_CC1_pf0I2I";
+}
+node successIs2I
+{
+	states = ("false" "true" );
+	position = (3720 -3720);
+	label = "successIs2I";
+}
+node successIs2I_CC1_pf0I0I
+{
+	states = ("false" "true" );
+	position = (3730 -3730);
+	label = "successIs2I_CC1_pf0I0I";
+}
+node successIs2I_CC1_pf0I1I
+{
+	states = ("false" "true" );
+	position = (3740 -3740);
+	label = "successIs2I_CC1_pf0I1I";
+}
+node successIs2I_CC1_pf0I2I
+{
+	states = ("false" "true" );
+	position = (3750 -3750);
+	label = "successIs2I_CC1_pf0I2I";
+}
+potential ( countIf_1_2pf_1_1I | )
+{
+	data = (	0.751055026688508	0.24894497331149187	);
+}
+potential ( countIf_1_3pf_1_2I | )
+{
+	data = (	0.6695300626474767	0.33046993735252334	);
+}
+potential ( countIf_2_1pf_1_3I | )
+{
+	data = (	0.570221662529659	0.42977833747034094	);
+}
+potential ( countIf_2_2pf_2_1I | )
+{
+	data = (	0.1397541486800248	0.8602458513199752	);
+}
+potential ( countIf_2_3pf_2_2I | )
+{
+	data = (	0.44714979358037454	0.5528502064196256	);
+}
+potential ( countIf_3_1pf_2_3I | )
+{
+	data = (	0.3323220187060274	0.6676779812939726	);
+}
+potential ( countIf_3_2pf_3_1I | )
+{
+	data = (	0.5472687648302349	0.4527312351697652	);
+}
+potential ( countIf_3_3pf_3_2I | )
+{
+	data = (	0.4279192801460824	0.5720807198539176	);
+}
+potential ( fameIPro1I | )
+{
+	data = (	0.821577824494216	0.17842217550578401	);
+}
+potential ( fameIPro2I | )
+{
+	data = (	0.7601627574297214	0.23983724257027855	);
+}
+potential ( fameIPro3I | )
+{
+	data = (	0.4834465822480857	0.5165534177519143	);
+}
+potential ( grantedIf_1_1I | )
+{
+	data = (	0.382711163609869	0.617288836390131	);
+}
+potential ( grantedIf_2_1I | )
+{
+	data = (	0.2975262391744611	0.7024737608255389	);
+}
+potential ( grantedIf_3_1I | )
+{
+	data = (	0.1962320711789457	0.8037679288210543	);
+}
+potential ( countIf_1_1pf_1_1I | countIf_1_1pf_1_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.6609578473623707	0.3390421526376292	)
+		(	0.90066362277097	0.09933637722902998	));
+}
+potential ( countIf_1_1pf_1_2I | countIf_1_1pf_1_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.225165176149221	0.774834823850779	)
+		(	0.11233373941923065	0.8876662605807694	));
+}
+potential ( countIf_1_1pf_1_3I | countIf_1_1pf_1_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.38471758665100725	0.6152824133489928	)
+		(	0.7986689938330597	0.20133100616694036	));
+}
+potential ( countIf_1_1pf_2_1I | countIf_1_1pf_2_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.65503774452612	0.34496225547388	)
+		(	0.5208262585446414	0.4791737414553587	));
+}
+potential ( countIf_1_1pf_2_2I | countIf_1_1pf_2_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.30797183889253715	0.6920281611074628	)
+		(	0.715300615282909	0.28469938471709116	));
+}
+potential ( countIf_1_1pf_2_3I | countIf_1_1pf_2_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.5111640808102771	0.48883591918972286	)
+		(	0.7596803283376002	0.24031967166239981	));
+}
+potential ( countIf_1_1pf_3_1I | countIf_1_1pf_3_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.7374040041221278	0.2625959958778723	)
+		(	0.34499209306534256	0.6550079069346575	));
+}
+potential ( countIf_1_1pf_3_2I | countIf_1_1pf_3_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.06511173663002681	0.9348882633699732	)
+		(	0.39756899468836704	0.6024310053116331	));
+}
+potential ( countIf_1_1pf_3_3I | countIf_1_1pf_3_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.349642157502547	0.650357842497453	)
+		(	0.4364275654600126	0.5635724345399874	));
+}
+potential ( countIf_1_2pf_1_2I | countIf_1_2pf_1_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.5852122258892275	0.41478777411077244	)
+		(	0.9278587943321015	0.07214120566789847	));
+}
+potential ( countIf_1_2pf_1_3I | countIf_1_2pf_1_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.41210123007270794	0.5878987699272921	)
+		(	0.548129009082401	0.45187099091759897	));
+}
+potential ( countIf_1_2pf_2_1I | countIf_1_2pf_2_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.5649008193835616	0.43509918061643843	)
+		(	0.34966517645562933	0.6503348235443707	));
+}
+potential ( countIf_1_2pf_2_2I | countIf_1_2pf_2_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.7446746009550245	0.25532539904497553	)
+		(	0.4405854431323726	0.5594145568676274	));
+}
+potential ( countIf_1_2pf_2_3I | countIf_1_2pf_2_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.4438093277806502	0.5561906722193498	)
+		(	0.7591269182759315	0.24087308172406854	));
+}
+potential ( countIf_1_2pf_3_1I | countIf_1_2pf_3_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.999772411238084	2.2758876191598959E-4	)
+		(	0.7393267721995328	0.26067322780046726	));
+}
+potential ( countIf_1_2pf_3_2I | countIf_1_2pf_3_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.5001790200511492	0.4998209799488507	)
+		(	0.9207340352353146	0.07926596476468535	));
+}
+potential ( countIf_1_2pf_3_3I | countIf_1_2pf_3_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.469279356455245	0.530720643544755	)
+		(	0.6633418124908151	0.3366581875091848	));
+}
+potential ( countIf_1_3pf_1_3I | countIf_1_3pf_1_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.7482005365098267	0.25179946349017335	)
+		(	0.3133779109938689	0.6866220890061311	));
+}
+potential ( countIf_1_3pf_2_1I | countIf_1_3pf_2_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.05667258268873654	0.9433274173112635	)
+		(	0.5120093607046247	0.4879906392953754	));
+}
+potential ( countIf_1_3pf_2_2I | countIf_1_3pf_2_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.7297962558772766	0.2702037441227234	)
+		(	0.2635638348555339	0.7364361651444661	));
+}
+potential ( countIf_1_3pf_2_3I | countIf_1_3pf_2_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.2911641634616368	0.7088358365383631	)
+		(	0.4406387794620655	0.5593612205379346	));
+}
+potential ( countIf_1_3pf_3_1I | countIf_1_3pf_3_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.5498991746566246	0.45010082534337537	)
+		(	0.679588861047303	0.32041113895269707	));
+}
+potential ( countIf_1_3pf_3_2I | countIf_1_3pf_3_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.8409005448250312	0.15909945517496882	)
+		(	0.8311640737114185	0.16883592628858146	));
+}
+potential ( countIf_1_3pf_3_3I | countIf_1_3pf_3_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.3884080338563929	0.6115919661436071	)
+		(	0.5306005674567082	0.46939943254329175	));
+}
+potential ( countIf_2_1pf_2_1I | countIf_2_1pf_2_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.5153783127105882	0.48462168728941174	)
+		(	0.48919373108232	0.51080626891768	));
+}
+potential ( countIf_2_1pf_2_2I | countIf_2_1pf_2_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.8615589738032577	0.13844102619674228	)
+		(	0.5830933751123989	0.41690662488760105	));
+}
+potential ( countIf_2_1pf_2_3I | countIf_2_1pf_2_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.1789885098528214	0.8210114901471786	)
+		(	0.6787098241092475	0.32129017589075237	));
+}
+potential ( countIf_2_1pf_3_1I | countIf_2_1pf_3_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.5171691655878362	0.4828308344121638	)
+		(	0.5326748430603276	0.46732515693967236	));
+}
+potential ( countIf_2_1pf_3_2I | countIf_2_1pf_3_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.15040376050179685	0.8495962394982032	)
+		(	0.6143535845470779	0.38564641545292205	));
+}
+potential ( countIf_2_1pf_3_3I | countIf_2_1pf_3_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.0506922320868735	0.9493077679131265	)
+		(	0.5321175575194153	0.46788244248058475	));
+}
+potential ( countIf_2_2pf_2_2I | countIf_2_2pf_2_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.56250159419239	0.43749840580760996	)
+		(	0.054855770849004344	0.9451442291509956	));
+}
+potential ( countIf_2_2pf_2_3I | countIf_2_2pf_2_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.2978142107619283	0.7021857892380717	)
+		(	0.5314351860778395	0.46856481392216054	));
+}
+potential ( countIf_2_2pf_3_1I | countIf_2_2pf_3_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.4777351938006624	0.5222648061993376	)
+		(	0.5527898360072944	0.4472101639927056	));
+}
+potential ( countIf_2_2pf_3_2I | countIf_2_2pf_3_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.7250211973034453	0.2749788026965548	)
+		(	0.24142439113790917	0.7585756088620909	));
+}
+potential ( countIf_2_2pf_3_3I | countIf_2_2pf_3_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.29563716239825744	0.7043628376017427	)
+		(	0.23962145127181306	0.760378548728187	));
+}
+potential ( countIf_2_3pf_2_3I | countIf_2_3pf_2_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.12952662373724952	0.8704733762627505	)
+		(	0.238897311598906	0.761102688401094	));
+}
+potential ( countIf_2_3pf_3_1I | countIf_2_3pf_3_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.1528184967620067	0.8471815032379932	)
+		(	0.8557478365703406	0.14425216342965935	));
+}
+potential ( countIf_2_3pf_3_2I | countIf_2_3pf_3_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.49217391355082707	0.5078260864491728	)
+		(	0.5841689244271813	0.41583107557281873	));
+}
+potential ( countIf_2_3pf_3_3I | countIf_2_3pf_3_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.3415739465796697	0.6584260534203303	)
+		(	0.03787999311669472	0.9621200068833052	));
+}
+potential ( countIf_3_1pf_3_1I | countIf_3_1pf_3_1I_CC1_CC2_CC2 )
+{
+	data = ((	0.5516047367285327	0.44839526327146734	)
+		(	0.5946246337586453	0.4053753662413548	));
+}
+potential ( countIf_3_1pf_3_2I | countIf_3_1pf_3_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.5977940079492898	0.40220599205071017	)
+		(	0.8468889083240615	0.15311109167593848	));
+}
+potential ( countIf_3_1pf_3_3I | countIf_3_1pf_3_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.6045104202730246	0.39548957972697535	)
+		(	0.7362693055807563	0.2637306944192436	));
+}
+potential ( countIf_3_2pf_3_2I | countIf_3_2pf_3_2I_CC1_CC2_CC2 )
+{
+	data = ((	0.5985230751486876	0.4014769248513125	)
+		(	0.42819925024632155	0.5718007497536786	));
+}
+potential ( countIf_3_2pf_3_3I | countIf_3_2pf_3_3I_CC1_CC2_CC2 )
+{
+	data = ((	0.49624629552261224	0.5037537044773877	)
+		(	0.25291092209549754	0.7470890779045025	));
+}
+potential ( grantedIf_1_2I | fameIPro1I )
+{
+	data = ((	0.48824480140456156	0.5117551985954385	)
+		(	0.18720124569545823	0.8127987543045417	));
+}
+potential ( grantedIf_2_2I | fameIPro2I )
+{
+	data = ((	0.42121816169681714	0.5787818383031829	)
+		(	0.6732541356375783	0.32674586436242165	));
+}
+potential ( grantedIf_3_2I | fameIPro3I )
+{
+	data = ((	0.712130806612262	0.28786919338773814	)
+		(	0.41584915851830917	0.5841508414816909	));
+}
+potential ( grantedIf_1_3I | grantedIf_1_2I )
+{
+	data = ((	0.5033844651749753	0.4966155348250248	)
+		(	0.5331259473160952	0.46687405268390486	));
+}
+potential ( grantedIf_2_3I | grantedIf_2_2I )
+{
+	data = ((	0.43254892490323565	0.5674510750967644	)
+		(	0.29681133935293347	0.7031886606470666	));
+}
+potential ( grantedIf_3_3I | grantedIf_3_2I )
+{
+	data = ((	0.5110098670865326	0.4889901329134674	)
+		(	0.22373150150751314	0.7762684984924869	));
+}
+potential ( countIf_3_3pf_3_3I | grantedIf_3_3I )
+{
+	data = ((	0.39908669751820175	0.6009133024817983	)
+		(	0.42904120695441933	0.5709587930455806	));
+}
+potential ( advisorIs1pPro1I | or_advisorIs1pPro1I_CC1_pf0I11I_advisorIs1pPro1I_CC1 )
+{
+	data = ((	0.9812648715113303	0.01873512848866967	)
+		(	0.4118402168174874	0.5881597831825126	));
+}
+potential ( advisorIs1pPro2I | or_advisorIs1pPro2I_CC1_pf0I11I_advisorIs1pPro2I_CC1 )
+{
+	data = ((	0.9745198609175472	0.02548013908245283	)
+		(	0.4655446686055515	0.5344553313944485	));
+}
+potential ( advisorIs1pPro3I | or_advisorIs1pPro3I_CC1_pf0I11I_advisorIs1pPro3I_CC1 )
+{
+	data = ((	0.13574515277151988	0.8642548472284801	)
+		(	0.0012332307136314674	0.9987667692863685	));
+}
+potential ( advisorIs2pPro1I | or_advisorIs2pPro1I_CC1_pf0I11I_advisorIs2pPro1I_CC1 )
+{
+	data = ((	0.6512776109983137	0.3487223890016863	)
+		(	0.30916188969429304	0.6908381103057071	));
+}
+potential ( advisorIs2pPro2I | or_advisorIs2pPro2I_CC1_pf0I11I_advisorIs2pPro2I_CC1 )
+{
+	data = ((	0.618475848568655	0.3815241514313449	)
+		(	0.6568297569997812	0.3431702430002188	));
+}
+potential ( advisorIs2pPro3I | or_advisorIs2pPro3I_CC1_pf0I11I_advisorIs2pPro3I_CC1 )
+{
+	data = ((	0.01333168298322639	0.9866683170167736	)
+		(	0.06734409780401622	0.9326559021959838	));
+}
+potential ( successIs1I | or_successIs1I_CC1_pf0I2I_successIs1I_CC1 )
+{
+	data = ((	0.9107307966476709	0.08926920335232913	)
+		(	0.2771226492263706	0.7228773507736294	));
+}
+potential ( successIs2I | or_successIs2I_CC1_pf0I2I_successIs2I_CC1 )
+{
+	data = ((	0.1116630652459777	0.8883369347540223	)
+		(	0.5317022006684278	0.4682977993315723	));
+}
+potential ( studfundingIs1pf_1_1I | studfundingIs1pf_1_1I_CC1_CC2 )
+{
+	data = ((	0.399598364285943	0.600401635714057	)
+		(	0.0856876558779337	0.9143123441220663	));
+}
+potential ( studfundingIs1pf_1_2I | studfundingIs1pf_1_2I_CC1 )
+{
+	data = ((	0.0950471295697626	0.9049528704302374	)
+		(	0.4861618059286456	0.5138381940713544	));
+}
+potential ( studfundingIs1pf_1_3I | studfundingIs1pf_1_3I_CC1 )
+{
+	data = ((	0.5924904935922101	0.4075095064077899	)
+		(	0.8768194110768797	0.12318058892312038	));
+}
+potential ( studfundingIs1pf_2_1I | studfundingIs1pf_2_1I_CC1 )
+{
+	data = ((	0.7278609982832029	0.27213900171679706	)
+		(	0.36046594776637897	0.6395340522336209	));
+}
+potential ( studfundingIs1pf_2_2I | studfundingIs1pf_2_2I_CC1 )
+{
+	data = ((	0.7951965029992628	0.20480349700073722	)
+		(	0.34551455532233094	0.6544854446776691	));
+}
+potential ( studfundingIs1pf_2_3I | studfundingIs1pf_2_3I_CC1 )
+{
+	data = ((	0.5765842134753127	0.4234157865246872	)
+		(	0.2648895584712118	0.7351104415287882	));
+}
+potential ( studfundingIs1pf_3_1I | studfundingIs1pf_3_1I_CC1 )
+{
+	data = ((	0.2579191611289499	0.7420808388710501	)
+		(	0.47938720533282553	0.5206127946671745	));
+}
+potential ( studfundingIs1pf_3_2I | studfundingIs1pf_3_2I_CC1 )
+{
+	data = ((	0.3390973896310545	0.6609026103689455	)
+		(	0.7070891107733908	0.29291088922660924	));
+}
+potential ( studfundingIs1pf_3_3I | studfundingIs1pf_3_3I_CC1 )
+{
+	data = ((	0.021762278073712435	0.9782377219262876	)
+		(	0.1978507114827952	0.8021492885172048	));
+}
+potential ( studfundingIs2pf_1_1I | studfundingIs2pf_1_1I_CC1_CC2 )
+{
+	data = ((	0.4856123854000805	0.5143876145999194	)
+		(	0.9745074977144456	0.025492502285554473	));
+}
+potential ( studfundingIs2pf_1_2I | studfundingIs2pf_1_2I_CC1 )
+{
+	data = ((	0.3232557250661574	0.6767442749338426	)
+		(	0.7280747211197505	0.2719252788802496	));
+}
+potential ( studfundingIs2pf_1_3I | studfundingIs2pf_1_3I_CC1 )
+{
+	data = ((	0.5426623482176455	0.4573376517823546	)
+		(	0.47029045810032055	0.5297095418996793	));
+}
+potential ( studfundingIs2pf_2_1I | studfundingIs2pf_2_1I_CC1 )
+{
+	data = ((	0.7049583434924058	0.2950416565075943	)
+		(	0.733810014942212	0.26618998505778807	));
+}
+potential ( studfundingIs2pf_2_2I | studfundingIs2pf_2_2I_CC1 )
+{
+	data = ((	0.5241351747167811	0.475864825283219	)
+		(	0.5572297890027345	0.4427702109972656	));
+}
+potential ( studfundingIs2pf_2_3I | studfundingIs2pf_2_3I_CC1 )
+{
+	data = ((	0.45394747687093634	0.5460525231290636	)
+		(	0.4280914177629511	0.5719085822370489	));
+}
+potential ( studfundingIs2pf_3_1I | studfundingIs2pf_3_1I_CC1 )
+{
+	data = ((	0.39300157849261697	0.606998421507383	)
+		(	0.22200600021859176	0.7779939997814083	));
+}
+potential ( studfundingIs2pf_3_2I | studfundingIs2pf_3_2I_CC1 )
+{
+	data = ((	0.6213502944213575	0.37864970557864264	)
+		(	0.9313668931781688	0.06863310682183124	));
+}
+potential ( studfundingIs2pf_3_3I | studfundingIs2pf_3_3I_CC1 )
+{
+	data = ((	0.6848164026081037	0.3151835973918963	)
+		(	0.8088888184037979	0.1911111815962021	));
+}
+potential ( successIs1I_CC1_pf0I0I | advisorIs1pPro1I fameIPro1I )
+{
+	data = (((	0.35359935323554026	0.6464006467644597	)
+		(	0.8559699674141158	0.14403003258588418	))
+		((	0.4935005459644161	0.5064994540355838	)
+		(	0.3714370187718192	0.6285629812281808	)));
+}
+potential ( successIs1I_CC1_pf0I1I | advisorIs1pPro2I fameIPro2I )
+{
+	data = (((	0.768734633148873	0.23126536685112709	)
+		(	0.3369931575184634	0.6630068424815365	))
+		((	0.03804329653324061	0.9619567034667594	)
+		(	0.47862695376933384	0.5213730462306662	)));
+}
+potential ( successIs1I_CC1_pf0I2I | advisorIs1pPro3I fameIPro3I )
+{
+	data = (((	0.5239201480375396	0.4760798519624604	)
+		(	0.7752718665554432	0.22472813344455672	))
+		((	0.43124129101451714	0.5687587089854829	)
+		(	0.44159797949688395	0.558402020503116	)));
+}
+potential ( successIs2I_CC1_pf0I0I | advisorIs2pPro1I fameIPro1I )
+{
+	data = (((	0.10548140827197659	0.8945185917280234	)
+		(	0.9225209768793523	0.07747902312064783	))
+		((	0.2450341649532656	0.7549658350467344	)
+		(	0.5543564196184712	0.4456435803815288	)));
+}
+potential ( successIs2I_CC1_pf0I1I | advisorIs2pPro2I fameIPro2I )
+{
+	data = (((	0.6873421273503869	0.31265787264961303	)
+		(	0.14848361207174438	0.8515163879282556	))
+		((	0.9565462987461145	0.043453701253885486	)
+		(	0.5112838960703595	0.4887161039296405	)));
+}
+potential ( successIs2I_CC1_pf0I2I | advisorIs2pPro3I fameIPro3I )
+{
+	data = (((	0.19714037588977507	0.8028596241102248	)
+		(	0.6411031480927065	0.3588968519072934	))
+		((	0.9336436781755674	0.06635632182443262	)
+		(	0.26046982455192885	0.7395301754480712	)));
+}
+potential ( studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I3p4I_CC0 | countIf_1_1pf_1_1I countIf_1_1pf_1_2I )
+{
+	data = (((	0.6899789354674943	0.3100210645325056	)
+		(	0.3903175248413144	0.6096824751586857	))
+		((	0.4115910700102234	0.5884089299897766	)
+		(	0.7050504159511073	0.29494958404889265	)));
+}
+potential ( studfundingIs1pf_1_1I_CC1_CC2_CC1 | countIf_1_1pf_1_1I or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.11728595372991314	0.8827140462700868	)
+		(	0.3442156213754805	0.6557843786245195	))
+		((	0.6852748370812559	0.31472516291874414	)
+		(	0.6487589792978293	0.35124102070217067	)));
+}
+potential ( studfundingIs2pf_1_1I_CC1_CC2_CC1 | countIf_1_1pf_1_1I or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.5013261628656783	0.4986738371343217	)
+		(	0.6531764540189438	0.3468235459810563	))
+		((	0.4109101672016111	0.5890898327983889	)
+		(	0.5123381371310689	0.4876618628689311	)));
+}
+potential ( studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_CC0 | countIf_1_1pf_1_2I countIf_1_1pf_1_3I )
+{
+	data = (((	0.352586942174054	0.6474130578259459	)
+		(	0.6684126934216756	0.3315873065783244	))
+		((	0.69886952933246	0.30113047066753995	)
+		(	0.0068868922737671395	0.9931131077262328	)));
+}
+potential ( studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0 | countIf_1_1pf_1_3I countIf_1_1pf_2_1I )
+{
+	data = (((	0.19943405106031042	0.8005659489396895	)
+		(	0.5838533643670171	0.416146635632983	))
+		((	0.8861369212102963	0.11386307878970373	)
+		(	0.3271122189506404	0.6728877810493595	)));
+}
+potential ( studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 | countIf_1_1pf_2_1I countIf_1_1pf_2_2I )
+{
+	data = (((	0.08517166686891739	0.9148283331310826	)
+		(	0.6284844047032901	0.3715155952967099	))
+		((	0.25074941332255724	0.7492505866774427	)
+		(	0.28887071890930416	0.711129281090696	)));
+}
+potential ( studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 | countIf_1_1pf_2_2I countIf_1_1pf_2_3I )
+{
+	data = (((	0.8370127278355042	0.1629872721644957	)
+		(	0.6187830423923405	0.38121695760765945	))
+		((	0.9600112742699826	0.03998872573001745	)
+		(	0.4432581011698516	0.5567418988301484	)));
+}
+potential ( studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 | countIf_1_1pf_2_3I countIf_1_1pf_3_1I )
+{
+	data = (((	0.9654839357143394	0.03451606428566053	)
+		(	0.9810824765340951	0.01891752346590488	))
+		((	0.4490435190811741	0.5509564809188259	)
+		(	0.002039203130645378	0.9979607968693546	)));
+}
+potential ( studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 | countIf_1_1pf_3_1I countIf_1_1pf_3_2I )
+{
+	data = (((	0.842280876407852	0.15771912359214804	)
+		(	0.8120573132089772	0.18794268679102283	))
+		((	0.8008015787681103	0.19919842123188972	)
+		(	0.40115709607709726	0.5988429039229027	)));
+}
+potential ( studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 | countIf_1_1pf_3_2I countIf_1_1pf_3_3I )
+{
+	data = (((	0.5344243282813544	0.46557567171864556	)
+		(	0.3832153730003985	0.6167846269996016	))
+		((	0.5296720452715764	0.4703279547284236	)
+		(	0.09989838595439728	0.9001016140456027	)));
+}
+potential ( countIf_1_1pf_1_1I_CC1_CC2_CC2 | countIf_1_2pf_1_1I countIf_1_1pf_1_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p4I )
+{
+	data = (((	0.6505500514261869	0.34944994857381306	)
+		(	0.24779195468389242	0.7522080453161075	))
+		((	0.6941467475708482	0.30585325242915185	)
+		(	0.3237751544352853	0.6762248455647147	)));
+}
+potential ( countIf_1_1pf_1_2I_CC1_CC2_CC2 | countIf_1_2pf_1_2I countIf_1_1pf_1_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p5I )
+{
+	data = (((	0.09053659646888716	0.9094634035311129	)
+		(	0.7728075212954899	0.22719247870451004	))
+		((	0.5174391103714588	0.4825608896285412	)
+		(	0.566240769092113	0.433759230907887	)));
+}
+potential ( studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I4p5I_CC0 | countIf_1_2pf_1_2I countIf_1_2pf_1_3I )
+{
+	data = (((	0.4118537993318386	0.5881462006681615	)
+		(	0.15367064367030203	0.846329356329698	))
+		((	0.4725208831346263	0.5274791168653737	)
+		(	0.5926713787115472	0.4073286212884528	)));
+}
+potential ( studfundingIs1pf_1_2I_CC1_CC2_CC1 | countIf_1_2pf_1_2I or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.7425292712623778	0.25747072873762217	)
+		(	0.8680504805626205	0.13194951943737954	))
+		((	0.5959214718957796	0.4040785281042203	)
+		(	0.2915899721351786	0.7084100278648214	)));
+}
+potential ( studfundingIs2pf_1_2I_CC1_CC2_CC1 | countIf_1_2pf_1_2I or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.8188696969620197	0.18113030303798022	)
+		(	0.7190335058661473	0.28096649413385266	))
+		((	0.9607073964305223	0.03929260356947769	)
+		(	0.06443739814778672	0.9355626018522133	)));
+}
+potential ( countIf_1_1pf_1_3I_CC1_CC2_CC2 | countIf_1_2pf_1_3I countIf_1_1pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I4p6I )
+{
+	data = (((	0.7764340176803854	0.2235659823196145	)
+		(	0.7804981752553626	0.21950182474463745	))
+		((	0.7152071537185909	0.2847928462814091	)
+		(	0.23433416357302972	0.7656658364269703	)));
+}
+potential ( studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0 | countIf_1_2pf_1_3I countIf_1_2pf_2_1I )
+{
+	data = (((	0.25936423168578443	0.7406357683142156	)
+		(	0.8471630338256756	0.15283696617432438	))
+		((	0.16289875421495773	0.8371012457850423	)
+		(	0.9445941693948766	0.05540583060512341	)));
+}
+potential ( countIf_1_1pf_2_1I_CC1_CC2_CC2 | countIf_1_2pf_2_1I countIf_1_1pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p7I )
+{
+	data = (((	0.6295343122909891	0.3704656877090109	)
+		(	0.8215298926262221	0.1784701073737779	))
+		((	7.505286639522209E-4	0.9992494713360478	)
+		(	0.3922305846825613	0.6077694153174388	)));
+}
+potential ( studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 | countIf_1_2pf_2_1I countIf_1_2pf_2_2I )
+{
+	data = (((	0.2914385120346928	0.7085614879653073	)
+		(	0.17164601432188292	0.828353985678117	))
+		((	0.2779796984450967	0.7220203015549033	)
+		(	0.6140753180532941	0.3859246819467059	)));
+}
+potential ( countIf_1_1pf_2_2I_CC1_CC2_CC2 | countIf_1_2pf_2_2I countIf_1_1pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p8I )
+{
+	data = (((	0.9555527517547638	0.044447248245236125	)
+		(	0.45177943652752806	0.548220563472472	))
+		((	0.14157846022476864	0.8584215397752314	)
+		(	0.46346190803258347	0.5365380919674165	)));
+}
+potential ( studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 | countIf_1_2pf_2_2I countIf_1_2pf_2_3I )
+{
+	data = (((	0.2398288666788191	0.7601711333211809	)
+		(	0.1641274382126878	0.8358725617873122	))
+		((	0.48646848439084955	0.5135315156091504	)
+		(	0.6864102319664206	0.31358976803357946	)));
+}
+potential ( countIf_1_1pf_2_3I_CC1_CC2_CC2 | countIf_1_2pf_2_3I countIf_1_1pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I4p9I )
+{
+	data = (((	0.9158664506009744	0.08413354939902568	)
+		(	0.8593297685125513	0.1406702314874487	))
+		((	0.8366378495841097	0.16336215041589033	)
+		(	0.385311205587259	0.6146887944127409	)));
+}
+potential ( studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 | countIf_1_2pf_2_3I countIf_1_2pf_3_1I )
+{
+	data = (((	0.8720622111073286	0.12793778889267132	)
+		(	0.48364118303671166	0.5163588169632882	))
+		((	0.8445575880499913	0.15544241195000874	)
+		(	0.06825524931436085	0.9317447506856391	)));
+}
+potential ( countIf_1_1pf_3_1I_CC1_CC2_CC2 | countIf_1_2pf_3_1I countIf_1_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p10I )
+{
+	data = (((	0.46450304185791197	0.5354969581420881	)
+		(	0.8266832789398232	0.17331672106017673	))
+		((	0.49900382359305445	0.5009961764069456	)
+		(	0.6891489954673559	0.3108510045326441	)));
+}
+potential ( studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 | countIf_1_2pf_3_1I countIf_1_2pf_3_2I )
+{
+	data = (((	0.5759876243040053	0.4240123756959947	)
+		(	0.5311590862412515	0.46884091375874853	))
+		((	0.6431720082005425	0.35682799179945734	)
+		(	0.022785190974156013	0.977214809025844	)));
+}
+potential ( countIf_1_1pf_3_2I_CC1_CC2_CC2 | countIf_1_2pf_3_2I countIf_1_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p11I )
+{
+	data = (((	0.35513523737833547	0.6448647626216646	)
+		(	0.6365311355668779	0.36346886443312215	))
+		((	0.28695443383520824	0.7130455661647918	)
+		(	0.5719604877336666	0.4280395122663334	)));
+}
+potential ( studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 | countIf_1_2pf_3_2I countIf_1_2pf_3_3I )
+{
+	data = (((	0.4174400731505769	0.5825599268494231	)
+		(	0.20013940689511278	0.7998605931048872	))
+		((	0.4764874983155574	0.5235125016844425	)
+		(	0.6781479490713392	0.3218520509286607	)));
+}
+potential ( countIf_1_1pf_3_3I_CC1_CC2_CC2 | countIf_1_2pf_3_3I grantedIf_1_1I )
+{
+	data = (((	0.24309037514982115	0.7569096248501789	)
+		(	0.43276073659784575	0.5672392634021544	))
+		((	0.796923889376866	0.20307611062313405	)
+		(	0.5653529083415425	0.43464709165845744	)));
+}
+potential ( countIf_1_2pf_1_2I_CC1_CC2_CC2 | countIf_1_3pf_1_2I countIf_1_2pf_1_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p5I )
+{
+	data = (((	0.3206286627055005	0.6793713372944995	)
+		(	0.9326035226648327	0.06739647733516738	))
+		((	0.6062664929587063	0.39373350704129373	)
+		(	0.4918924146586088	0.5081075853413912	)));
+}
+potential ( countIf_1_2pf_1_3I_CC1_CC2_CC2 | countIf_1_3pf_1_3I countIf_1_2pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I5p6I )
+{
+	data = (((	0.323126363945905	0.6768736360540949	)
+		(	0.2180569537821644	0.7819430462178355	))
+		((	0.6473505372679158	0.35264946273208425	)
+		(	0.526575076420614	0.47342492357938604	)));
+}
+potential ( studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0 | countIf_1_3pf_1_3I countIf_1_3pf_2_1I )
+{
+	data = (((	0.5204528040149626	0.47954719598503737	)
+		(	0.2808551313081817	0.7191448686918184	))
+		((	0.8165646700025472	0.18343532999745288	)
+		(	0.7102184405310038	0.28978155946899603	)));
+}
+potential ( studfundingIs1pf_1_3I_CC1_CC2_CC1 | countIf_1_3pf_1_3I or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.6085529769516457	0.3914470230483542	)
+		(	0.5479984253708049	0.45200157462919505	))
+		((	0.4429404589899553	0.5570595410100446	)
+		(	0.4131420909244892	0.5868579090755108	)));
+}
+potential ( studfundingIs2pf_1_3I_CC1_CC2_CC1 | countIf_1_3pf_1_3I or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.7731015424047056	0.22689845759529428	)
+		(	0.191069637457208	0.808930362542792	))
+		((	0.3700042065450744	0.6299957934549256	)
+		(	0.9259222328795835	0.0740777671204165	)));
+}
+potential ( countIf_1_2pf_2_1I_CC1_CC2_CC2 | countIf_1_3pf_2_1I countIf_1_2pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I5p7I )
+{
+	data = (((	0.5921522014529961	0.40784779854700387	)
+		(	0.2475766606526192	0.7524233393473808	))
+		((	0.8180171373292042	0.18198286267079578	)
+		(	0.49687066990946255	0.5031293300905375	)));
+}
+potential ( studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 | countIf_1_3pf_2_1I countIf_1_3pf_2_2I )
+{
+	data = (((	0.4597882037007434	0.5402117962992566	)
+		(	0.3498423927969466	0.6501576072030534	))
+		((	0.5446789104602955	0.4553210895397045	)
+		(	0.4962098792297814	0.5037901207702186	)));
+}
+potential ( countIf_1_2pf_2_2I_CC1_CC2_CC2 | countIf_1_3pf_2_2I countIf_1_2pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p8I )
+{
+	data = (((	0.5413346513757852	0.4586653486242148	)
+		(	0.5161561378142648	0.4838438621857352	))
+		((	0.04988153035260567	0.9501184696473943	)
+		(	0.9212384234835911	0.07876157651640893	)));
+}
+potential ( studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 | countIf_1_3pf_2_2I countIf_1_3pf_2_3I )
+{
+	data = (((	0.37903791007736737	0.6209620899226326	)
+		(	0.7823266516576045	0.21767334834239552	))
+		((	0.6169684749751353	0.38303152502486465	)
+		(	0.7791506068216544	0.22084939317834565	)));
+}
+potential ( countIf_1_2pf_2_3I_CC1_CC2_CC2 | countIf_1_3pf_2_3I countIf_1_2pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I5p9I )
+{
+	data = (((	0.949956937991949	0.05004306200805096	)
+		(	0.46382251430551147	0.5361774856944885	))
+		((	0.21308755200074084	0.7869124479992592	)
+		(	0.2399875876825293	0.7600124123174707	)));
+}
+potential ( studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 | countIf_1_3pf_2_3I countIf_1_3pf_3_1I )
+{
+	data = (((	0.7809394449752466	0.21906055502475338	)
+		(	0.26148711119059964	0.7385128888094004	))
+		((	0.9329411938313465	0.06705880616865348	)
+		(	0.2705764753242241	0.729423524675776	)));
+}
+potential ( countIf_1_2pf_3_1I_CC1_CC2_CC2 | countIf_1_3pf_3_1I countIf_1_2pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I5p10I )
+{
+	data = (((	0.1709647862093467	0.8290352137906533	)
+		(	0.6262903676565706	0.3737096323434294	))
+		((	0.21906920805879407	0.780930791941206	)
+		(	0.3085011057426896	0.6914988942573105	)));
+}
+potential ( studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 | countIf_1_3pf_3_1I countIf_1_3pf_3_2I )
+{
+	data = (((	0.4679937439985322	0.5320062560014678	)
+		(	0.705789685000123	0.294210314999877	))
+		((	0.051839402770847615	0.9481605972291524	)
+		(	0.5085964307647551	0.4914035692352448	)));
+}
+potential ( countIf_1_2pf_3_2I_CC1_CC2_CC2 | countIf_1_3pf_3_2I countIf_1_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p11I )
+{
+	data = (((	0.35976842434668355	0.6402315756533165	)
+		(	0.6733147562609796	0.32668524373902036	))
+		((	0.47468964850201095	0.525310351497989	)
+		(	0.2529814717379623	0.7470185282620377	)));
+}
+potential ( studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 | countIf_1_3pf_3_2I countIf_1_3pf_3_3I )
+{
+	data = (((	0.5625085691686645	0.4374914308313355	)
+		(	0.6365318055384513	0.36346819446154865	))
+		((	0.6505079367527868	0.34949206324721316	)
+		(	0.641337359059311	0.358662640940689	)));
+}
+potential ( countIf_1_2pf_3_3I_CC1_CC2_CC2 | countIf_1_3pf_3_3I grantedIf_1_2I )
+{
+	data = (((	0.2834387190356777	0.7165612809643224	)
+		(	0.7518860318372368	0.24811396816276327	))
+		((	0.04716365738267116	0.9528363426173289	)
+		(	0.5862243206424237	0.41377567935757625	)));
+}
+potential ( countIf_1_3pf_1_3I_CC1_CC2_CC2 | countIf_2_1pf_1_3I countIf_1_3pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I6p6I )
+{
+	data = (((	0.6130639265921437	0.38693607340785635	)
+		(	0.4323318175842577	0.5676681824157424	))
+		((	0.2071970920129312	0.7928029079870688	)
+		(	0.02828602886026332	0.9717139711397367	)));
+}
+potential ( countIf_1_3pf_2_1I_CC1_CC2_CC2 | countIf_2_1pf_2_1I countIf_1_3pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I6p7I )
+{
+	data = (((	0.7523211821602638	0.2476788178397362	)
+		(	0.10524298084308568	0.8947570191569143	))
+		((	0.5326013882175006	0.4673986117824995	)
+		(	0.21279641962363285	0.7872035803763672	)));
+}
+potential ( studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 | countIf_2_1pf_2_1I countIf_2_1pf_2_2I )
+{
+	data = (((	0.09927693506249508	0.9007230649375049	)
+		(	0.861320213885192	0.13867978611480808	))
+		((	0.6755613541287464	0.3244386458712536	)
+		(	0.843194518983169	0.15680548101683095	)));
+}
+potential ( studfundingIs1pf_2_1I_CC1_CC2_CC1 | countIf_2_1pf_2_1I or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.5251072952420247	0.4748927047579753	)
+		(	0.33149019284159215	0.6685098071584079	))
+		((	0.2754504559391348	0.7245495440608652	)
+		(	0.30772425023826755	0.6922757497617323	)));
+}
+potential ( studfundingIs2pf_2_1I_CC1_CC2_CC1 | countIf_2_1pf_2_1I or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.5973511444611005	0.40264885553889945	)
+		(	0.1444977140303673	0.8555022859696327	))
+		((	0.22850158542632007	0.77149841457368	)
+		(	0.3137874601607974	0.6862125398392026	)));
+}
+potential ( countIf_1_3pf_2_2I_CC1_CC2_CC2 | countIf_2_1pf_2_2I countIf_1_3pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I6p8I )
+{
+	data = (((	0.4539045599149907	0.5460954400850093	)
+		(	0.104613641122813	0.895386358877187	))
+		((	0.6985671806523667	0.30143281934763333	)
+		(	0.24061789413781245	0.7593821058621877	)));
+}
+potential ( studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 | countIf_2_1pf_2_2I countIf_2_1pf_2_3I )
+{
+	data = (((	0.2302987812194474	0.7697012187805526	)
+		(	0.6952682483125885	0.3047317516874114	))
+		((	0.210452417149808	0.789547582850192	)
+		(	0.9553909659169957	0.044609034083004276	)));
+}
+potential ( countIf_1_3pf_2_3I_CC1_CC2_CC2 | countIf_2_1pf_2_3I countIf_1_3pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I6p9I )
+{
+	data = (((	0.29581360857019035	0.7041863914298097	)
+		(	0.8400452015019847	0.1599547984980153	))
+		((	0.9286462734547501	0.07135372654524982	)
+		(	0.6892928617241341	0.31070713827586594	)));
+}
+potential ( studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 | countIf_2_1pf_2_3I countIf_2_1pf_3_1I )
+{
+	data = (((	0.2759692868973582	0.7240307131026418	)
+		(	0.35696690373770407	0.6430330962622959	))
+		((	0.48712539641655883	0.5128746035834412	)
+		(	0.2615902379085486	0.7384097620914514	)));
+}
+potential ( countIf_1_3pf_3_1I_CC1_CC2_CC2 | countIf_2_1pf_3_1I countIf_1_3pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I6p10I )
+{
+	data = (((	0.6891631697879015	0.3108368302120984	)
+		(	0.13860063860656197	0.8613993613934381	))
+		((	0.3664351176027262	0.6335648823972738	)
+		(	0.6302948241067514	0.3697051758932486	)));
+}
+potential ( studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 | countIf_2_1pf_3_1I countIf_2_1pf_3_2I )
+{
+	data = (((	0.9110399357647102	0.08896006423528977	)
+		(	0.8552234890461187	0.1447765109538813	))
+		((	0.5138838195309251	0.48611618046907495	)
+		(	0.29314529183391075	0.7068547081660892	)));
+}
+potential ( countIf_1_3pf_3_2I_CC1_CC2_CC2 | countIf_2_1pf_3_2I countIf_1_3pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I6p11I )
+{
+	data = (((	0.23087238798567541	0.7691276120143244	)
+		(	0.535027120932726	0.4649728790672741	))
+		((	0.1087596057800945	0.8912403942199055	)
+		(	0.7090995719530935	0.2909004280469066	)));
+}
+potential ( studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 | countIf_2_1pf_3_2I countIf_2_1pf_3_3I )
+{
+	data = (((	0.6337570451478098	0.36624295485219016	)
+		(	0.9799804903773319	0.020019509622668064	))
+		((	0.6362013441461555	0.3637986558538446	)
+		(	0.3125207749161662	0.6874792250838339	)));
+}
+potential ( countIf_1_3pf_3_3I_CC1_CC2_CC2 | countIf_2_1pf_3_3I grantedIf_1_3I )
+{
+	data = (((	0.35765929418611886	0.6423407058138811	)
+		(	0.4664642594763334	0.5335357405236666	))
+		((	0.18741410760008187	0.8125858923999182	)
+		(	0.8221910629201573	0.17780893707984272	)));
+}
+potential ( countIf_2_1pf_2_1I_CC1_CC2_CC2 | countIf_2_2pf_2_1I countIf_2_1pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I7p7I )
+{
+	data = (((	0.6402313622547405	0.35976863774525947	)
+		(	0.7877521380775919	0.21224786192240805	))
+		((	0.7748485063215528	0.22515149367844722	)
+		(	0.23035267816434968	0.7696473218356503	)));
+}
+potential ( countIf_2_1pf_2_2I_CC1_CC2_CC2 | countIf_2_2pf_2_2I countIf_2_1pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I7p8I )
+{
+	data = (((	0.6482444174781954	0.35175558252180456	)
+		(	0.0858392487383534	0.9141607512616466	))
+		((	0.17423009891928493	0.8257699010807151	)
+		(	0.9034925843475117	0.09650741565248837	)));
+}
+potential ( studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 | countIf_2_2pf_2_2I countIf_2_2pf_2_3I )
+{
+	data = (((	0.8549146442663527	0.14508535573364734	)
+		(	0.25979398471166587	0.7402060152883341	))
+		((	0.8123459361898663	0.1876540638101337	)
+		(	0.5502698785912167	0.44973012140878327	)));
+}
+potential ( studfundingIs1pf_2_2I_CC1_CC2_CC1 | countIf_2_2pf_2_2I or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.8687874333136615	0.13121256668633854	)
+		(	0.2744397332672607	0.7255602667327393	))
+		((	0.26546240927385023	0.7345375907261498	)
+		(	0.19401950705216361	0.8059804929478364	)));
+}
+potential ( studfundingIs2pf_2_2I_CC1_CC2_CC1 | countIf_2_2pf_2_2I or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.6415197193023713	0.35848028069762866	)
+		(	0.3148737270129505	0.6851262729870494	))
+		((	0.0808709269220334	0.9191290730779665	)
+		(	0.6556756147436086	0.3443243852563914	)));
+}
+potential ( countIf_2_1pf_2_3I_CC1_CC2_CC2 | countIf_2_2pf_2_3I countIf_2_1pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I7p9I )
+{
+	data = (((	0.40120424698321794	0.5987957530167821	)
+		(	0.8935128411333576	0.10648715886664241	))
+		((	0.5115748190298895	0.4884251809701104	)
+		(	0.03707413624615912	0.9629258637538409	)));
+}
+potential ( studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 | countIf_2_2pf_2_3I countIf_2_2pf_3_1I )
+{
+	data = (((	0.12184558466278812	0.8781544153372118	)
+		(	0.28702193357565214	0.7129780664243478	))
+		((	0.6756914762243886	0.32430852377561153	)
+		(	0.5418269663679082	0.4581730336320919	)));
+}
+potential ( countIf_2_1pf_3_1I_CC1_CC2_CC2 | countIf_2_2pf_3_1I countIf_2_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I7p10I )
+{
+	data = (((	0.3789550133851328	0.6210449866148671	)
+		(	0.9570475098228824	0.04295249017711751	))
+		((	0.1860756904777724	0.8139243095222276	)
+		(	0.5100168960746743	0.4899831039253258	)));
+}
+potential ( studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 | countIf_2_2pf_3_1I countIf_2_2pf_3_2I )
+{
+	data = (((	0.10123743138126008	0.8987625686187398	)
+		(	0.7555161344235976	0.2444838655764025	))
+		((	0.6448517366098854	0.3551482633901145	)
+		(	0.030158804340882462	0.9698411956591175	)));
+}
+potential ( countIf_2_1pf_3_2I_CC1_CC2_CC2 | countIf_2_2pf_3_2I countIf_2_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I7p11I )
+{
+	data = (((	0.788543081308625	0.21145691869137498	)
+		(	0.5326075246416501	0.46739247535834993	))
+		((	0.09635799053310438	0.9036420094668957	)
+		(	0.4279353599940868	0.5720646400059133	)));
+}
+potential ( studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 | countIf_2_2pf_3_2I countIf_2_2pf_3_3I )
+{
+	data = (((	0.5934929669711063	0.40650703302889374	)
+		(	0.6404199874059348	0.35958001259406525	))
+		((	0.9588190208334656	0.041180979166534376	)
+		(	0.5300597807914174	0.46994021920858264	)));
+}
+potential ( countIf_2_1pf_3_3I_CC1_CC2_CC2 | countIf_2_2pf_3_3I grantedIf_2_1I )
+{
+	data = (((	0.7798083258027316	0.22019167419726826	)
+		(	0.7838102818100154	0.21618971818998453	))
+		((	0.9260433450282892	0.07395665497171079	)
+		(	0.3622560584902026	0.6377439415097973	)));
+}
+potential ( countIf_2_2pf_2_2I_CC1_CC2_CC2 | countIf_2_3pf_2_2I countIf_2_2pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I8p8I )
+{
+	data = (((	0.6626783236542397	0.3373216763457602	)
+		(	0.6605008705425102	0.33949912945748983	))
+		((	0.7274332289798761	0.2725667710201239	)
+		(	0.9466219288705555	0.05337807112944451	)));
+}
+potential ( countIf_2_2pf_2_3I_CC1_CC2_CC2 | countIf_2_3pf_2_3I countIf_2_2pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I8p9I )
+{
+	data = (((	0.9021843009589634	0.0978156990410366	)
+		(	0.5307850598181336	0.4692149401818663	))
+		((	0.817108318630017	0.18289168136998307	)
+		(	0.6678238725209824	0.33217612747901754	)));
+}
+potential ( studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 | countIf_2_3pf_2_3I countIf_2_3pf_3_1I )
+{
+	data = (((	0.8153088878441864	0.18469111215581357	)
+		(	0.5142791290619271	0.485720870938073	))
+		((	0.18037682291216564	0.8196231770878344	)
+		(	0.460033368329969	0.539966631670031	)));
+}
+potential ( studfundingIs1pf_2_3I_CC1_CC2_CC1 | countIf_2_3pf_2_3I or_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.09650840029445942	0.9034915997055406	)
+		(	0.5635272042597126	0.4364727957402874	))
+		((	0.12095803166552348	0.8790419683344766	)
+		(	0.5521768509632405	0.4478231490367595	)));
+}
+potential ( studfundingIs2pf_2_3I_CC1_CC2_CC1 | countIf_2_3pf_2_3I or_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.8208705678844067	0.17912943211559326	)
+		(	0.718107170117189	0.2818928298828109	))
+		((	0.06724504018671114	0.9327549598132888	)
+		(	0.568465705333839	0.43153429466616094	)));
+}
+potential ( countIf_2_2pf_3_1I_CC1_CC2_CC2 | countIf_2_3pf_3_1I countIf_2_2pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I8p10I )
+{
+	data = (((	0.25554520602033354	0.7444547939796664	)
+		(	0.13902572661332327	0.8609742733866768	))
+		((	0.3583087710904156	0.6416912289095843	)
+		(	0.31119828284110923	0.6888017171588908	)));
+}
+potential ( studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 | countIf_2_3pf_3_1I countIf_2_3pf_3_2I )
+{
+	data = (((	0.36524518464594424	0.6347548153540558	)
+		(	0.4184037495554318	0.5815962504445682	))
+		((	0.4538959653195149	0.5461040346804851	)
+		(	0.6307003811847173	0.36929961881528267	)));
+}
+potential ( countIf_2_2pf_3_2I_CC1_CC2_CC2 | countIf_2_3pf_3_2I countIf_2_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I8p11I )
+{
+	data = (((	0.3450868231741036	0.6549131768258964	)
+		(	0.8891165982513747	0.11088340174862532	))
+		((	0.6843506208722241	0.31564937912777585	)
+		(	0.3411710229557018	0.6588289770442983	)));
+}
+potential ( studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 | countIf_2_3pf_3_2I countIf_2_3pf_3_3I )
+{
+	data = (((	0.4594241007425038	0.5405758992574963	)
+		(	0.7965613690899805	0.2034386309100194	))
+		((	0.09453477455762836	0.9054652254423715	)
+		(	0.6089052302759616	0.3910947697240385	)));
+}
+potential ( countIf_2_2pf_3_3I_CC1_CC2_CC2 | countIf_2_3pf_3_3I grantedIf_2_2I )
+{
+	data = (((	0.7700702082967467	0.2299297917032533	)
+		(	0.29181195287973183	0.7081880471202682	))
+		((	0.5589709452982781	0.441029054701722	)
+		(	0.4414596112697957	0.5585403887302043	)));
+}
+potential ( countIf_2_3pf_2_3I_CC1_CC2_CC2 | countIf_3_1pf_2_3I countIf_2_3pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I9p9I )
+{
+	data = (((	0.8819630804898034	0.11803691951019658	)
+		(	0.2644586079991202	0.7355413920008798	))
+		((	0.33614909627781003	0.66385090372219	)
+		(	0.6797272584516189	0.3202727415483812	)));
+}
+potential ( countIf_2_3pf_3_1I_CC1_CC2_CC2 | countIf_3_1pf_3_1I countIf_2_3pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I9p10I )
+{
+	data = (((	0.30238509827051313	0.6976149017294869	)
+		(	0.4182771397256766	0.5817228602743235	))
+		((	0.6779047567543831	0.3220952432456169	)
+		(	0.17108738467796825	0.8289126153220318	)));
+}
+potential ( studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 | countIf_3_1pf_3_1I countIf_3_1pf_3_2I )
+{
+	data = (((	0.6686491900078431	0.331350809992157	)
+		(	0.12662747582973824	0.8733725241702618	))
+		((	0.21020972334294324	0.7897902766570568	)
+		(	0.6787229055500712	0.32127709444992875	)));
+}
+potential ( studfundingIs1pf_3_1I_CC1_CC2_CC1 | countIf_3_1pf_3_1I or_studfundingIs1pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_3_1I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.6819994131111895	0.31800058688881055	)
+		(	0.12902271533614246	0.8709772846638575	))
+		((	0.24144305838635483	0.7585569416136453	)
+		(	0.7729242533316084	0.22707574666839153	)));
+}
+potential ( studfundingIs2pf_3_1I_CC1_CC2_CC1 | countIf_3_1pf_3_1I or_studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2 )
+{
+	data = (((	0.5599478376961813	0.4400521623038187	)
+		(	0.26437099555765836	0.7356290044423417	))
+		((	0.18752854431838692	0.812471455681613	)
+		(	0.6131542901796462	0.38684570982035377	)));
+}
+potential ( countIf_2_3pf_3_2I_CC1_CC2_CC2 | countIf_3_1pf_3_2I countIf_2_3pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I9p11I )
+{
+	data = (((	0.3225090862076856	0.6774909137923145	)
+		(	0.10728487746019544	0.8927151225398046	))
+		((	0.04771502282270459	0.9522849771772953	)
+		(	0.1880185481648355	0.8119814518351646	)));
+}
+potential ( studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 | countIf_3_1pf_3_2I countIf_3_1pf_3_3I )
+{
+	data = (((	0.6806416992814859	0.3193583007185142	)
+		(	0.7840844245906594	0.21591557540934056	))
+		((	0.21070647608543902	0.789293523914561	)
+		(	0.9471642346724979	0.052835765327502095	)));
+}
+potential ( countIf_2_3pf_3_3I_CC1_CC2_CC2 | countIf_3_1pf_3_3I grantedIf_2_3I )
+{
+	data = (((	0.47135067360584243	0.5286493263941575	)
+		(	0.2779422295693444	0.7220577704306557	))
+		((	0.562962070785461	0.437037929214539	)
+		(	0.7064276656523296	0.2935723343476703	)));
+}
+potential ( countIf_3_1pf_3_1I_CC1_CC2_CC2 | countIf_3_2pf_3_1I countIf_3_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I10p10I )
+{
+	data = (((	0.46098666974448715	0.5390133302555128	)
+		(	0.4933247750910606	0.5066752249089393	))
+		((	0.6526090843137433	0.34739091568625663	)
+		(	0.9269211110673362	0.07307888893266377	)));
+}
+potential ( countIf_3_1pf_3_2I_CC1_CC2_CC2 | countIf_3_2pf_3_2I countIf_3_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I10p11I )
+{
+	data = (((	0.5243740536999064	0.47562594630009364	)
+		(	0.5026069120405892	0.4973930879594108	))
+		((	0.3141706212861002	0.6858293787138998	)
+		(	0.5970688156726655	0.40293118432733455	)));
+}
+potential ( studfundingIs2pf_3_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 | countIf_3_2pf_3_2I countIf_3_2pf_3_3I )
+{
+	data = (((	0.5453989737382822	0.45460102626171783	)
+		(	0.8428970998630455	0.15710290013695447	))
+		((	0.9290355967504228	0.07096440324957716	)
+		(	0.5879583132916196	0.41204168670838043	)));
+}
+potential ( studfundingIs1pf_3_2I_CC1_CC2_CC1 | countIf_3_2pf_3_2I studfundingIs2pf_3_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.6449564231948052	0.3550435768051949	)
+		(	0.25253861499401103	0.7474613850059889	))
+		((	0.4074742010009705	0.5925257989990296	)
+		(	0.42141621667597867	0.5785837833240214	)));
+}
+potential ( studfundingIs2pf_3_2I_CC1_CC2_CC1 | countIf_3_2pf_3_2I studfundingIs2pf_3_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.48533272952124984	0.5146672704787503	)
+		(	0.5116349550597123	0.4883650449402877	))
+		((	0.7800517818284046	0.2199482181715955	)
+		(	0.2814924786441533	0.7185075213558467	)));
+}
+potential ( countIf_3_1pf_3_3I_CC1_CC2_CC2 | countIf_3_2pf_3_3I grantedIf_3_1I )
+{
+	data = (((	0.6210572521042889	0.3789427478957112	)
+		(	0.5098164789142969	0.4901835210857032	))
+		((	0.5153344824597931	0.4846655175402068	)
+		(	0.502318260243815	0.4976817397561851	)));
+}
+potential ( countIf_3_2pf_3_2I_CC1_CC2_CC2 | countIf_3_3pf_3_2I countIf_3_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I11p11I )
+{
+	data = (((	0.8297588478176591	0.17024115218234095	)
+		(	0.5142911280858956	0.48570887191410433	))
+		((	0.4926646722807742	0.5073353277192257	)
+		(	0.6646314215047334	0.3353685784952666	)));
+}
+potential ( countIf_3_2pf_3_3I_CC1_CC2_CC2 | countIf_3_3pf_3_3I grantedIf_3_2I )
+{
+	data = (((	0.36262499331639886	0.6373750066836011	)
+		(	0.43113951802531464	0.5688604819746854	))
+		((	0.516607904459162	0.48339209554083795	)
+		(	0.5734745658712437	0.4265254341287564	)));
+}
+potential ( countIf_1_1pf_1_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p4I | grantedIf_1_1I countIf_1_2pf_1_2I )
+{
+	data = (((	0.8240124361816235	0.17598756381837655	)
+		(	0.9462067901471388	0.053793209852861214	))
+		((	0.9422154936801856	0.0577845063198143	)
+		(	0.4153589566533297	0.5846410433466703	)));
+}
+potential ( countIf_1_1pf_1_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p5I | grantedIf_1_1I countIf_1_2pf_1_3I )
+{
+	data = (((	0.8824620527412629	0.11753794725873709	)
+		(	0.924321626369359	0.07567837363064098	))
+		((	0.8779984906330353	0.12200150936696473	)
+		(	0.6553506032946397	0.34464939670536027	)));
+}
+potential ( countIf_1_1pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I4p6I | grantedIf_1_1I countIf_1_2pf_2_1I )
+{
+	data = (((	0.7749103203439566	0.22508967965604348	)
+		(	0.45024602792492335	0.5497539720750767	))
+		((	0.01837530586101614	0.9816246941389839	)
+		(	0.7451090788567444	0.2548909211432557	)));
+}
+potential ( countIf_1_1pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p7I | grantedIf_1_1I countIf_1_2pf_2_2I )
+{
+	data = (((	0.5903137047439059	0.4096862952560941	)
+		(	0.5585134011947259	0.44148659880527413	))
+		((	0.41790261372618437	0.5820973862738157	)
+		(	0.437806911308819	0.5621930886911811	)));
+}
+potential ( countIf_1_1pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p8I | grantedIf_1_1I countIf_1_2pf_2_3I )
+{
+	data = (((	0.6620396130462409	0.33796038695375913	)
+		(	0.9817508585206294	0.018249141479370623	))
+		((	0.7828150335561214	0.21718496644387864	)
+		(	0.5407273302005494	0.4592726697994506	)));
+}
+potential ( countIf_1_1pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I4p9I | grantedIf_1_1I countIf_1_2pf_3_1I )
+{
+	data = (((	0.5126803095506822	0.4873196904493178	)
+		(	0.04633093855308863	0.9536690614469113	))
+		((	0.07608461377850054	0.9239153862214995	)
+		(	0.7579957265394806	0.24200427346051945	)));
+}
+potential ( countIf_1_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I4p10I | grantedIf_1_1I countIf_1_2pf_3_2I )
+{
+	data = (((	0.6632350246218724	0.33676497537812755	)
+		(	0.061902797539028706	0.9380972024609713	))
+		((	0.6361094060481988	0.3638905939518012	)
+		(	0.6101607743195145	0.3898392256804855	)));
+}
+potential ( countIf_1_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I4p11I | grantedIf_1_1I countIf_1_2pf_3_3I )
+{
+	data = (((	0.3808425297158527	0.6191574702841474	)
+		(	0.38401829168626506	0.615981708313735	))
+		((	0.557465440691857	0.4425345593081429	)
+		(	0.3737372278759173	0.6262627721240829	)));
+}
+potential ( studfundingIs1pf_1_1I_CC1_CC2 | grantedIf_1_1I studfundingIs1pf_1_1I_CC1_CC2_CC1 )
+{
+	data = (((	0.4434046684121259	0.5565953315878742	)
+		(	0.5409815579863719	0.45901844201362796	))
+		((	0.4419298467309305	0.5580701532690695	)
+		(	0.5677098955551788	0.4322901044448212	)));
+}
+potential ( studfundingIs2pf_1_1I_CC1_CC2 | grantedIf_1_1I studfundingIs2pf_1_1I_CC1_CC2_CC1 )
+{
+	data = (((	0.5029615776627	0.4970384223373	)
+		(	0.5188069427348706	0.4811930572651294	))
+		((	0.6370588670118146	0.3629411329881855	)
+		(	0.5696718174477343	0.4303281825522656	)));
+}
+potential ( countIf_1_2pf_1_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p5I | grantedIf_1_2I countIf_1_3pf_1_3I )
+{
+	data = (((	0.7853919874922843	0.21460801250771566	)
+		(	0.2079201277981777	0.7920798722018223	))
+		((	0.826272471464265	0.17372752853573498	)
+		(	0.7109697660610431	0.28903023393895694	)));
+}
+potential ( countIf_1_2pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I5p6I | grantedIf_1_2I countIf_1_3pf_2_1I )
+{
+	data = (((	0.45410001877259926	0.5458999812274008	)
+		(	0.8665178571388276	0.1334821428611724	))
+		((	0.7366377844445702	0.26336221555542977	)
+		(	0.6809977333612628	0.3190022666387372	)));
+}
+potential ( countIf_1_2pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I5p7I | grantedIf_1_2I countIf_1_3pf_2_2I )
+{
+	data = (((	0.04366119401077557	0.9563388059892244	)
+		(	0.27966414020376024	0.7203358597962398	))
+		((	0.7982635959817599	0.20173640401824014	)
+		(	0.2011210507810956	0.7988789492189043	)));
+}
+potential ( countIf_1_2pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p8I | grantedIf_1_2I countIf_1_3pf_2_3I )
+{
+	data = (((	0.35526496101550903	0.644735038984491	)
+		(	0.3770299083547711	0.6229700916452289	))
+		((	0.5296815065470336	0.47031849345296645	)
+		(	0.5584592181246725	0.44154078187532747	)));
+}
+potential ( countIf_1_2pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I5p9I | grantedIf_1_2I countIf_1_3pf_3_1I )
+{
+	data = (((	0.6425837209944665	0.3574162790055336	)
+		(	0.46503744394163565	0.5349625560583644	))
+		((	0.7688115941576112	0.23118840584238873	)
+		(	0.2623701508337743	0.7376298491662256	)));
+}
+potential ( countIf_1_2pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I5p10I | grantedIf_1_2I countIf_1_3pf_3_2I )
+{
+	data = (((	0.5069168710344955	0.49308312896550466	)
+		(	0.5864911604577476	0.4135088395422523	))
+		((	0.025212918395784562	0.9747870816042155	)
+		(	0.9957353305901235	0.0042646694098764145	)));
+}
+potential ( countIf_1_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I5p11I | grantedIf_1_2I countIf_1_3pf_3_3I )
+{
+	data = (((	0.8846294999522395	0.11537050004776048	)
+		(	0.4993813817699168	0.5006186182300832	))
+		((	0.43492816939079304	0.565071830609207	)
+		(	0.4865609175160592	0.5134390824839409	)));
+}
+potential ( studfundingIs1pf_1_2I_CC1_CC2 | grantedIf_1_2I studfundingIs1pf_1_2I_CC1_CC2_CC1 )
+{
+	data = (((	0.5972641997940058	0.4027358002059942	)
+		(	0.2890831539426864	0.7109168460573135	))
+		((	0.00157946462217493	0.998420535377825	)
+		(	0.9490845044354307	0.05091549556456929	)));
+}
+potential ( studfundingIs2pf_1_2I_CC1_CC2 | grantedIf_1_2I studfundingIs2pf_1_2I_CC1_CC2_CC1 )
+{
+	data = (((	0.3182010087643608	0.6817989912356393	)
+		(	0.545705232896521	0.454294767103479	))
+		((	0.7563221151001706	0.24367788489982944	)
+		(	0.5097459106333255	0.4902540893666744	)));
+}
+potential ( countIf_1_3pf_1_3I_CC1_CC2_CC2_CC2_CC2_pf0I6p6I | grantedIf_1_3I countIf_2_1pf_2_1I )
+{
+	data = (((	0.8106366381938753	0.18936336180612462	)
+		(	0.4208861860956382	0.5791138139043619	))
+		((	0.20570118921240205	0.7942988107875979	)
+		(	0.8658402629128404	0.1341597370871595	)));
+}
+potential ( countIf_1_3pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I6p7I | grantedIf_1_3I countIf_2_1pf_2_2I )
+{
+	data = (((	0.4383670562460545	0.5616329437539456	)
+		(	0.373169126700996	0.626830873299004	))
+		((	0.4744059772582265	0.5255940227417736	)
+		(	0.8937738250230923	0.10622617497690767	)));
+}
+potential ( countIf_1_3pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I6p8I | grantedIf_1_3I countIf_2_1pf_2_3I )
+{
+	data = (((	0.52123785474862	0.47876214525137994	)
+		(	0.5128978184342127	0.4871021815657874	))
+		((	0.45716371960794494	0.542836280392055	)
+		(	0.8921458637646239	0.1078541362353761	)));
+}
+potential ( countIf_1_3pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I6p9I | grantedIf_1_3I countIf_2_1pf_3_1I )
+{
+	data = (((	0.5819342237557448	0.4180657762442552	)
+		(	0.874916032517007	0.125083967482993	))
+		((	0.2686833081545593	0.7313166918454407	)
+		(	0.378942385600394	0.6210576143996059	)));
+}
+potential ( countIf_1_3pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I6p10I | grantedIf_1_3I countIf_2_1pf_3_2I )
+{
+	data = (((	0.2307759513860991	0.7692240486139008	)
+		(	0.5092595117305696	0.49074048826943045	))
+		((	0.614686123589976	0.385313876410024	)
+		(	0.5788134989468422	0.4211865010531578	)));
+}
+potential ( countIf_1_3pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I6p11I | grantedIf_1_3I countIf_2_1pf_3_3I )
+{
+	data = (((	0.7994380559927197	0.2005619440072803	)
+		(	0.004391746214431484	0.9956082537855685	))
+		((	0.8227290601679994	0.17727093983200062	)
+		(	0.9296324137567303	0.07036758624326964	)));
+}
+potential ( studfundingIs1pf_1_3I_CC1_CC2 | grantedIf_1_3I studfundingIs1pf_1_3I_CC1_CC2_CC1 )
+{
+	data = (((	0.00881065163990535	0.9911893483600946	)
+		(	0.2288916446437841	0.7711083553562158	))
+		((	0.38508348726178115	0.6149165127382189	)
+		(	0.9946659648014807	0.005334035198519257	)));
+}
+potential ( studfundingIs2pf_1_3I_CC1_CC2 | grantedIf_1_3I studfundingIs2pf_1_3I_CC1_CC2_CC1 )
+{
+	data = (((	0.49109096220170606	0.5089090377982939	)
+		(	0.19605543661515287	0.8039445633848471	))
+		((	0.7748113704959022	0.22518862950409776	)
+		(	0.15069938012755182	0.8493006198724482	)));
+}
+potential ( countIf_2_1pf_2_1I_CC1_CC2_CC2_CC2_CC2_pf0I7p7I | grantedIf_2_1I countIf_2_2pf_2_2I )
+{
+	data = (((	0.08443300119954308	0.9155669988004569	)
+		(	0.6714415335078977	0.32855846649210235	))
+		((	0.9675296660837888	0.0324703339162112	)
+		(	0.841619666277132	0.15838033372286794	)));
+}
+potential ( countIf_2_1pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I7p8I | grantedIf_2_1I countIf_2_2pf_2_3I )
+{
+	data = (((	0.5166888415661881	0.48331115843381184	)
+		(	0.9616508960839334	0.038349103916066586	))
+		((	0.18849674641662204	0.811503253583378	)
+		(	0.13318923844537467	0.8668107615546253	)));
+}
+potential ( countIf_2_1pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I7p9I | grantedIf_2_1I countIf_2_2pf_3_1I )
+{
+	data = (((	0.588301403446649	0.41169859655335095	)
+		(	0.762616347080926	0.23738365291907398	))
+		((	0.846890347628398	0.153109652371602	)
+		(	0.6486030819099275	0.3513969180900725	)));
+}
+potential ( countIf_2_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I7p10I | grantedIf_2_1I countIf_2_2pf_3_2I )
+{
+	data = (((	0.9794814443094313	0.020518555690568707	)
+		(	0.7146386619146518	0.2853613380853482	))
+		((	0.9270526329095032	0.07294736709049685	)
+		(	0.5963145665562916	0.40368543344370833	)));
+}
+potential ( countIf_2_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I7p11I | grantedIf_2_1I countIf_2_2pf_3_3I )
+{
+	data = (((	0.6842864038045617	0.3157135961954382	)
+		(	0.6627698276917977	0.33723017230820235	))
+		((	0.3457345300111069	0.6542654699888931	)
+		(	0.6646565899259347	0.3353434100740654	)));
+}
+potential ( studfundingIs1pf_2_1I_CC1_CC2 | grantedIf_2_1I studfundingIs1pf_2_1I_CC1_CC2_CC1 )
+{
+	data = (((	0.33172478711502146	0.6682752128849785	)
+		(	0.49704038812665385	0.5029596118733463	))
+		((	0.5499166752918523	0.4500833247081477	)
+		(	0.3127879698322498	0.6872120301677502	)));
+}
+potential ( studfundingIs2pf_2_1I_CC1_CC2 | grantedIf_2_1I studfundingIs2pf_2_1I_CC1_CC2_CC1 )
+{
+	data = (((	0.503041885599807	0.496958114400193	)
+		(	0.347060872058456	0.652939127941544	))
+		((	0.7268521822094629	0.27314781779053726	)
+		(	0.3683089356397513	0.6316910643602487	)));
+}
+potential ( countIf_2_2pf_2_2I_CC1_CC2_CC2_CC2_CC2_pf0I8p8I | grantedIf_2_2I countIf_2_3pf_2_3I )
+{
+	data = (((	0.7754664823233359	0.2245335176766641	)
+		(	0.5042504760199593	0.49574952398004063	))
+		((	0.5880348146809089	0.41196518531909115	)
+		(	0.49848642917830494	0.501513570821695	)));
+}
+potential ( countIf_2_2pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I8p9I | grantedIf_2_2I countIf_2_3pf_3_1I )
+{
+	data = (((	0.4586979659364419	0.5413020340635581	)
+		(	0.5911791998768724	0.4088208001231277	))
+		((	0.23259360489836045	0.7674063951016397	)
+		(	0.4951017742768506	0.5048982257231495	)));
+}
+potential ( countIf_2_2pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I8p10I | grantedIf_2_2I countIf_2_3pf_3_2I )
+{
+	data = (((	0.9115620934973121	0.08843790650268785	)
+		(	0.4192391096757725	0.5807608903242275	))
+		((	0.6605224238026822	0.3394775761973178	)
+		(	0.8874221383300042	0.11257786166999588	)));
+}
+potential ( countIf_2_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I8p11I | grantedIf_2_2I countIf_2_3pf_3_3I )
+{
+	data = (((	0.6935291429201511	0.3064708570798487	)
+		(	0.3830225903451248	0.6169774096548751	))
+		((	0.5386848910687126	0.46131510893128735	)
+		(	0.7930311027896567	0.20696889721034326	)));
+}
+potential ( studfundingIs1pf_2_2I_CC1_CC2 | grantedIf_2_2I studfundingIs1pf_2_2I_CC1_CC2_CC1 )
+{
+	data = (((	0.5981194150771658	0.4018805849228341	)
+		(	0.62805411526938	0.3719458847306199	))
+		((	0.7313756076322946	0.26862439236770536	)
+		(	0.4903942304793458	0.5096057695206542	)));
+}
+potential ( studfundingIs2pf_2_2I_CC1_CC2 | grantedIf_2_2I studfundingIs2pf_2_2I_CC1_CC2_CC1 )
+{
+	data = (((	0.2794547195055236	0.7205452804944763	)
+		(	0.4082619450117552	0.5917380549882447	))
+		((	0.5099097133828968	0.4900902866171032	)
+		(	0.7077951930131602	0.29220480698684	)));
+}
+potential ( countIf_2_3pf_2_3I_CC1_CC2_CC2_CC2_CC2_pf0I9p9I | grantedIf_2_3I countIf_3_1pf_3_1I )
+{
+	data = (((	0.8773888366381776	0.1226111633618224	)
+		(	0.7182758999219191	0.2817241000780809	))
+		((	0.5142374381767472	0.4857625618232528	)
+		(	0.9619270751823759	0.03807292481762418	)));
+}
+potential ( countIf_2_3pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I9p10I | grantedIf_2_3I countIf_3_1pf_3_2I )
+{
+	data = (((	0.5655241648407471	0.4344758351592528	)
+		(	0.17375760044779534	0.8262423995522047	))
+		((	0.34155234222185393	0.6584476577781461	)
+		(	0.7785037137747481	0.22149628622525197	)));
+}
+potential ( countIf_2_3pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I9p11I | grantedIf_2_3I countIf_3_1pf_3_3I )
+{
+	data = (((	0.15645597801948596	0.843544021980514	)
+		(	0.6043981055220173	0.3956018944779827	))
+		((	0.011500514439981045	0.988499485560019	)
+		(	0.8787254139047238	0.12127458609527622	)));
+}
+potential ( studfundingIs1pf_2_3I_CC1_CC2 | grantedIf_2_3I studfundingIs1pf_2_3I_CC1_CC2_CC1 )
+{
+	data = (((	0.07977060710263234	0.9202293928973677	)
+		(	0.5104032157067832	0.48959678429321685	))
+		((	0.1851138618508484	0.8148861381491516	)
+		(	0.3789774104434566	0.6210225895565433	)));
+}
+potential ( studfundingIs2pf_2_3I_CC1_CC2 | grantedIf_2_3I studfundingIs2pf_2_3I_CC1_CC2_CC1 )
+{
+	data = (((	0.6184231780395152	0.3815768219604848	)
+		(	0.008390633053813344	0.9916093669461866	))
+		((	0.471462447823736	0.528537552176264	)
+		(	0.6927552384286437	0.3072447615713563	)));
+}
+potential ( countIf_3_1pf_3_1I_CC1_CC2_CC2_CC2_CC2_pf0I10p10I | grantedIf_3_1I countIf_3_2pf_3_2I )
+{
+	data = (((	0.0797132559718075	0.9202867440281925	)
+		(	0.11129406109491903	0.888705938905081	))
+		((	0.35326221517580175	0.6467377848241982	)
+		(	0.667971076261653	0.33202892373834697	)));
+}
+potential ( countIf_3_1pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I10p11I | grantedIf_3_1I countIf_3_2pf_3_3I )
+{
+	data = (((	0.16129376748660101	0.838706232513399	)
+		(	0.7060651586116496	0.29393484138835024	))
+		((	0.11558985420174776	0.8844101457982523	)
+		(	0.698927217781773	0.301072782218227	)));
+}
+potential ( studfundingIs1pf_3_1I_CC1_CC2 | grantedIf_3_1I studfundingIs1pf_3_1I_CC1_CC2_CC1 )
+{
+	data = (((	0.9061053122959639	0.09389468770403606	)
+		(	0.11076529581430924	0.8892347041856907	))
+		((	0.2515860012518898	0.7484139987481102	)
+		(	0.26632700623395056	0.7336729937660494	)));
+}
+potential ( studfundingIs2pf_3_1I_CC1_CC2 | grantedIf_3_1I studfundingIs2pf_3_1I_CC1_CC2_CC1 )
+{
+	data = (((	0.3309472221630429	0.6690527778369572	)
+		(	0.5959265828603117	0.40407341713968825	))
+		((	0.5907432755752302	0.4092567244247698	)
+		(	0.21336711292282512	0.7866328870771748	)));
+}
+potential ( countIf_3_2pf_3_2I_CC1_CC2_CC2_CC2_CC2_pf0I11p11I | grantedIf_3_2I countIf_3_3pf_3_3I )
+{
+	data = (((	0.4858001713464222	0.5141998286535778	)
+		(	0.18278474157741012	0.8172152584225899	))
+		((	0.4407690780418122	0.5592309219581877	)
+		(	0.363205484820784	0.636794515179216	)));
+}
+potential ( studfundingIs1pf_3_2I_CC1_CC2 | grantedIf_3_2I studfundingIs1pf_3_2I_CC1_CC2_CC1 )
+{
+	data = (((	0.6225557439421604	0.37744425605783954	)
+		(	0.3891496674063843	0.6108503325936157	))
+		((	0.5082843125439	0.49171568745609995	)
+		(	0.50779382575202	0.49220617424798	)));
+}
+potential ( studfundingIs2pf_3_2I_CC1_CC2 | grantedIf_3_2I studfundingIs2pf_3_2I_CC1_CC2_CC1 )
+{
+	data = (((	0.8770004127282826	0.1229995872717175	)
+		(	0.5489614007460908	0.45103859925390916	))
+		((	0.8581372150803807	0.14186278491961934	)
+		(	0.8344755900110584	0.16552440998894163	)));
+}
+potential ( studfundingIs2pf_3_3I_CC1_CC2 | grantedIf_3_3I countIf_3_3pf_3_3I )
+{
+	data = (((	0.428235848790566	0.571764151209434	)
+		(	0.58567261022124	0.41432738977876005	))
+		((	0.03917007887000024	0.9608299211299998	)
+		(	0.049333098111773374	0.9506669018882267	)));
+}
+potential ( or_advisorIs1pPro1I_CC1_pf0I11I_advisorIs1pPro1I_CC1 | or_advisorIs1pPro1I_CC1_pf0I10I_advisorIs1pPro1I_CC1 studfundingIs1pf_3_3I )
+{
+	data = (((	0.43006484023515384	0.5699351597648462	)
+		(	0.49392470101663266	0.5060752989833673	))
+		((	0.9980116215925336	0.0019883784074663275	)
+		(	0.765925781541329	0.23407421845867105	)));
+}
+potential ( or_advisorIs1pPro1I_CC1_pf0I7I_advisorIs1pPro1I_CC1 | or_advisorIs1pPro1I_CC1_pf0I6I_advisorIs1pPro1I_CC1 studfundingIs1pf_2_2I )
+{
+	data = (((	0.8001895177715208	0.19981048222847933	)
+		(	0.18236102135777937	0.8176389786422206	))
+		((	0.6945814851906379	0.3054185148093622	)
+		(	0.5096414702868982	0.4903585297131017	)));
+}
+potential ( or_advisorIs1pPro1I_CC1_pf0I8I_advisorIs1pPro1I_CC1 | or_advisorIs1pPro1I_CC1_pf0I7I_advisorIs1pPro1I_CC1 studfundingIs1pf_2_3I )
+{
+	data = (((	0.967175271217192	0.03282472878280792	)
+		(	0.03378541554681822	0.9662145844531818	))
+		((	0.2001825106913771	0.7998174893086228	)
+		(	0.6999945772253912	0.3000054227746089	)));
+}
+potential ( or_advisorIs1pPro1I_CC1_pf0I9I_advisorIs1pPro1I_CC1 | or_advisorIs1pPro1I_CC1_pf0I8I_advisorIs1pPro1I_CC1 studfundingIs1pf_3_1I )
+{
+	data = (((	0.39795532464337613	0.602044675356624	)
+		(	0.18573776054752766	0.8142622394524723	))
+		((	0.6778493754216374	0.32215062457836263	)
+		(	0.2904049376911486	0.7095950623088515	)));
+}
+potential ( or_advisorIs1pPro1I_CC1_pf0I10I_advisorIs1pPro1I_CC1 | or_advisorIs1pPro1I_CC1_pf0I9I_advisorIs1pPro1I_CC1 studfundingIs1pf_3_2I )
+{
+	data = (((	0.5202294644766883	0.4797705355233117	)
+		(	0.8543830490283981	0.1456169509716019	))
+		((	0.8015101204679804	0.19848987953201952	)
+		(	0.1444969536620786	0.8555030463379214	)));
+}
+potential ( or_advisorIs1pPro2I_CC1_pf0I11I_advisorIs1pPro2I_CC1 | or_advisorIs1pPro2I_CC1_pf0I10I_advisorIs1pPro2I_CC1 studfundingIs1pf_3_3I )
+{
+	data = (((	0.7957597289861785	0.20424027101382142	)
+		(	0.9190966390732885	0.08090336092671144	))
+		((	0.9531194412094195	0.046880558790580465	)
+		(	0.4571957884244607	0.5428042115755394	)));
+}
+potential ( or_advisorIs1pPro2I_CC1_pf0I7I_advisorIs1pPro2I_CC1 | or_advisorIs1pPro2I_CC1_pf0I6I_advisorIs1pPro2I_CC1 studfundingIs1pf_2_2I )
+{
+	data = (((	0.38817212275862983	0.6118278772413701	)
+		(	0.7021834400415717	0.2978165599584283	))
+		((	0.4219535507692556	0.5780464492307444	)
+		(	0.4020241846452006	0.5979758153547994	)));
+}
+potential ( or_advisorIs1pPro2I_CC1_pf0I8I_advisorIs1pPro2I_CC1 | or_advisorIs1pPro2I_CC1_pf0I7I_advisorIs1pPro2I_CC1 studfundingIs1pf_2_3I )
+{
+	data = (((	0.41269730403682725	0.5873026959631727	)
+		(	0.7161652676308616	0.28383473236913837	))
+		((	0.9401086112625151	0.059891388737484945	)
+		(	0.7945182938820018	0.20548170611799815	)));
+}
+potential ( or_advisorIs1pPro2I_CC1_pf0I9I_advisorIs1pPro2I_CC1 | or_advisorIs1pPro2I_CC1_pf0I8I_advisorIs1pPro2I_CC1 studfundingIs1pf_3_1I )
+{
+	data = (((	0.5092032360226463	0.49079676397735367	)
+		(	0.5697447725705509	0.4302552274294491	))
+		((	0.6953628787327959	0.30463712126720405	)
+		(	0.3778486301741992	0.6221513698258008	)));
+}
+potential ( or_advisorIs1pPro2I_CC1_pf0I10I_advisorIs1pPro2I_CC1 | or_advisorIs1pPro2I_CC1_pf0I9I_advisorIs1pPro2I_CC1 studfundingIs1pf_3_2I )
+{
+	data = (((	0.7407024298598236	0.2592975701401764	)
+		(	0.6200277385143348	0.37997226148566515	))
+		((	0.19774924416702053	0.8022507558329794	)
+		(	0.45796193517038225	0.5420380648296177	)));
+}
+potential ( or_advisorIs1pPro3I_CC1_pf0I11I_advisorIs1pPro3I_CC1 | or_advisorIs1pPro3I_CC1_pf0I10I_advisorIs1pPro3I_CC1 studfundingIs1pf_3_3I )
+{
+	data = (((	0.5773269736601435	0.42267302633985654	)
+		(	0.8275850038924666	0.17241499610753344	))
+		((	0.6417779622935548	0.35822203770644534	)
+		(	0.6377733258637339	0.36222667413626614	)));
+}
+potential ( or_advisorIs1pPro3I_CC1_pf0I5I_advisorIs1pPro3I_CC1 | or_advisorIs1pPro3I_CC1_pf0I4I_advisorIs1pPro3I_CC1 studfundingIs1pf_1_3I )
+{
+	data = (((	0.6737277371391011	0.3262722628608989	)
+		(	0.3406542356080312	0.6593457643919688	))
+		((	0.1115089611347832	0.8884910388652169	)
+		(	0.7548620867077374	0.24513791329226267	)));
+}
+potential ( or_advisorIs1pPro2I_CC1_pf0I6I_advisorIs1pPro2I_CC1 | or_advisorIs1pPro3I_CC1_pf0I5I_advisorIs1pPro3I_CC1 studfundingIs1pf_2_1I )
+{
+	data = (((	0.5509855709839416	0.44901442901605837	)
+		(	0.953091058731707	0.04690894126829304	))
+		((	0.2641971754411381	0.7358028245588619	)
+		(	0.39887744593061986	0.6011225540693802	)));
+}
+potential ( or_advisorIs1pPro3I_CC1_pf0I6I_advisorIs1pPro3I_CC1 | or_advisorIs1pPro3I_CC1_pf0I5I_advisorIs1pPro3I_CC1 studfundingIs1pf_2_1I )
+{
+	data = (((	0.23271119803650306	0.7672888019634969	)
+		(	0.32277363813012744	0.6772263618698725	))
+		((	0.40994401279424386	0.5900559872057561	)
+		(	0.13049809106282254	0.8695019089371775	)));
+}
+potential ( or_advisorIs1pPro3I_CC1_pf0I7I_advisorIs1pPro3I_CC1 | or_advisorIs1pPro3I_CC1_pf0I6I_advisorIs1pPro3I_CC1 studfundingIs1pf_2_2I )
+{
+	data = (((	0.40145662326948134	0.5985433767305186	)
+		(	0.7811277328063503	0.21887226719364966	))
+		((	0.6470673141482315	0.3529326858517686	)
+		(	0.39625847743385206	0.6037415225661479	)));
+}
+potential ( or_advisorIs1pPro3I_CC1_pf0I8I_advisorIs1pPro3I_CC1 | or_advisorIs1pPro3I_CC1_pf0I7I_advisorIs1pPro3I_CC1 studfundingIs1pf_2_3I )
+{
+	data = (((	0.39043974150822597	0.609560258491774	)
+		(	0.7999721538362435	0.20002784616375655	))
+		((	0.1977193410813723	0.8022806589186278	)
+		(	0.6773906079566707	0.3226093920433292	)));
+}
+potential ( or_advisorIs1pPro3I_CC1_pf0I9I_advisorIs1pPro3I_CC1 | or_advisorIs1pPro3I_CC1_pf0I8I_advisorIs1pPro3I_CC1 studfundingIs1pf_3_1I )
+{
+	data = (((	0.9040683543824642	0.0959316456175358	)
+		(	0.8208095596885495	0.17919044031145048	))
+		((	0.363784742272655	0.636215257727345	)
+		(	0.6101749035315724	0.3898250964684276	)));
+}
+potential ( or_advisorIs1pPro3I_CC1_pf0I10I_advisorIs1pPro3I_CC1 | or_advisorIs1pPro3I_CC1_pf0I9I_advisorIs1pPro3I_CC1 studfundingIs1pf_3_2I )
+{
+	data = (((	0.6757657018730543	0.3242342981269457	)
+		(	0.14978523362589863	0.8502147663741014	))
+		((	0.37606847463801785	0.6239315253619822	)
+		(	0.170893306516135	0.829106693483865	)));
+}
+potential ( or_advisorIs2pPro1I_CC1_pf0I11I_advisorIs2pPro1I_CC1 | or_advisorIs2pPro1I_CC1_pf0I10I_advisorIs2pPro1I_CC1 studfundingIs2pf_3_3I )
+{
+	data = (((	0.6937194156919166	0.30628058430808336	)
+		(	0.565668550244546	0.43433144975545396	))
+		((	0.22185863267058528	0.7781413673294147	)
+		(	0.47709297211362395	0.5229070278863761	)));
+}
+potential ( or_advisorIs2pPro1I_CC1_pf0I7I_advisorIs2pPro1I_CC1 | or_advisorIs2pPro1I_CC1_pf0I6I_advisorIs2pPro1I_CC1 studfundingIs2pf_2_2I )
+{
+	data = (((	0.5971380738585829	0.4028619261414172	)
+		(	0.5408488815558997	0.4591511184441002	))
+		((	0.3695318468919642	0.6304681531080358	)
+		(	0.8798839439425049	0.12011605605749504	)));
+}
+potential ( or_advisorIs2pPro1I_CC1_pf0I8I_advisorIs2pPro1I_CC1 | or_advisorIs2pPro1I_CC1_pf0I7I_advisorIs2pPro1I_CC1 studfundingIs2pf_2_3I )
+{
+	data = (((	0.8360620294639203	0.16393797053607978	)
+		(	0.2710007530146047	0.7289992469853952	))
+		((	0.6465620825387626	0.35343791746123754	)
+		(	0.33023945194316534	0.6697605480568347	)));
+}
+potential ( or_advisorIs2pPro1I_CC1_pf0I9I_advisorIs2pPro1I_CC1 | or_advisorIs2pPro1I_CC1_pf0I8I_advisorIs2pPro1I_CC1 studfundingIs2pf_3_1I )
+{
+	data = (((	0.5412232872984835	0.45877671270151654	)
+		(	0.23354752448117244	0.7664524755188276	))
+		((	0.514166442091255	0.485833557908745	)
+		(	0.7352584038071521	0.26474159619284793	)));
+}
+potential ( or_advisorIs2pPro1I_CC1_pf0I10I_advisorIs2pPro1I_CC1 | or_advisorIs2pPro1I_CC1_pf0I9I_advisorIs2pPro1I_CC1 studfundingIs2pf_3_2I )
+{
+	data = (((	0.8595546413320614	0.1404453586679386	)
+		(	0.6400825559984147	0.3599174440015853	))
+		((	0.5518190027552163	0.44818099724478366	)
+		(	0.3478491394138326	0.6521508605861673	)));
+}
+potential ( or_advisorIs2pPro2I_CC1_pf0I11I_advisorIs2pPro2I_CC1 | or_advisorIs2pPro2I_CC1_pf0I10I_advisorIs2pPro2I_CC1 studfundingIs2pf_3_3I )
+{
+	data = (((	0.1686152518285409	0.8313847481714591	)
+		(	0.2909645346358259	0.7090354653641742	))
+		((	0.5647911269419132	0.43520887305808686	)
+		(	0.5459083952156963	0.45409160478430377	)));
+}
+potential ( or_advisorIs2pPro2I_CC1_pf0I5I_advisorIs2pPro2I_CC1 | or_advisorIs2pPro2I_CC1_pf0I4I_advisorIs2pPro2I_CC1 studfundingIs2pf_1_3I )
+{
+	data = (((	0.1169938131506409	0.883006186849359	)
+		(	0.6298342379037325	0.37016576209626756	))
+		((	0.7066745208759673	0.29332547912403273	)
+		(	0.34264960702100916	0.6573503929789909	)));
+}
+potential ( or_advisorIs2pPro2I_CC1_pf0I6I_advisorIs2pPro2I_CC1 | or_advisorIs2pPro2I_CC1_pf0I5I_advisorIs2pPro2I_CC1 studfundingIs2pf_2_1I )
+{
+	data = (((	0.8661066662989372	0.13389333370106285	)
+		(	0.3536733787409609	0.6463266212590393	))
+		((	0.48676946283709754	0.5132305371629025	)
+		(	0.15418511074007474	0.8458148892599253	)));
+}
+potential ( or_advisorIs2pPro3I_CC1_pf0I6I_advisorIs2pPro3I_CC1 | or_advisorIs2pPro2I_CC1_pf0I5I_advisorIs2pPro2I_CC1 studfundingIs2pf_2_1I )
+{
+	data = (((	0.17911007070778664	0.8208899292922134	)
+		(	0.39479497792690216	0.6052050220730978	))
+		((	0.5822782571650845	0.4177217428349155	)
+		(	0.8002843568209541	0.1997156431790459	)));
+}
+potential ( or_advisorIs2pPro2I_CC1_pf0I7I_advisorIs2pPro2I_CC1 | or_advisorIs2pPro2I_CC1_pf0I6I_advisorIs2pPro2I_CC1 studfundingIs2pf_2_2I )
+{
+	data = (((	0.1895425603641028	0.8104574396358972	)
+		(	0.09131737819236987	0.9086826218076302	))
+		((	0.4929770062371543	0.5070229937628458	)
+		(	0.40472389206505605	0.595276107934944	)));
+}
+potential ( or_advisorIs2pPro2I_CC1_pf0I8I_advisorIs2pPro2I_CC1 | or_advisorIs2pPro2I_CC1_pf0I7I_advisorIs2pPro2I_CC1 studfundingIs2pf_2_3I )
+{
+	data = (((	0.7663009935516348	0.2336990064483652	)
+		(	0.5667541228035632	0.4332458771964368	))
+		((	0.5539240644024314	0.44607593559756864	)
+		(	0.23705366243294945	0.7629463375670505	)));
+}
+potential ( or_advisorIs2pPro2I_CC1_pf0I9I_advisorIs2pPro2I_CC1 | or_advisorIs2pPro2I_CC1_pf0I8I_advisorIs2pPro2I_CC1 studfundingIs2pf_3_1I )
+{
+	data = (((	0.6530402476760885	0.3469597523239115	)
+		(	0.4890715495183395	0.5109284504816606	))
+		((	0.4560990164442444	0.5439009835557556	)
+		(	0.1059315651367894	0.8940684348632106	)));
+}
+potential ( or_advisorIs2pPro2I_CC1_pf0I10I_advisorIs2pPro2I_CC1 | or_advisorIs2pPro2I_CC1_pf0I9I_advisorIs2pPro2I_CC1 studfundingIs2pf_3_2I )
+{
+	data = (((	0.38476839523085776	0.6152316047691423	)
+		(	0.0018101223177987979	0.9981898776822012	))
+		((	0.4952952878091399	0.50470471219086	)
+		(	0.3511548165678157	0.6488451834321843	)));
+}
+potential ( or_advisorIs2pPro3I_CC1_pf0I11I_advisorIs2pPro3I_CC1 | or_advisorIs2pPro3I_CC1_pf0I10I_advisorIs2pPro3I_CC1 studfundingIs2pf_3_3I )
+{
+	data = (((	0.5844922795189357	0.4155077204810644	)
+		(	0.7196339252157818	0.2803660747842181	))
+		((	0.6760836742420303	0.32391632575796964	)
+		(	0.019432724196947644	0.9805672758030524	)));
+}
+potential ( or_advisorIs2pPro3I_CC1_pf0I7I_advisorIs2pPro3I_CC1 | or_advisorIs2pPro3I_CC1_pf0I6I_advisorIs2pPro3I_CC1 studfundingIs2pf_2_2I )
+{
+	data = (((	0.6616675187896103	0.3383324812103897	)
+		(	0.457267221370982	0.542732778629018	))
+		((	0.5082918144266467	0.49170818557335333	)
+		(	0.3350783411589493	0.6649216588410507	)));
+}
+potential ( or_advisorIs2pPro3I_CC1_pf0I8I_advisorIs2pPro3I_CC1 | or_advisorIs2pPro3I_CC1_pf0I7I_advisorIs2pPro3I_CC1 studfundingIs2pf_2_3I )
+{
+	data = (((	0.17959840046432224	0.8204015995356777	)
+		(	0.4521407155796244	0.5478592844203757	))
+		((	0.5041626566741985	0.49583734332580154	)
+		(	0.7115942454549574	0.2884057545450426	)));
+}
+potential ( or_advisorIs2pPro3I_CC1_pf0I9I_advisorIs2pPro3I_CC1 | or_advisorIs2pPro3I_CC1_pf0I8I_advisorIs2pPro3I_CC1 studfundingIs2pf_3_1I )
+{
+	data = (((	0.009590659332463513	0.9904093406675365	)
+		(	0.9922619853646593	0.007738014635340721	))
+		((	0.8343285453977946	0.16567145460220548	)
+		(	0.2961311642486762	0.7038688357513238	)));
+}
+potential ( or_advisorIs2pPro3I_CC1_pf0I10I_advisorIs2pPro3I_CC1 | or_advisorIs2pPro3I_CC1_pf0I9I_advisorIs2pPro3I_CC1 studfundingIs2pf_3_2I )
+{
+	data = (((	0.8455261112537753	0.15447388874622475	)
+		(	0.2855912757924622	0.7144087242075379	))
+		((	0.07749825835246571	0.9225017416475342	)
+		(	0.6971864400118326	0.30281355998816734	)));
+}
+potential ( or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0 )
+{
+	data = (((	0.3590888911825189	0.640911108817481	)
+		(	0.12488329159339853	0.8751167084066015	))
+		((	0.6385872663850612	0.36141273361493875	)
+		(	0.436325576471024	0.563674423528976	)));
+}
+potential ( or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 )
+{
+	data = (((	0.41193353746112804	0.588066462538872	)
+		(	0.5804552788118668	0.4195447211881332	))
+		((	0.18238112145674648	0.8176188785432535	)
+		(	0.8903908849772709	0.10960911502272909	)));
+}
+potential ( or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 )
+{
+	data = (((	0.53039723242457	0.4696027675754299	)
+		(	0.21609576430550323	0.7839042356944967	))
+		((	0.4365626162664321	0.5634373837335679	)
+		(	0.42523333340118064	0.5747666665988194	)));
+}
+potential ( or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 )
+{
+	data = (((	0.4121396010027001	0.5878603989972998	)
+		(	0.026937352212518258	0.9730626477874817	))
+		((	0.6781806156825363	0.3218193843174637	)
+		(	0.7577877229238184	0.2422122770761818	)));
+}
+potential ( or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.07340429749181618	0.9265957025081838	)
+		(	0.2607984137094239	0.7392015862905761	))
+		((	0.1639331326184421	0.836066867381558	)
+		(	0.5669763976589012	0.43302360234109893	)));
+}
+potential ( or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.982560634915725	0.017439365084274988	)
+		(	0.6669920294567712	0.33300797054322884	))
+		((	0.9639530548223008	0.036046945177699234	)
+		(	0.9167373566741663	0.08326264332583365	)));
+}
+potential ( or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 )
+{
+	data = (((	0.6624594017613556	0.33754059823864435	)
+		(	0.2970437900309604	0.7029562099690396	))
+		((	0.6945240353563508	0.3054759646436493	)
+		(	0.48461665873752297	0.515383341262477	)));
+}
+potential ( or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 )
+{
+	data = (((	0.3642297894003508	0.6357702105996493	)
+		(	0.582361378000319	0.41763862199968105	))
+		((	0.6789232828927828	0.3210767171072171	)
+		(	0.452121512326657	0.547878487673343	)));
+}
+potential ( or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 )
+{
+	data = (((	0.9226149409639302	0.07738505903606994	)
+		(	0.7394603261174274	0.26053967388257265	))
+		((	0.5227156151279517	0.47728438487204833	)
+		(	0.5564176189124208	0.44358238108757925	)));
+}
+potential ( or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.6599413729565375	0.34005862704346246	)
+		(	0.322203689206248	0.677796310793752	))
+		((	0.46072510558473306	0.5392748944152669	)
+		(	0.41531515647342643	0.5846848435265735	)));
+}
+potential ( or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.6528948755743732	0.34710512442562674	)
+		(	0.1307995321491706	0.8692004678508294	))
+		((	0.4155706509324395	0.5844293490675605	)
+		(	0.20660468601770887	0.7933953139822911	)));
+}
+potential ( or_studfundingIs1pf_1_3I_studfundingIs1pf_3_3I_CC1_CC0 | or_studfundingIs1pf_1_2I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_1_3I )
+{
+	data = (((	0.4628298541832929	0.5371701458167071	)
+		(	0.3973795724191303	0.6026204275808696	))
+		((	0.21912107847349338	0.7808789215265066	)
+		(	0.6782850462025909	0.3217149537974091	)));
+}
+potential ( studfundingIs1pf_1_3I_CC1 | or_studfundingIs1pf_1_2I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_1_3I_CC1_CC2 )
+{
+	data = (((	0.5895433482363136	0.4104566517636864	)
+		(	0.831958455170154	0.16804154482984587	))
+		((	0.512033406128182	0.487966593871818	)
+		(	0.6739301588899893	0.32606984111001075	)));
+}
+potential ( or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 )
+{
+	data = (((	0.6357975923743189	0.364202407625681	)
+		(	0.5328717547648485	0.4671282452351515	))
+		((	0.736182197826121	0.26381780217387896	)
+		(	0.7656579851949332	0.23434201480506686	)));
+}
+potential ( or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 )
+{
+	data = (((	0.7312291858884509	0.26877081411154913	)
+		(	0.7075489314570343	0.2924510685429657	))
+		((	0.38486698501498945	0.6151330149850105	)
+		(	0.7665473850075265	0.23345261499247344	)));
+}
+potential ( or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.12080990274619109	0.8791900972538089	)
+		(	0.4869543234559906	0.5130456765440093	))
+		((	0.7247205844537016	0.2752794155462984	)
+		(	0.3208810406179425	0.6791189593820576	)));
+}
+potential ( or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.5408744277608751	0.4591255722391248	)
+		(	0.2212193877798044	0.7787806122201956	))
+		((	0.6186890695715985	0.3813109304284014	)
+		(	0.331257927643777	0.6687420723562231	)));
+}
+potential ( or_advisorIs1pPro1I_CC1_pf0I6I_advisorIs1pPro1I_CC1 | or_studfundingIs1pf_1_3I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_2_1I )
+{
+	data = (((	0.30526767120441506	0.694732328795585	)
+		(	0.5917643066535058	0.40823569334649423	))
+		((	0.7986846932915492	0.2013153067084508	)
+		(	0.7556806208174587	0.24431937918254132	)));
+}
+potential ( or_studfundingIs1pf_2_1I_studfundingIs1pf_3_3I_CC1_CC0 | or_studfundingIs1pf_1_3I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_2_1I )
+{
+	data = (((	0.4774533158313243	0.5225466841686757	)
+		(	0.4267116102606455	0.5732883897393544	))
+		((	0.3990281234899076	0.6009718765100924	)
+		(	0.31100263731248773	0.6889973626875122	)));
+}
+potential ( studfundingIs1pf_2_1I_CC1 | or_studfundingIs1pf_1_3I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_2_1I_CC1_CC2 )
+{
+	data = (((	0.5335589248801198	0.46644107511988014	)
+		(	0.8358101581701476	0.16418984182985238	))
+		((	0.23167167702624447	0.7683283229737555	)
+		(	0.7882070219501943	0.21179297804980568	)));
+}
+potential ( or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 )
+{
+	data = (((	0.5324214197874001	0.46757858021259985	)
+		(	0.43828486153712	0.56171513846288	))
+		((	0.6373026245762773	0.3626973754237227	)
+		(	0.6519859639748611	0.34801403602513886	)));
+}
+potential ( or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.6405904177365545	0.35940958226344555	)
+		(	0.6573617925284856	0.3426382074715145	))
+		((	0.6702739337813808	0.3297260662186192	)
+		(	0.45001424948914137	0.5499857505108586	)));
+}
+potential ( or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.7348320626649665	0.2651679373350336	)
+		(	0.6527433954983303	0.34725660450166973	))
+		((	0.33980366132512885	0.660196338674871	)
+		(	0.7184123900785648	0.2815876099214351	)));
+}
+potential ( or_studfundingIs1pf_2_2I_studfundingIs1pf_3_3I_CC1_CC0 | or_studfundingIs1pf_2_1I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_2_2I )
+{
+	data = (((	0.6355584879981767	0.3644415120018233	)
+		(	0.44975166288196455	0.5502483371180354	))
+		((	0.12680193918583313	0.8731980608141668	)
+		(	0.39587599502503473	0.6041240049749652	)));
+}
+potential ( studfundingIs1pf_2_2I_CC1 | or_studfundingIs1pf_2_1I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_2_2I_CC1_CC2 )
+{
+	data = (((	0.7986285421735057	0.20137145782649432	)
+		(	0.38371634096853224	0.6162836590314678	))
+		((	0.5821734444715796	0.41782655552842046	)
+		(	0.08198109999915904	0.918018900000841	)));
+}
+potential ( or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.465423488419418	0.5345765115805821	)
+		(	0.36118365071531683	0.6388163492846832	))
+		((	0.40994720210241165	0.5900527978975885	)
+		(	0.6100952552232655	0.3899047447767346	)));
+}
+potential ( or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.5071764043428012	0.4928235956571989	)
+		(	0.17897409321983215	0.8210259067801678	))
+		((	0.768469050979277	0.231530949020723	)
+		(	0.7998964825694392	0.20010351743056082	)));
+}
+potential ( or_studfundingIs1pf_2_3I_studfundingIs1pf_3_3I_CC1_CC0 | or_studfundingIs1pf_2_2I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_2_3I )
+{
+	data = (((	0.4043271846958346	0.5956728153041654	)
+		(	0.4288712651225332	0.5711287348774667	))
+		((	0.48891975909589025	0.5110802409041098	)
+		(	0.6205787896377224	0.3794212103622776	)));
+}
+potential ( studfundingIs1pf_2_3I_CC1 | or_studfundingIs1pf_2_2I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_2_3I_CC1_CC2 )
+{
+	data = (((	0.4893447940906034	0.5106552059093966	)
+		(	0.35846429917048656	0.6415357008295134	))
+		((	0.41155277106401195	0.5884472289359881	)
+		(	0.9412865331389857	0.058713466861014266	)));
+}
+potential ( or_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2 | or_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.3779093428761088	0.6220906571238912	)
+		(	0.4191688836714692	0.5808311163285307	))
+		((	0.8806561958140943	0.11934380418590564	)
+		(	0.783734974568395	0.21626502543160492	)));
+}
+potential ( or_studfundingIs1pf_3_1I_studfundingIs1pf_3_3I_CC1_CC0 | or_studfundingIs1pf_2_3I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_3_1I )
+{
+	data = (((	0.9687010126438043	0.03129898735619578	)
+		(	0.36555739249170766	0.6344426075082924	))
+		((	0.07847785676747364	0.9215221432325263	)
+		(	0.029203288753309745	0.9707967112466902	)));
+}
+potential ( studfundingIs1pf_3_1I_CC1 | or_studfundingIs1pf_2_3I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_3_1I_CC1_CC2 )
+{
+	data = (((	0.6452452266550127	0.3547547733449873	)
+		(	0.3165360024469772	0.6834639975530229	))
+		((	0.17808240389194605	0.8219175961080539	)
+		(	0.5893909043053053	0.41060909569469467	)));
+}
+potential ( or_studfundingIs1pf_3_2I_studfundingIs1pf_3_3I_CC1_CC0 | or_studfundingIs1pf_3_1I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_3_2I )
+{
+	data = (((	0.6824649973722631	0.317535002627737	)
+		(	0.2140853743172908	0.7859146256827092	))
+		((	0.614570610840506	0.38542938915949393	)
+		(	0.37785147016991	0.6221485298300901	)));
+}
+potential ( studfundingIs1pf_3_2I_CC1 | or_studfundingIs1pf_3_1I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs1pf_3_2I_CC1_CC2 )
+{
+	data = (((	0.5379307223026729	0.462069277697327	)
+		(	0.9239430506185367	0.07605694938146336	))
+		((	0.2728493824039348	0.7271506175960651	)
+		(	0.32249719232003926	0.6775028076799607	)));
+}
+potential ( studfundingIs1pf_3_3I_CC1 | or_studfundingIs1pf_3_2I_studfundingIs1pf_3_3I_CC1_CC0 studfundingIs2pf_3_3I_CC1_CC2 )
+{
+	data = (((	0.8042949986597718	0.19570500134022814	)
+		(	0.28769333802877034	0.7123066619712297	))
+		((	0.539719893157871	0.46028010684212906	)
+		(	0.503866377702331	0.49613362229766894	)));
+}
+potential ( or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0 )
+{
+	data = (((	0.6655907499781162	0.3344092500218838	)
+		(	0.45849620953423464	0.5415037904657654	))
+		((	0.8790338520287276	0.12096614797127236	)
+		(	0.9772271832572511	0.02277281674274885	)));
+}
+potential ( or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 )
+{
+	data = (((	0.30535076403763417	0.6946492359623658	)
+		(	0.5121868228200038	0.48781317717999617	))
+		((	0.5648176682438438	0.4351823317561561	)
+		(	0.4456704508973779	0.554329549102622	)));
+}
+potential ( or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 )
+{
+	data = (((	0.6327523133517086	0.36724768664829144	)
+		(	0.09926530311863388	0.9007346968813661	))
+		((	0.06835941279728106	0.9316405872027189	)
+		(	0.4726865136373669	0.5273134863626331	)));
+}
+potential ( or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 )
+{
+	data = (((	0.4318016998480188	0.5681983001519811	)
+		(	0.3431275814720745	0.6568724185279256	))
+		((	0.08695382791361862	0.9130461720863814	)
+		(	0.7548446585708801	0.24515534142911988	)));
+}
+potential ( or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.37934878477737777	0.6206512152226222	)
+		(	0.2950378348859877	0.7049621651140123	))
+		((	0.3952210982335731	0.6047789017664269	)
+		(	0.7215907032619446	0.27840929673805537	)));
+}
+potential ( or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.4834594437480189	0.5165405562519811	)
+		(	0.15189346598238723	0.8481065340176128	))
+		((	0.4812613368432878	0.5187386631567122	)
+		(	0.9754109501281804	0.024589049871819604	)));
+}
+potential ( or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 )
+{
+	data = (((	0.47125511066577963	0.5287448893342205	)
+		(	0.06444641038565191	0.9355535896143481	))
+		((	0.4016264524361317	0.5983735475638683	)
+		(	0.8917176817309128	0.1082823182690872	)));
+}
+potential ( or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 )
+{
+	data = (((	0.5761718179107834	0.4238281820892165	)
+		(	0.09100505241174717	0.9089949475882528	))
+		((	0.5496940523856925	0.45030594761430753	)
+		(	0.6386025692912491	0.3613974307087509	)));
+}
+potential ( or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 )
+{
+	data = (((	0.058121523143281735	0.9418784768567182	)
+		(	0.4706415480750808	0.5293584519249193	))
+		((	0.6833636942761965	0.3166363057238034	)
+		(	0.440422825886302	0.559577174113698	)));
+}
+potential ( or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.5926270381596942	0.4073729618403058	)
+		(	0.37647267232156145	0.6235273276784385	))
+		((	0.5717122859884924	0.4282877140115076	)
+		(	0.6425553860817094	0.35744461391829063	)));
+}
+potential ( or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.561722417942476	0.43827758205752393	)
+		(	0.6113734216594304	0.3886265783405696	))
+		((	0.39437342077772436	0.6056265792222756	)
+		(	0.5990566651104982	0.40094333488950173	)));
+}
+potential ( or_studfundingIs2pf_1_3I_studfundingIs2pf_3_3I_CC1_CC0 | or_studfundingIs2pf_1_2I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_1_3I )
+{
+	data = (((	0.2958233563206211	0.7041766436793788	)
+		(	0.48205010169325263	0.5179498983067474	))
+		((	0.3566136537226569	0.643386346277343	)
+		(	0.8007504860053841	0.1992495139946159	)));
+}
+potential ( studfundingIs2pf_1_3I_CC1 | or_studfundingIs2pf_1_2I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_1_3I_CC1_CC2 )
+{
+	data = (((	0.4882084266920556	0.5117915733079444	)
+		(	0.22501260016293742	0.7749873998370626	))
+		((	0.1229777454552768	0.8770222545447232	)
+		(	0.3192492156901774	0.6807507843098226	)));
+}
+potential ( or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 )
+{
+	data = (((	0.5505993728241956	0.44940062717580437	)
+		(	0.1458608927570907	0.8541391072429093	))
+		((	0.04095577376174866	0.9590442262382514	)
+		(	0.22893435745656482	0.7710656425434352	)));
+}
+potential ( or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 )
+{
+	data = (((	0.018058226506338555	0.9819417734936614	)
+		(	0.21131596300449143	0.7886840369955086	))
+		((	0.6969710045199251	0.30302899548007484	)
+		(	0.36834512293213134	0.6316548770678687	)));
+}
+potential ( or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.3366097615153294	0.6633902384846707	)
+		(	0.11695276449013277	0.8830472355098672	))
+		((	0.4621709905709725	0.5378290094290274	)
+		(	0.38490447360680075	0.6150955263931993	)));
+}
+potential ( or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2 studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.7161495743148919	0.2838504256851082	)
+		(	0.515687697869829	0.4843123021301709	))
+		((	0.426405346283659	0.573594653716341	)
+		(	0.054519038162718025	0.9454809618372818	)));
+}
+potential ( or_advisorIs2pPro1I_CC1_pf0I6I_advisorIs2pPro1I_CC1 | or_studfundingIs2pf_1_3I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_2_1I )
+{
+	data = (((	0.5431155784198204	0.4568844215801796	)
+		(	0.39117933865927074	0.6088206613407293	))
+		((	0.388605075887688	0.611394924112312	)
+		(	0.29438180278161213	0.7056181972183878	)));
+}
+potential ( or_studfundingIs2pf_2_1I_studfundingIs2pf_3_3I_CC1_CC0 | or_studfundingIs2pf_1_3I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_2_1I )
+{
+	data = (((	0.8699187384970326	0.1300812615029674	)
+		(	0.7969240077738589	0.20307599222614114	))
+		((	0.31597389623583433	0.6840261037641657	)
+		(	0.2598353107253942	0.7401646892746059	)));
+}
+potential ( studfundingIs2pf_2_1I_CC1 | or_studfundingIs2pf_1_3I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_2_1I_CC1_CC2 )
+{
+	data = (((	0.796551830226954	0.20344816977304608	)
+		(	0.34383620840722956	0.6561637915927705	))
+		((	0.9186424347350662	0.08135756526493379	)
+		(	0.27545952008071434	0.7245404799192857	)));
+}
+potential ( or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 )
+{
+	data = (((	0.5635075254105363	0.4364924745894637	)
+		(	0.614256768155868	0.38574323184413195	))
+		((	0.29708350304704867	0.7029164969529513	)
+		(	0.44849562587059266	0.5515043741294073	)));
+}
+potential ( or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.8717807239832618	0.12821927601673822	)
+		(	0.39538641296328964	0.6046135870367103	))
+		((	0.9532498358126206	0.046750164187379435	)
+		(	0.07116808761345242	0.9288319123865476	)));
+}
+potential ( or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.50259982532771	0.49740017467229003	)
+		(	0.34402278978036993	0.6559772102196301	))
+		((	0.668923709500206	0.3310762904997939	)
+		(	0.4618263248176753	0.5381736751823247	)));
+}
+potential ( or_studfundingIs2pf_2_2I_studfundingIs2pf_3_3I_CC1_CC0 | or_studfundingIs2pf_2_1I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_2_2I )
+{
+	data = (((	0.5056567129017461	0.4943432870982539	)
+		(	0.7010610601274138	0.29893893987258624	))
+		((	0.999099685002589	9.003149974109786E-4	)
+		(	0.7988685582301611	0.2011314417698388	)));
+}
+potential ( studfundingIs2pf_2_2I_CC1 | or_studfundingIs2pf_2_1I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_2_2I_CC1_CC2 )
+{
+	data = (((	0.09454472856359133	0.9054552714364087	)
+		(	0.7039599314523168	0.2960400685476832	))
+		((	0.42129723782941564	0.5787027621705844	)
+		(	0.771510914853077	0.228489085146923	)));
+}
+potential ( or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.7902949961260967	0.2097050038739033	)
+		(	0.5559578049319551	0.4440421950680449	))
+		((	0.46867819362942725	0.5313218063705727	)
+		(	0.5060391596832142	0.49396084031678583	)));
+}
+potential ( or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.5882894502724371	0.4117105497275628	)
+		(	0.8326527558444441	0.16734724415555596	))
+		((	0.3321615522981063	0.6678384477018937	)
+		(	0.31983092375149513	0.6801690762485049	)));
+}
+potential ( or_studfundingIs2pf_2_3I_studfundingIs2pf_3_3I_CC1_CC0 | or_studfundingIs2pf_2_2I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_2_3I )
+{
+	data = (((	0.17950463021764332	0.8204953697823567	)
+		(	0.5077803206788789	0.49221967932112104	))
+		((	0.5605949702047243	0.4394050297952757	)
+		(	0.027875420982024696	0.9721245790179753	)));
+}
+potential ( studfundingIs2pf_2_3I_CC1 | or_studfundingIs2pf_2_2I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_2_3I_CC1_CC2 )
+{
+	data = (((	0.8198011143120595	0.18019888568794046	)
+		(	0.3425437168135836	0.6574562831864165	))
+		((	0.641910809038843	0.358089190961157	)
+		(	0.6456481281049672	0.3543518718950328	)));
+}
+potential ( or_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2 | or_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2 studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.46002816965965576	0.5399718303403442	)
+		(	0.589337393140525	0.41066260685947503	))
+		((	0.7858052349601032	0.2141947650398968	)
+		(	0.33957453174384855	0.6604254682561514	)));
+}
+potential ( or_studfundingIs2pf_3_1I_studfundingIs2pf_3_3I_CC1_CC0 | or_studfundingIs2pf_2_3I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_3_1I )
+{
+	data = (((	0.8863126477398686	0.1136873522601315	)
+		(	0.9876775303515627	0.012322469648437317	))
+		((	0.6816918296370739	0.31830817036292613	)
+		(	0.2657917444046434	0.7342082555953565	)));
+}
+potential ( studfundingIs2pf_3_1I_CC1 | or_studfundingIs2pf_2_3I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_3_1I_CC1_CC2 )
+{
+	data = (((	0.11370282217421353	0.8862971778257864	)
+		(	0.04026720542769481	0.9597327945723051	))
+		((	0.8582745429771004	0.1417254570228996	)
+		(	0.1882371243074667	0.8117628756925332	)));
+}
+potential ( or_studfundingIs2pf_3_2I_studfundingIs2pf_3_3I_CC1_CC0 | or_studfundingIs2pf_3_1I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_3_2I )
+{
+	data = (((	0.38223144849119517	0.6177685515088047	)
+		(	0.7267992797831219	0.2732007202168782	))
+		((	0.4147824971105821	0.5852175028894179	)
+		(	0.8462716306886242	0.15372836931137582	)));
+}
+potential ( studfundingIs2pf_3_2I_CC1 | or_studfundingIs2pf_3_1I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_3_2I_CC1_CC2 )
+{
+	data = (((	0.10422329027027534	0.8957767097297247	)
+		(	0.8812333748163148	0.11876662518368519	))
+		((	0.24785761863401762	0.7521423813659823	)
+		(	0.802523087085321	0.19747691291467895	)));
+}
+potential ( studfundingIs2pf_3_3I_CC1 | or_studfundingIs2pf_3_2I_studfundingIs2pf_3_3I_CC1_CC0 studfundingIs2pf_3_3I_CC1_CC2 )
+{
+	data = (((	0.02846236255068762	0.9715376374493124	)
+		(	0.39409136454708876	0.6059086354529112	))
+		((	0.6162133310087132	0.3837866689912868	)
+		(	0.017076583411903577	0.9829234165880965	)));
+}
+potential ( or_successIs1I_CC1_pf0I2I_successIs1I_CC1 | or_successIs1I_CC1_pf0I1I_successIs1I_CC1 successIs1I_CC1_pf0I2I )
+{
+	data = (((	0.5028371479493519	0.49716285205064814	)
+		(	0.5764188312300645	0.4235811687699354	))
+		((	0.025780066613552647	0.9742199333864473	)
+		(	0.41345781645536595	0.586542183544634	)));
+}
+potential ( or_successIs2I_CC1_pf0I2I_successIs2I_CC1 | or_successIs2I_CC1_pf0I1I_successIs2I_CC1 successIs2I_CC1_pf0I2I )
+{
+	data = (((	0.2884482620974633	0.7115517379025367	)
+		(	0.24460724039388815	0.7553927596061119	))
+		((	0.31521059271204105	0.6847894072879589	)
+		(	0.5125321394065563	0.48746786059344366	)));
+}
+potential ( or_advisorIs1pPro3I_CC1_pf0I4I_advisorIs1pPro3I_CC1 | studfundingIs1pf_1_1I studfundingIs1pf_1_2I )
+{
+	data = (((	0.36701278730162334	0.6329872126983767	)
+		(	0.7751570030108783	0.22484299698912164	))
+		((	0.35041462179898025	0.6495853782010197	)
+		(	0.42496804868566573	0.5750319513143343	)));
+}
+potential ( or_studfundingIs1pf_1_2I_studfundingIs1pf_3_3I_CC1_CC0 | studfundingIs1pf_1_1I studfundingIs1pf_1_2I )
+{
+	data = (((	0.02557175513539034	0.9744282448646097	)
+		(	0.34628803068366304	0.653711969316337	))
+		((	0.4244084338536091	0.575591566146391	)
+		(	0.6953030837583899	0.3046969162416101	)));
+}
+potential ( studfundingIs1pf_1_2I_CC1 | studfundingIs1pf_1_1I studfundingIs1pf_1_2I_CC1_CC2 )
+{
+	data = (((	0.08693106465321622	0.9130689353467838	)
+		(	0.6795051806480392	0.32049481935196084	))
+		((	0.236297579527627	0.763702420472373	)
+		(	0.5777101009056327	0.4222898990943673	)));
+}
+potential ( or_advisorIs2pPro2I_CC1_pf0I4I_advisorIs2pPro2I_CC1 | studfundingIs2pf_1_1I studfundingIs2pf_1_2I )
+{
+	data = (((	0.6063077828838395	0.39369221711616054	)
+		(	0.8638728036551452	0.13612719634485476	))
+		((	0.34013632244865705	0.6598636775513429	)
+		(	0.6267507480016107	0.37324925199838926	)));
+}
+potential ( or_studfundingIs2pf_1_2I_studfundingIs2pf_3_3I_CC1_CC0 | studfundingIs2pf_1_1I studfundingIs2pf_1_2I )
+{
+	data = (((	0.5928841036003113	0.40711589639968876	)
+		(	0.4056867302855981	0.5943132697144019	))
+		((	0.7773380082327913	0.22266199176720874	)
+		(	0.56606281535889	0.4339371846411099	)));
+}
+potential ( studfundingIs2pf_1_2I_CC1 | studfundingIs2pf_1_1I studfundingIs2pf_1_2I_CC1_CC2 )
+{
+	data = (((	0.6894430608327441	0.3105569391672558	)
+		(	0.48299735896480694	0.517002641035193	))
+		((	0.8013510109064015	0.19864898909359852	)
+		(	0.6562042890902248	0.34379571090977523	)));
+}
+potential ( or_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_studfundingIs1pf_1_1I_CC1_CC2_CC1_CC2 | studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I3p4I_CC0 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_CC0 )
+{
+	data = (((	0.5161942942000274	0.4838057057999726	)
+		(	0.5009806920505426	0.49901930794945737	))
+		((	0.5216727202567618	0.4783272797432382	)
+		(	0.4293820363401548	0.5706179636598452	)));
+}
+potential ( or_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2 | studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I3p4I_CC0 studfundingIs2pf_1_1I_CC1_CC2_CC1_CC2_pf0I4p5I_CC0 )
+{
+	data = (((	0.537144778319547	0.46285522168045296	)
+		(	0.2551147960361879	0.7448852039638121	))
+		((	0.7266535390547162	0.27334646094528375	)
+		(	0.5187934744346044	0.48120652556539556	)));
+}
+potential ( or_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs1pf_1_2I_CC1_CC2_CC1_CC2 | studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I4p5I_CC0 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0 )
+{
+	data = (((	0.5122571629205623	0.4877428370794376	)
+		(	0.644708697061793	0.35529130293820704	))
+		((	0.6566585605687066	0.34334143943129336	)
+		(	0.005336424358820272	0.9946635756411797	)));
+}
+potential ( or_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2 | studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I4p5I_CC0 studfundingIs2pf_1_2I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0 )
+{
+	data = (((	0.3982871646858025	0.6017128353141974	)
+		(	0.28805584011441676	0.7119441598855832	))
+		((	0.252515421315161	0.7474845786848391	)
+		(	0.7622935140712429	0.2377064859287571	)));
+}
+potential ( or_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs1pf_1_3I_CC1_CC2_CC1_CC2 | studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0 studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 )
+{
+	data = (((	0.22234780667144932	0.7776521933285506	)
+		(	0.4983279936655868	0.5016720063344132	))
+		((	0.07481173512227887	0.9251882648777211	)
+		(	0.8706449196694284	0.12935508033057166	)));
+}
+potential ( or_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2 | studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I5p6I_CC0 studfundingIs2pf_1_3I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 )
+{
+	data = (((	0.4410360077514422	0.5589639922485579	)
+		(	0.23664694262170213	0.7633530573782978	))
+		((	0.5454579502757034	0.45454204972429657	)
+		(	0.6354305094877841	0.3645694905122158	)));
+}
+potential ( or_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs1pf_2_1I_CC1_CC2_CC1_CC2 | studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 )
+{
+	data = (((	0.7746555031177852	0.22534449688221478	)
+		(	0.47934360989736374	0.5206563901026362	))
+		((	0.8177836456288049	0.18221635437119504	)
+		(	0.7829572847360804	0.21704271526391944	)));
+}
+potential ( or_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2 | studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I6p7I_CC0 studfundingIs2pf_2_1I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 )
+{
+	data = (((	0.4520466757881131	0.547953324211887	)
+		(	0.6174844315785863	0.38251556842141365	))
+		((	0.5669604628756338	0.43303953712436616	)
+		(	0.12440084734742438	0.8755991526525756	)));
+}
+potential ( or_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs1pf_2_2I_CC1_CC2_CC1_CC2 | studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 )
+{
+	data = (((	0.3403866135158345	0.6596133864841655	)
+		(	0.6693072261795278	0.33069277382047213	))
+		((	0.4771840856376188	0.5228159143623811	)
+		(	0.1442265076506525	0.8557734923493475	)));
+}
+potential ( or_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2 | studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I7p8I_CC0 studfundingIs2pf_2_2I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 )
+{
+	data = (((	0.6789489170636728	0.3210510829363272	)
+		(	0.5063895493977203	0.4936104506022797	))
+		((	0.6147014448785203	0.3852985551214796	)
+		(	0.9772040990201474	0.022795900979852627	)));
+}
+potential ( or_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs1pf_2_3I_CC1_CC2_CC1_CC2 | studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.9766488716344728	0.023351128365527173	)
+		(	0.3841623552496818	0.6158376447503182	))
+		((	0.13228682427787772	0.8677131757221223	)
+		(	0.7788014881842604	0.22119851181573957	)));
+}
+potential ( or_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2 | studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I8p9I_CC0 studfundingIs2pf_2_3I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 )
+{
+	data = (((	0.6967900579878419	0.30320994201215806	)
+		(	0.8117454763039477	0.18825452369605228	))
+		((	0.4716126279618333	0.5283873720381668	)
+		(	0.6667845712258804	0.33321542877411964	)));
+}
+potential ( or_studfundingIs1pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs1pf_3_1I_CC1_CC2_CC1_CC2 | studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.536840116170568	0.46315988382943196	)
+		(	0.39516603861478883	0.6048339613852113	))
+		((	0.27849688277977974	0.7215031172202203	)
+		(	0.4755898724653452	0.5244101275346548	)));
+}
+potential ( or_studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2 | studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I9p10I_CC0 studfundingIs2pf_3_1I_CC1_CC2_CC1_CC2_pf0I10p11I_CC0 )
+{
+	data = (((	0.5641889300056954	0.4358110699943047	)
+		(	0.5671524206286629	0.43284757937133717	))
+		((	0.2549985020803618	0.7450014979196382	)
+		(	0.274576537701096	0.725423462298904	)));
+}
+potential ( or_successIs1I_CC1_pf0I1I_successIs1I_CC1 | successIs1I_CC1_pf0I0I successIs1I_CC1_pf0I1I )
+{
+	data = (((	0.4586106900678003	0.5413893099321997	)
+		(	0.35104085828200365	0.6489591417179963	))
+		((	0.4210051978023441	0.578994802197656	)
+		(	0.913965830134809	0.08603416986519093	)));
+}
+potential ( or_successIs2I_CC1_pf0I1I_successIs2I_CC1 | successIs2I_CC1_pf0I0I successIs2I_CC1_pf0I1I )
+{
+	data = (((	0.5101496741006625	0.48985032589933747	)
+		(	0.4494778447697722	0.5505221552302277	))
+		((	0.5460302927036941	0.453969707296306	)
+		(	0.7309215939335543	0.26907840606644573	)));
+}

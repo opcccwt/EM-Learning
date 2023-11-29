@@ -1,0 +1,29 @@
+Network : examples/asia_verify/asia_det.net
+Network Read Time (ms) : 104.56445699999999
+Number of Evidence Sets : 1
+AC :
+  Nodes : 73
+  Edges : 96
+  Total Initialization Time (ms) : 8.426641
+  Total Inference Time (ms) : 0.634879
+  Minimum Inference Time (ms) : 0.634879
+  Maximum Inference Time (ms) : 0.634879
+  Median Inference Time (ms) : 0.634879
+  Mean Inference Time (ms) : 0.634879
+  Standard Deviation Inference Time (ms) : 0.0
+
+
+=============================================
+
+e = {asia=yes, xray=yes}
+
+Pr(e) = 1E-2
+
+Pr(lung,e) = [0.055, 0.945]
+Pr(either,e) = [1.0, 0.0]
+Pr(tub,e) = [1.0, 0.0]
+Pr(xray,e) = [1.0, 0.0]
+Pr(smoke,e) = [0.5000000000000001, 0.5]
+Pr(asia,e) = [1.0, 0.0]
+Pr(dysp,e) = [0.45000000000000007, 0.5499999999999999]
+Pr(bronc,e) = [0.45000000000000007, 0.5499999999999999]

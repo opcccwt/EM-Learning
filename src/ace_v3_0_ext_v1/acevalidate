@@ -1,0 +1,42 @@
+# pe tabular
+
+./compile -Xquiet -forceTabular bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/alarm.net bn-2005-ijcai/bn-2005-ijcai/alarm*.inst
+./compile -Xquiet -forceTabular bn-2005-ijcai/bn-2005-ijcai/hailfinder.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/hailfinder.net bn-2005-ijcai/bn-2005-ijcai/hailfinder*.inst
+./compile -Xquiet -forceTabular bn-2005-ijcai/bn-2005-ijcai/pathfinder.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/pathfinder.net bn-2005-ijcai/bn-2005-ijcai/pathfinder*.inst
+./compile -Xquiet -forceTabular bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated.net bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated*.inst
+./compile -Xquiet -forceTabular bn-2005-ijcai/bn-2005-ijcai/water.hugin; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/water.hugin bn-2005-ijcai/bn-2005-ijcai/water*.inst
+
+# mpe tabular
+
+./compile -Xquiet -forceTabular -Xmax bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/alarm.net bn-2005-ijcai/bn-2005-ijcai/alarm*.inst
+./compile -Xquiet -forceTabular -Xmax bn-2005-ijcai/bn-2005-ijcai/hailfinder.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/hailfinder.net bn-2005-ijcai/bn-2005-ijcai/hailfinder*.inst
+./compile -Xquiet -forceTabular -Xmax bn-2005-ijcai/bn-2005-ijcai/pathfinder.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/pathfinder.net bn-2005-ijcai/bn-2005-ijcai/pathfinder*.inst
+./compile -Xquiet -forceTabular -Xmax bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated.net bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated*.inst
+./compile -Xquiet -forceTabular -Xmax bn-2005-ijcai/bn-2005-ijcai/water.hugin ; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/water.hugin bn-2005-ijcai/bn-2005-ijcai/water*.inst
+
+# pe c2d
+
+./compile -Xquiet -forceC2d bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/alarm.net bn-2005-ijcai/bn-2005-ijcai/alarm*.inst
+./compile -Xquiet -forceC2d bn-2005-ijcai/bn-2005-ijcai/hailfinder.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/hailfinder.net bn-2005-ijcai/bn-2005-ijcai/hailfinder*.inst
+./compile -Xquiet -forceC2d bn-2005-ijcai/bn-2005-ijcai/pathfinder.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/pathfinder.net bn-2005-ijcai/bn-2005-ijcai/pathfinder*.inst
+./compile -Xquiet -forceC2d bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated.net bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated*.inst
+./compile -Xquiet -forceC2d bn-2005-ijcai/bn-2005-ijcai/water.hugin; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/water.hugin bn-2005-ijcai/bn-2005-ijcai/water*.inst
+
+./compile -Xquiet -forceC2d -d02 bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/alarm.net bn-2005-ijcai/bn-2005-ijcai/alarm*.inst
+./compile -Xquiet -forceC2d -sbk05 bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/alarm.net bn-2005-ijcai/bn-2005-ijcai/alarm*.inst
+./compile -Xquiet -forceC2d -cd05 bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/alarm.net bn-2005-ijcai/bn-2005-ijcai/alarm*.inst
+./compile -Xquiet -forceC2d -cd06 bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/alarm.net bn-2005-ijcai/bn-2005-ijcai/alarm*.inst
+
+# mpe c2d
+
+./compile -Xquiet -forceC2d -Xmax bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/alarm.net bn-2005-ijcai/bn-2005-ijcai/alarm*.inst
+./compile -Xquiet -forceC2d -Xmax bn-2005-ijcai/bn-2005-ijcai/hailfinder.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/hailfinder.net bn-2005-ijcai/bn-2005-ijcai/hailfinder*.inst
+./compile -Xquiet -forceC2d -Xmax bn-2005-ijcai/bn-2005-ijcai/pathfinder.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/pathfinder.net bn-2005-ijcai/bn-2005-ijcai/pathfinder*.inst
+./compile -Xquiet -forceC2d -Xmax bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated.net bn-2005-ijcai/bn-2005-ijcai/tcc4f.obfuscated*.inst
+./compile -Xquiet -forceC2d -Xmax bn-2005-ijcai/bn-2005-ijcai/water.hugin; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/water.hugin bn-2005-ijcai/bn-2005-ijcai/water*.inst
+
+./compile -Xquiet -forceC2d -Xmax -d02 bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/alarm.net bn-2005-ijcai/bn-2005-ijcai/alarm*.inst
+# sbk doesn't work for mpe
+#compile -Xquiet -forceC2d -Xmax -sbk05 bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate alarm.net alarm*.inst
+./compile -Xquiet -forceC2d -Xmax -cd05 bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/alarm.net bn-2005-ijcai/bn-2005-ijcai/alarm*.inst
+./compile -Xquiet -forceC2d -Xmax -cd06 bn-2005-ijcai/bn-2005-ijcai/alarm.net; ./evaluate -Xquiet -Xvalidate bn-2005-ijcai/bn-2005-ijcai/alarm.net bn-2005-ijcai/bn-2005-ijcai/alarm*.inst

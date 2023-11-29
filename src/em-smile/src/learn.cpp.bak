@@ -1,0 +1,118 @@
+#include <iostream>
+#include <time.h>
+#include "smile.h"
+#include "smilearn.h"
+   
+using namespace std;
+
+class my_progress: public DSL_progress
+{
+public:
+  my_progress();
+  bool Tick(double percComplete = -1, const char *msg = NULL) {
+    iterations++;
+    if ( percComplete >= 0 ) {
+      cout << "## percentage complete:" << percComplete;
+      cout << " (" << iterations << ")" << endl;
+    }
+    if ( msg != NULL ) {
+      cout << "##                 msg:" << msg << endl;
+    }
+    /*
+    if ( iterations < 36873 )
+      return true;
+    else
+      return false;
+    */
+    return true;
+  }
+
+  int iterations;
+};
+
+my_progress::my_progress() {
+  iterations = 0;
+}
+
+void print_stats(DSL_em em) {
+  cout << "=======================" << endl;
+  cout << "equivalent sample size: " << em.GetEquivalentSampleSize() << endl;
+  cout << " randomized parameters: " << em.GetRandomizeParameters() << endl;
+  cout << "                  seed: " << em.GetSeed() << endl;
+  cout << "             relevance: " << em.GetRelevance() << endl;
+  cout << " uniformize parameters: " << em.GetUniformizeParameters() << endl;
+  cout << "         learning rate: " << em.GetLearningRate() << endl;
+  cout << "initial learning point: " << em.GetInitialLearningPoint() << endl;
+  cout << "=======================" << endl;
+}
+
+void em(char* const data_set_filename,
+        char* const seed_net_filename,
+        char* const outp_net_filename) {
+  clock_t c1, c2;
+  float time;
+
+  // open the data set:
+  DSL_dataset data;
+  c1 = clock();
+  if ( data.ReadFile(data_set_filename) != DSL_OKAY ) {
+    cout << "Cannot read data file... exiting." << endl;
+    exit(1);
+  }
+  c2 = clock();
+  time = (float)(c2-c1)/CLOCKS_PER_SEC;
+  cout << "read data time: " << time << "\n";
+
+  // open the network:
+  DSL_network net;
+  //if ( net.ReadFile(seed_net_filename, DSL_XDSL_FORMAT ) != DSL_OKAY ) {
+  if ( net.ReadFile(seed_net_filename, DSL_HUGIN_FORMAT ) != DSL_OKAY ) {
+    cout << "Cannot read network... exiting." << endl;
+    exit(1);
+  }
+
+  // match the data set and the network:
+  vector<DSL_datasetMatch> matches;
+  string err;
+  if ( data.MatchNetwork(net,matches,err) != DSL_OKAY ) {
+    cout << "Cannot match network... exiting." << endl;
+    cout << data.MatchNetwork(net,matches,err);
+    exit(1);
+  }
+
+  // learn parameters:
+  DSL_em em;
+  //em.SetEquivalentSampleSize(0.0);
+  //em.SetRandomizeParameters(true);
+  //em.SetSeed(0);
+  //em.SetRelevance(true);
+  //em.SetUniformizeParameters(false);
+  print_stats(em);
+  my_progress monitor;
+
+  double ll;
+  c1 = clock();
+  int error = em.Learn(data,net,matches,&ll,&monitor);
+  c2 = clock();
+  time = (float)(c2-c1)/CLOCKS_PER_SEC;
+
+  cout << "log likelihood: " << ll << "\n";
+  cout << " learning time: " << time << "\n";
+  cout << "   return code: " << error << "\n";
+
+  print_stats(em);
+
+  if (error != DSL_OKAY) {
+    cout << "Cannot learn parameters... exiting." << endl;
+    exit(1);
+  }
+  net.WriteFile(outp_net_filename, DSL_HUGIN_FORMAT);
+}
+
+int main(int argc, char* const argv[]) {
+  if (argc != 4) {
+    cout << "usage: " << argv[0] << " DATASET.CSV SEED.NET LEARNED.NET\n";
+    exit(1);
+  }
+  em(argv[1],argv[2],argv[3]);
+}

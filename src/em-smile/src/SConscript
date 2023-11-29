@@ -1,0 +1,11 @@
+def Objects(env,src):
+    return [ env.Object(s) for s in src ]
+
+Import('env')
+
+# COMPILE
+src = []
+main = ['learn.cpp']
+objs = Objects(env,main+src)
+env.Program('learn',objs)
+#env.Program('bn-static',objs,LINKFLAGS="-static")

@@ -1,0 +1,50 @@
+#!/usr/bin/ruby -w
+#
+# == Synopsis
+#
+# Tests the ace interface for primula.  Nets must be in the current
+# directory.
+#
+# == Usage
+#
+# ruby <script>
+#
+# == Author
+#
+# Mark Chavira
+
+#########################################
+# Requires
+#########################################
+
+$: << File.dirname($0)
+
+#########################################
+# Body
+#########################################
+
+
+
+["bn-2005-ijcai/bn-2005-ijcai/blockmap_05_03.net",
+ "bn-2005-ijcai/bn-2005-ijcai/mastermind_03_08_03.net",
+ "bn-2005-ijcai/bn-2005-ijcai/students_03_02.net"].each do |n|
+  cmd =
+    "java -Djava.awt.headless=true -DACEC2D=\"/mnt/d/academic/Master/UCLA/CapstoneProject/Harmonization/src/ace_v3_0_ext_v1/c2d_linux\" " +
+    "-classpath \"ace.jar:inflib.jar\" " +
+    "mark.reason.apps.BnIecTest " +
+    "-quiet " +
+    "-kv " +
+    "-ie \"(mark.bridge.samiam.IecSopJointree2 jt (mark.reason.struct.EoGeneratorInf (mark.inf.eo.EoeMinfillUnweighted 3) (mark.inf.eo.EoeMinfillWeighted 3)))\" " +
+    "-e \"1,mark.reason.query.EvGeneratorNull,mark.reason.query.VsNull,mark.reason.query.VsAll\" " +
+    "-e \"5,mark.reason.query.EvGeneratorTopDownUniform,(mark.reason.query.VsAnd mark.reason.query.VsRoot mark.reason.query.VsNoZero),mark.reason.query.VsAll\" " +
+    "-e \"5,mark.reason.query.EvGeneratorTopDownModel,mark.reason.query.VsOneToOneHalf,mark.reason.query.VsAll\" " +
+    "-e \"5,mark.reason.query.EvGeneratorTopDownModel,mark.reason.query.VsSink,mark.reason.query.VsAll\" " +
+    "#{n} "
+  ["DARWICHE_02", "SANG_BEAME_KAUTZ_05", "CHAVIRA_DARWICHE_05", "CHAVIRA_DARWICHE_06"].each do |em|
+    ["BN_MINFILL", "HYPERGRAPH", "CLAUSE_MINFILL"].each do |dtm|
+      cmd += "-ie \"(edu.ucla.belief.ace.IecAceInterfaceForPrimula #{n} #{em} #{dtm})\" ";
+    end
+  end
+  puts(cmd)
+  system(cmd)
+end

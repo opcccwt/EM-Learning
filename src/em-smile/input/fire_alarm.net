@@ -1,0 +1,95 @@
+net
+{
+	rcenginegenerator1317510038576835557L = "edu.ucla.belief.inference.RCSettings@1b7c63f";
+}
+
+node Leaving
+{
+	states = ("true" "false" );
+	position = (227 -251);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	label = "Leaving";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+}
+node Tampering
+{
+	states = ("true" "false" );
+	position = (303 -38);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	label = "Tampering";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+}
+node Report
+{
+	states = ("true" "false" );
+	position = (378 -251);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	label = "Report";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+}
+node Alarm
+{
+	states = ("true" "false" );
+	position = (227 -134);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	label = "Alarm";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+}
+node Smoke
+{
+	states = ("true" "false" );
+	position = (56 -134);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	label = "Smoke";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+}
+node Fire
+{
+	states = ("true" "false" );
+	position = (128 -36);
+	excludepolicy = "include whole CPT";
+	ismapvariable = "false";
+	diagnosistype = "AUXILIARY";
+	label = "Fire";
+	DSLxEXTRA_DEFINITIONxDIAGNOSIS_TYPE = "AUXILIARY";
+}
+potential ( Leaving | Alarm )
+{
+	data = ((	0.88	0.12	)
+		(	0.0010	0.999	));
+}
+potential ( Tampering | )
+{
+	data = (	0.02	0.98	);
+}
+potential ( Report | Leaving )
+{
+	data = ((	0.75	0.25	)
+		(	0.01	0.99	));
+}
+potential ( Alarm | Fire Tampering )
+{
+	data = (((	0.5	0.5	)
+		(	0.99	0.01	))
+		((	0.85	0.15	)
+		(	1.0E-4	0.9999	)));
+}
+potential ( Smoke | Fire )
+{
+	data = ((	0.9	0.1	)
+		(	0.01	0.99	));
+}
+potential ( Fire | )
+{
+	data = (	0.01	0.99	);
+}

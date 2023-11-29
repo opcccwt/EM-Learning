@@ -1,0 +1,50 @@
+net
+{
+}
+
+node E
+{
+	states = ("Present" "Absent" );
+}
+node C
+{
+	states = ("Present" "Absent" );
+}
+node A
+{
+	states = ("Present" "Absent" );
+}
+node B
+{
+	states = ("Increased" "Decreased" );
+}
+node D
+{
+	states = ("Present" "Absent" );
+}
+potential ( E | C )
+{
+	data = ((	0.8	0.2	)
+		(	0.6	0.4	));
+}
+potential ( C | A )
+{
+	data = ((	0.2	0.8	)
+		(	0.05	0.95	));
+}
+potential ( A | )
+{
+	data = (	0.2	0.8	);
+}
+potential ( B | A )
+{
+	data = ((	0.8	0.2	)
+		(	0.2	0.8	));
+}
+potential ( D | C B )
+{
+	data = (((	0.8	0.2	)
+		(	0.8	0.2	))
+		((	0.8	0.2	)
+		(	0.05	0.95	)));
+}
