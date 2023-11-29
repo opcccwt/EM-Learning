@@ -1,0 +1,159 @@
+net
+{
+	node_size = (130.0 55.0);
+}
+
+node node0
+{
+	states = ("state0" "state1" );
+}
+node hidden0to1
+{
+	states = ("state0" "state1" );
+}
+node hidden0to2
+{
+	states = ("state0" "state1" );
+}
+node hidden0to3
+{
+	states = ("state0" "state1" );
+}
+node hidden0to4
+{
+	states = ("state0" "state1" );
+}
+node node1
+{
+	states = ("state0" "state1" );
+}
+node hidden1to2
+{
+	states = ("state0" "state1" );
+}
+node hidden1to3
+{
+	states = ("state0" "state1" );
+}
+node hidden1to4
+{
+	states = ("state0" "state1" );
+}
+node node2
+{
+	states = ("state0" "state1" );
+}
+node hidden2to3
+{
+	states = ("state0" "state1" );
+}
+node hidden2to4
+{
+	states = ("state0" "state1" );
+}
+node node3
+{
+	states = ("state0" "state1" );
+}
+node hidden3to4
+{
+	states = ("state0" "state1" );
+}
+node node4
+{
+	states = ("state0" "state1" );
+}
+potential ( node0 | )
+{
+	data = (	0.5	0.5	);
+}
+potential ( hidden0to1 | node0 )
+{
+	data = ((	0.0	1.0	)
+		(	0.0	1.0	));
+}
+potential ( hidden0to2 | node0 )
+{
+	data = ((	0.0	1.0	)
+		(	0.0	1.0	));
+}
+potential ( hidden0to3 | node0 )
+{
+	data = ((	0.0	1.0	)
+		(	0.0	1.0	));
+}
+potential ( hidden0to4 | node0 )
+{
+	data = ((	0.0	1.0	)
+		(	0.0	1.0	));
+}
+potential ( node1 | node0 hidden0to1 )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( hidden1to2 | node1 hidden0to2 )
+{
+	data = (((	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( hidden1to3 | node1 hidden0to3 )
+{
+	data = (((	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( hidden1to4 | node1 hidden0to4 )
+{
+	data = (((	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( node2 | node1 hidden1to2 )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( hidden2to3 | node2 hidden1to3 )
+{
+	data = (((	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( hidden2to4 | node2 hidden1to4 )
+{
+	data = (((	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( node3 | node2 hidden2to3 )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
+potential ( hidden3to4 | node3 hidden2to4 )
+{
+	data = (((	0.0	1.0	)
+		(	0.0	1.0	))
+		((	0.0	1.0	)
+		(	0.0	1.0	)));
+}
+potential ( node4 | node3 hidden3to4 )
+{
+	data = (((	0.5	0.5	)
+		(	0.5	0.5	))
+		((	0.5	0.5	)
+		(	0.5	0.5	)));
+}
