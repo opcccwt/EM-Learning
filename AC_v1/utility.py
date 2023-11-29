@@ -10,11 +10,8 @@ class converter:
     def loadHugin(self, dat):
         f = open(dat)
         variables = f.readline().strip().split(",")
-        if (self.convert is None):
-            converter = {"n0": 0, "n1": 1, "n2": 2, "n3": 3, "n4": 4, "n5": 5, "n6": 6, 
-                         "n7": 7, "n8": 8, "n9": 9, "n10": 10, "n11": 11, "None": 12, "Cont": 13}
-        else:
-            converter = self.convert
+        
+        converter = self.convert
     
         cases = []
         for line in f.readlines():
@@ -27,5 +24,10 @@ class converter:
                     case.append((variables[i], converter[values[i]]))
             cases.append(case)
         return cases
+
+def netToAc(net, var):
+    os.chdir("src/")
+    os.system("java -cp .:inflib.jar ace_v3_0_ext_v1/ace_ext2/Ace_Ext " + net + " " + " ".join(var))
+    os.chdir("../")
 
         
